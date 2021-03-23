@@ -44,7 +44,7 @@ const styles = StyleSheet.create({
 
     },
     figure: {
-        backgroundColor: Colors.grayLight,
+        backgroundColor: Colors.bkgLight,
         borderRadius: 8,
         padding: 7,
         paddingRight: 8,
@@ -58,16 +58,20 @@ const styles = StyleSheet.create({
     content: {
         position: 'relative',
         borderBottomWidth: 1,
-        borderBottomColor: Colors.grayLight,
+        borderBottomColor: Colors.bkgLight,
         width: '80%'
     },
     title: {
         fontWeight: 'bold',
-        fontSize: 16
+        fontSize: 20,
+        color: Colors.txtPrimary,
+        textShadowColor: Colors.txtBlack,
+        textShadowRadius: 0.1
 
     },
     description: {
-        fontSize: 14
+        fontSize: 16,
+        color: Colors.txtBlack
     },
     iconStar: {
         position: 'absolute',

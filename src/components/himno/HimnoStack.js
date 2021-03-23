@@ -11,7 +11,7 @@ const HimnoStack = () => {
         <Stack.Navigator
             screenOptions={{
                 headerStyle: {
-                    backgroundColor: Colors.bkgDark,
+                    backgroundColor: Colors.bkgBlack,
                     shadowColor: Colors.bkgDark
                 },
                 headerTintColor: Colors.txtLight
