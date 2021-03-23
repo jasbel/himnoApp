@@ -55,7 +55,7 @@ Gloria y honra a ti Señor`,
     {
         id: "3",
         num_song: "3",
-        title_es: "AQUELLA CRUZ",
+        title_es: "ANTE EL TRONO CELESTIAL",
         description_es: "El cordero que sufrió...   ",
 
         paragraphs: [
