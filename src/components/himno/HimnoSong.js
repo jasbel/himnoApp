@@ -87,9 +87,8 @@ const styles = StyleSheet.create({
     iconChoir: {
         marginLeft: 'auto',
         marginRight: 'auto',
-        marginTop: -20,
-        marginBottom: 10,
-        textAlign: 'center',
+        marginTop: -15,
+        marginBottom: 15
     },
     choir: {
         fontSize: 26,
