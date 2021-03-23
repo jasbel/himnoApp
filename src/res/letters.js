@@ -362,10 +362,80 @@ Su palabra me asegura: todo obra para bien`
         chorus:[
             {
                 choir:
-`//Quiero ser más como tú,
-ver la vida como tú
-Satúrame de tu espíritu
-Y reflejar al mundo tu amor. //`,
+`De la mano soberana de mi Dios me sostendré
+En Su sabia providencia yo paciente esperaré
+Porque eterna es Su justicia y perfecto Su poder
+Él ordena mis pasos y
+aﬁrmando está mi fe`,
+                chorus_position_ignore: []
+            },
+            {
+                choir:
+`/Venga lo que venga, prevaleceré
+Dios es mi esperanza
+Su promesa es ﬁel/`,
+                chorus_position_ignore: [1]
+            },
+            {
+                choir:
+`Tú ordenas mis pasos
+y afirmando estás mi fe`,
+                chorus_position_ignore: [1]
+            },
+        ],
+    },
+    {
+        id: "10",
+        num_song: "10",
+        title_es: "DIOS SUPREMO ERES",
+        description_es: "Dios supremo eres...",
+
+        paragraphs: [
+            {
+                paragraph:
+`/Dios supremo eres,
+Soberano en gloria.
+Eres incomparable, en tu hermosura
+Eres incomparable en tu majestad/`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`/No hay otro Dios como Jehová
+No hay otro Dios como el Señor
+No hay en los cielos,
+No hay en la tierra, no hay en el mar/
+Dios como el Señor.`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "11",
+        num_song: "11",
+        title_es: "DIGNO ES ÉL",
+        description_es: "Dios supremo eres...",
+
+        paragraphs: [
+            {
+                paragraph:
+`/Digno es él cordero Santo;
+Santo, Santo es Él,
+levantamos nuestra alabanza
+al que en el trono está/`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`/Santo, Santo, Santo,
+Dios todopoderoso quien fue quien es
+y quien vendrá,
+La creación hoy canta y damos gloria a Él,
+tu eres digno por siempre y siempre/`,
                 chorus_position_ignore: []
             },
         ],
