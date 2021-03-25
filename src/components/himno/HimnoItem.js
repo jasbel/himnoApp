@@ -1,8 +1,10 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react'
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
 import Colors from '../../res/colors';
 
 const HimnoItem = ({item, onPress}) => {
+
+    const [favorite, setFavorite] = useState(false);
 
     const {title_es, description_es} = item;
 
@@ -10,7 +12,9 @@ const HimnoItem = ({item, onPress}) => {
         return require('himnoapp/src/assets/images/play.png');
     }
     const getIconStar = () => {
-        return require('himnoapp/src/assets/images/star.png');
+        if (favorite) return require('himnoapp/src/assets/images/star.png');
+
+        if (!favorite) return require('himnoapp/src/assets/images/unstar.png');
     }
 
     return (
@@ -40,20 +44,21 @@ const HimnoItem = ({item, onPress}) => {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        marginBottom: 20
+        marginBottom: 12
 
     },
     figure: {
         backgroundColor: Colors.bkgLight,
         borderRadius: 8,
-        padding: 7,
-        paddingRight: 8,
-        paddingLeft: 10,
-        marginRight: 16
+        padding: 6,
+        paddingRight: 6,
+        paddingLeft: 9,
+        marginRight: 8,
+        alignSelf: 'center'
     },
     icon: {
-        width: 32,
-        height: 36
+        width: 30,
+        height: 34
     },
     content: {
         position: 'relative',
@@ -63,7 +68,7 @@ const styles = StyleSheet.create({
     },
     title: {
         fontWeight: 'bold',
-        fontSize: 20,
+        fontSize: 19,
         color: Colors.txtPrimary,
         textShadowColor: Colors.txtBlack,
         textShadowRadius: 0.1

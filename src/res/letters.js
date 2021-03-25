@@ -1,6 +1,104 @@
 export const songs = [
     
     {
+        id: "0",
+        num_song: "0",
+        title_es: "FUI HECHO JUSTO ",
+        description_es: "`Fui hecho justo sin merecerlo,..",
+
+        paragraphs: [
+            {
+                paragraph:
+`Fui hecho justo sin merecerlo,
+toda mi culpa ya cubierta esta.
+Toda mi deuda quedó saldada,
+por la persona del cordero inmortal.`
+            },
+            {
+                paragraph:
+`Regenerado y transformado,
+Cambio mi mente y mi forma de actuar.
+Hoy solo quiero servir a Cristo,
+Y ser la luz la sal de un claro manantial.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Salvación, camino angosto,
+Plenitud incomparable don de Dios.
+Una cruz cubierta en sangre.
+Fue necesaria para nuestra redención.`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "1",
+        num_song: "1",
+        title_es: "VIVIR POR FE",
+        description_es: "Por fe, veremos a nuestro Dios...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Por fe, veremos a nuestro Dios
+En el plan que creó en la eternidad.
+En la vida de los fieles que llamó
+A vivir por fe y no por ver.`
+            },
+            {
+                paragraph:
+`Por fe, el justo vivirá
+Por la fe, caminamos junto a el
+Como viendo al invisible protector
+Vivir por fe y no por ver`
+            },
+            {
+                paragraph:
+`Por fe, profetas hablaron bien
+Por la fe, proclamaron la verdad
+El Mesías prometido en edén
+El que la muerte venció en la cruz`
+            },
+            {
+                paragraph:
+`Por fe, la iglesia se moverá
+Con poder del espíritu de Dios
+Y las fuerzas del infierno no podrán
+Dañar la obra de nuestro Dios.`
+            },
+            {
+                paragraph:
+`Por fe los montes se moverán
+Si la fe permanece en Jesús
+El poder del evangelio librara
+A todo aquel que confía en él`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Sus promesas como rocas son,
+Sus promesas cumple nuestro Dios
+Nos movemos solo por la fe en Él
+Vivir por fe y no por ver`,
+                chorus_position_ignore: [1,3,5]
+            },
+            {
+                choir:
+`/Sus promesas como rocas son,
+Sus promesas cumple nuestro Dios
+Nos movemos solo por la fe en él
+Vivir por fe y no por ver./
+/Vivir por fe y no por ver./`,
+                chorus_position_ignore: [1,2,3,4]
+            },
+        ],
+    },
+    {
         id: "2",
         num_song: "2",
         title_es: "AQUELLA CRUZ",
@@ -19,24 +117,21 @@ Fue puesto sobre Él`
 `En silencio soportó
 Dolor y humillación
 Obediente al Padre fue
-La cruz por mí cargó
-`
+La cruz por mí cargó`
             },
             {
                 paragraph:
 `Unigénito de Dios
 Viniste a redimir
 Y perdonar a todo aquel
-Que se acerca a ti
-`
+Que se acerca a ti`
             },
             {
                 paragraph:
 `En silencio soportó
 Dolor y humillación
 Obediente al Padre fue
-La cruz por mí cargó
-`
+La cruz por mí cargó`
             }
         ],
         chorus:[
@@ -56,7 +151,7 @@ Gloria y honra a ti Señor`,
         id: "3",
         num_song: "3",
         title_es: "ANTE EL TRONO CELESTIAL",
-        description_es: "El cordero que sufrió...   ",
+        description_es: "Ante el trono celestial...   ",
 
         paragraphs: [
             {
@@ -64,8 +159,7 @@ Gloria y honra a ti Señor`,
 `Ante el trono celestial
 Él intercede hoy por mí
 Gran Sacerdote es Jesús
-Quien por siempre vivirá
-`
+Quien por siempre vivirá`
             },
             {
                 paragraph:
@@ -86,8 +180,7 @@ El Rey de gloria y majestad`
 `En silencio soportó
 Dolor y humillación
 Obediente al Padre fue
-La cruz por mí cargó
-`
+La cruz por mí cargó`
             }
         ],
         chorus:[
@@ -119,8 +212,6 @@ En Cristo Dios, mi Salvador//`,
                 chorus_position_ignore: [1,2]
             },
         ],
-
-
     },
     {
         id: "4",
@@ -416,7 +507,7 @@ Dios como el Señor.`,
         id: "11",
         num_song: "11",
         title_es: "DIGNO ES ÉL",
-        description_es: "Dios supremo eres...",
+        description_es: "Apocalipsis 4:8. Digno es él ... ",
 
         paragraphs: [
             {
@@ -437,6 +528,464 @@ y quien vendrá,
 La creación hoy canta y damos gloria a Él,
 tu eres digno por siempre y siempre/`,
                 chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "12",
+        num_song: "12",
+        title_es: "BELLAS PALABRAS DE VIDA",
+        description_es: "Oh! cantádmelas otra vez...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Oh! cantádmelas otra vez,
+Bellas palabras de vida;
+Hallo en ellas mi gozo y luz,
+Bellas palabras de vida.
+Sí, de luz y vida son sostén y guía`
+            },
+            {
+                paragraph:
+`Jesucristo a todos da
+Bellas palabras de vida;
+Oye su dulce voz, mortal,
+bellas palabras de vida.
+Bondadoso te salva, y al cielo te llama.`
+            },
+            {
+                paragraph:
+`Grato el cántico sonará,
+Bellas palabras de vida;
+Tus pecados perdonará,
+bellas palabras de vida.
+Sólo Cristo redime, vida nueva te ofrece`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Qué bellas son, qué bellas son!
+Bellas palabras de vida;
+Qué bellas son, qué bellas son!
+Bellas palabras de vida.`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "13",
+        num_song: "13",
+        title_es: "EL DIOS QUE ADORAMOS",
+        description_es: "El Dios que Hizo...",
+
+        paragraphs: [
+            {
+                paragraph:
+`El Dios que hizo
+los cielos y la tierra
+Con el poder de Su palabra
+Reina con autoridad`
+            },
+            {
+                paragraph:
+`El Dios que aún
+los vientos le obedecen
+Una palabra es suficiente
+Para los muertos levanta`
+            },
+            {
+                paragraph:
+`Tú eres el Dios que adoramos
+Todopoderoso y soberano
+Grande en misericordia y poder para salvar`
+            },
+            {
+                paragraph:
+`Tú eres el Dios que adoramos
+Quien derrotó la muerte
+y el pecado
+Glorioso Redentor y Rey,
+Te adoramos`
+            },
+            {
+                paragraph:
+`El Dios que descendió
+desde Su trono
+Para llevar sobre Sus hombros
+Nuestra culpa y transgresión
+Jesús, exaltado sobre todo
+Nombre sobre todo nombre
+Solo en Él hay salvación.
+A Él sea la gloria y el poder
+Todo es de Él y para Él`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Nadie es como El, oh gran YO SO`,
+                chorus_position_ignore: [1,3,4,5]
+            },
+        ],
+    },
+    {
+        id: "14",
+        num_song: "14",
+        title_es: "ÉL HA SIDO FIEL",
+        description_es: "Día a día Tú has sido fiel...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Día a día Tú has sido fiel, no has cambiado
+y no cambiarás
+Maravillado estoy con tu amor porque me
+amaste siendo un pecador`
+            },
+            {
+                paragraph:
+`Cuando recuerdo mi vida sin ti, sin
+esperanza en sombras viví
+Más hoy reboso en gracia y perdón, porque
+adoptaste a un vil pecador`
+            },
+            {
+                paragraph:
+`Cuando en prueba te exaltaré,
+y cuando duela en ti confiaré
+Porque conozco tu inmensa bondad y sé
+que nunca me abandonarás`
+            },
+            {
+                paragraph:
+`Toda mi vida la pongo a tus pies, has lo
+que quieras con ella mi Rey
+Hasta que vuelvas con fe cantaré,
+“Día a día tú has sido fiel”`
+            }
+        ],
+
+        chorus:[
+            {
+                choir:
+`Te alabaré, te glorificaré
+Porque agradecido estoy
+por tu inmenso amor
+Te alabaré, te glorificaré
+Porque tu hijo soy, te alabaré`,
+                chorus_position_ignore: [1,3,4]
+            },
+        ],
+    },
+    {
+        id: "15",
+        num_song: "15",
+        title_es: "EL MISMO AMOR",
+        description_es: "Tú al humilde levantaras,...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Tú al humilde levantaras,
+Al débil tu fuerzas le das.
+Nuestras heridas sanaras,
+Vida nos das.`
+            },
+            {
+                paragraph:
+`Al que o cree lo llamas tu,
+Para decirle mío eres tú.
+Al orgulloso llamas y al infeliz,
+Vengan a mi.`
+            },
+            {
+                paragraph:
+`//Nos llamas, nos llamas, nos llamas 
+hacia Cruz//.`
+            },
+            {
+                paragraph:
+`//Nos llamas, nos llamas, nos llamas 
+hacia Cruz//.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`El mismo que trae libertad.
+El mismo amor que al ciego vista da.
+Nos llamas con nombre hoy.
+Tu nos llamas por nombre hoy.
+El mismo Dios que los cielos formo.
+El mismo Dios que en la cruz murió.
+Nos llama con nombre hoy.
+Tu nos llamas por nombre hoy.`,
+                chorus_position_ignore: [4]
+            },
+            {
+                choir:
+`//Oohh….. Oohh… oohh…//`,
+                chorus_position_ignore: [1,4]
+            },
+        ],
+    },
+    {
+        id: "16",
+        num_song: "16",
+        title_es: "EL PODER DE LA CRUZ",
+        description_es: "Oh, el ver aquel negro amanecer...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Oh, el ver aquel negro amanecer
+Rumbo al calvario va Jesús
+Grande fue el dolor
+y la humillación
+Cuando en la Cruz murió.`
+            },
+            {
+                paragraph:
+`Oh, ver el dolor que tu faz mostró Cargando
+mi pecado atroz Todo mal pensar, toda
+mala acción Coronaron tu humillación.`
+            },
+            {
+                paragraph:
+`La tierra tembló, todo oscureció
+Su rostro inclina su Creador
+Velo roto en dos, triunfante exclamo: “Ya 
+todo terminó”`
+            },
+            {
+                paragraph:
+`Oh mi nombre ver escrito
+en tu cruz
+Porque sufriste libre soy
+Ya no moriré, vida me otorgó
+Tu generoso amor.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`El poder de la Cruz:
+mi lugar Él tomó
+Mi castigo sufrió,
+En esa Cruz halle perdón`,
+                chorus_position_ignore: [2,3,4]
+            },
+            {
+                choir:
+`/El poder de la Cruz:
+Dios al hijo inmoló
+Que alto precio pagó,
+En esa Cruz halle perdón./`,
+                chorus_position_ignore: [1,2,3]
+            },
+        ],
+    },
+    {
+        id: "17",
+        num_song: "17",
+        title_es: "ÈL ES CRISTO",
+        description_es: "Quién ayuda al herido...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Quién ayuda al herido
+Sana todo dolor
+Permanece por siempre
+Da descanso en su amor
+Él es cristo.
+Él es cristo
+Nuestro salvador.
+Él es cristo
+No hay otro nombre solo Cristo`
+            },
+            {
+                paragraph:
+`Quién llevó nuestras cargas
+Cambia el llanto en canción
+Dio su vida en la cruz
+Para darnos perdón
+Él es cristo
+Él es cristo
+Nuestro salvador
+Él es cristo
+Él es cristo
+Rey por siempre
+Nuestro redentor`
+            },
+            {
+                paragraph:
+`Él es cristo
+Quién moriría por un ladrón
+Y tomaría mi lugar
+Todo el precio pago
+// Libres somos el venció //
+El venció Libre somos
+
+//// No hay otro nombre solo cristo
+No hay otra vida vivimos por él
+Todo el mal está vencido
+/ Tu reinas señor / ////
+
+/ Él es cristo /
+Nuestro salvador
+/ Él es cristo /
+Rey por siempre
+Nuestro redentor
+Él es cristo
+`
+            },
+        ],
+
+        chorus:[],
+    },
+    {
+        id: "18",
+        num_song: "18",
+        title_es: "EL SEÑOR ES MI PASTOR",
+        description_es: "Salmos 23 - El Señor es mi ...",
+
+        paragraphs: [
+            {
+                paragraph:
+`El Señor es mi pastor
+Nada a mí me faltara
+En sus verdes pastos
+Me hace descansar
+
+De sus aguas me dará
+Mi alma el restaurara
+Por senderos de justicia me guiara
+Por amor de su nombre`
+            },
+            {
+                paragraph:
+`El Señor es mi pastor
+No hay razón para el temor
+Pues su vara me da aliento y protección
+
+Si en el valle de aflicción
+Me rodea la opresión
+El conmigo esta y bendecido soy
+Por amor de su nombre`
+            },
+            {
+                paragraph:
+`//Misericordia y bien me seguirán
+Tu plenitud me saciara
+En tu morada por la eternidad//`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Jamás me dejaras
+En tu fidelidad, Jesús
+Confiado esta mi corazón
+
+De ti dependeré
+Tu voz escuchare, Jesús
+Te seguiré, mi buen pastor
+`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "19",
+        num_song: "19",
+        title_es: "EN TERNURA",
+        description_es: "En ternura me busco",
+
+        paragraphs: [
+            {
+                paragraph:
+`En ternura me busco
+perdido e infeliz
+Y en sus hombros el me trajo
+De vuelta a su redil
+Mientras los ángeles cantaban
+La corte celestial sonó`
+            },
+            {
+                paragraph:
+`Murió por mi mientras pecaba
+Pobre y ciego fui
+Me hablo para decirme
+Soy suyo me compro
+Jamás oi tan dulce voz
+Hizo feliz mi corazón`
+            },
+            {
+                paragraph:
+`Su gracia yo meditare
+Y te alabare
+Con asombro te adorare
+Y te bendeciré
+Parece la eternidad
+Muy corta para adorar`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Oh oh oh su amor me busco
+Oh oh oh su sangre me compro
+Oh la gracia que me trajo a su redil
+Gracia que me trajo a su redil`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "20",
+        num_song: "20",
+        title_es: "ERES MI TODO",
+        description_es: "Tu eres mi fuerza y mi poder,",
+
+        paragraphs: [
+            {
+                paragraph:
+`Tu eres mi fuerza y mi poder,
+el gran tesoro que busqué,
+¡Eres mi todo, Oh Dios!
+Perla de precio sin igual,
+nunca tu amor podré dejar,
+¡Eres mi todo, Oh Dios!`
+            },
+            {
+                paragraph:
+`Diste tu vida allá en la cruz,
+resucitaste mi Jesús
+¡Eres mi todo, Oh Dios!`
+            },
+            {
+                paragraph:
+`En sequedad o en tentación,
+tu me sostienes mi Señor,
+¡Eres mi todo, Oh Dios!`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Cristo salvador, digno de adorar,
+Cristo redentor digno de adorar.`,
+                chorus_position_ignore: [2]
             },
         ],
     },

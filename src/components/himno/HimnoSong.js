@@ -1,11 +1,54 @@
-import React from 'react';
-import { FlatList, Image, StyleSheet, Text, View } from 'react-native';
+import React, { useEffect, useState } from 'react';
+import { Alert, FlatList, Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import Storage from '../../libs/storage';
 import Colors from '../../res/colors';
 
 const HimnoSong = (props) => {
 
-    const {himno} = props.route.params;
-    const {title_es, paragraphs, chorus} = himno;
+    const {route, navigation} = props;
+
+    const [himno, setHimno] = useState(route.params.himno)
+
+    const {paragraphs, chorus} = himno;
+
+    const [isFavorite, setIsFavorite] = useState(false)
+
+    const toggleFavorite = () => {
+        if(isFavorite) { removeFavorite() }
+            else { addFavorite(); }
+    }
+
+    const addFavorite =async () => {
+        const himnoStr = JSON.stringify(himno);
+        const key = `favorite-${himno.id}`;
+
+        const stored = await Storage.instance.store(key, himnoStr);
+
+        if(stored)
+            setIsFavorite(true)
+    }
+
+    const removeFavorite = async () => {
+
+        Alert.alert("Remove favorite", "Are You Sure ?", [
+            {
+                text: 'cancel',
+                onPress: () => {},
+                style: "cancel"
+            },
+            {
+                text: "Remove",
+                onPress: async () => {
+                const key = `favorite-${himno.id}`;
+                // const instanceRemove = await Storage.instance.remove(key);
+                await Storage.instance.remove(key);
+
+                setIsFavorite( false );
+                },
+                style: "destructive"
+            }
+        ]);
+    }
 
     /* TODO: mejorar la respuesta de indefinido , array vacio, o string vacio en choir y chorus */
     const verses = paragraphs.map((item, i) => {
@@ -19,9 +62,9 @@ const HimnoSong = (props) => {
 
         choir = choir || '';
 
-        console.log(choir);
         return ({...item, choir})
     })
+
 
     const getIconChoir = () => {
         return require('himnoapp/src/assets/images/verse.png');
@@ -31,13 +74,51 @@ const HimnoSong = (props) => {
         return arr.find(arrValue => arrValue === val) ? false : true;
     }
 
+    const getIconStar = () => {
+        if (isFavorite) return require('himnoapp/src/assets/images/star.png');
+
+        if (!isFavorite) return require('himnoapp/src/assets/images/unstar.png');
+    }
+
+    const getFavorite = async () => {
+        try {
+            const key = `favorite-${himnos.id}`;
+
+            const favStr = await Storage.instance.get(key);
+
+            if(favStr !== null) {
+                setIsFavorite(true )
+            }
+        } catch (error) {
+            console.log(" Get FAvorite error:  ",error);
+        }
+    }
+
+    useEffect(() => {
+        const { himno } = route.params;
+        navigation.setOptions({ 
+            title: himno.title_es,
+            headerStyle: {
+                backgroundColor: Colors.bkgDark,
+            },
+            headerTintColor: Colors.txtWhite
+        })
+
+        setHimno( himno);
+    }, [])
+
+    useEffect(() => {
+        getFavorite()
+    }, [himno])
+
     return (
         <View style={styles.container}>
-            <Text style={styles.title}>{title_es}</Text>
+            
             <FlatList
                 style={styles.content}
                 data={verses}
-                renderItem={({item}) =>
+                showsVerticalScrollIndicator={false}
+                renderItem={({item, index}) =>
                     <View key={item.key}>
                         <Text style={ styles.paragraph }> {item.paragraph} {"\n"}</Text>
                         { item.choir !==''  &&
@@ -49,10 +130,19 @@ const HimnoSong = (props) => {
                                 <Text style={ styles.choir}> {item.choir} {"\n"}</Text>
                             </>
                         }
-                        
+                        {(verses.length - 1 === index) && <View style={styles.spaceBottom}></View>}
                     </View>
                 }
             />
+            <Pressable 
+                onPress = { () => toggleFavorite() }
+                style={ styles.containerFloat }
+            >
+                <Image
+                    style={ styles.iconStar }
+                    source={getIconStar()}
+                />
+            </Pressable>
         </View>
     )
 }
@@ -62,25 +152,27 @@ const styles = StyleSheet.create({
         paddingTop: 6,
         paddingLeft: 12,
         paddingRight: 12,
-        backgroundColor: Colors.bkgWhite
+        backgroundColor: Colors.bkgWhite,
+        position: 'relative'
     },
-    title: {
-        fontSize: 28,
-        fontWeight: 'bold',
-        textTransform: 'uppercase',
-        textAlign: 'center',
-        color: Colors.txtWhite,
-        backgroundColor: Colors.bkgPrimary,
-        borderRadius: 5
-
+    containerFloat: {
+        position: 'absolute',
+        bottom: 8,
+        right: 8,
+        backgroundColor: Colors.bkgDark,
+        borderRadius: 50
+    },
+    iconStar: {
+        margin: 6
     },
     content: {
         paddingTop: 12,
-        marginBottom: 24
+        paddingBottom: 12,
     },
     paragraph: {
-        fontSize: 27,
-        lineHeight: 26,
+        fontFamily: 'sans-serif-medium',
+        fontSize: 25,
+        lineHeight: 25,
         textAlign: 'center',
         color: Colors.txtBlack
     },
@@ -91,12 +183,15 @@ const styles = StyleSheet.create({
         marginBottom: 15
     },
     choir: {
-        fontSize: 26,
+        fontSize: 25,
         lineHeight: 25,
         textAlign: 'center',
         fontWeight: 'bold',
         fontStyle: 'italic',
         color: Colors.txtDark,
+    },
+    spaceBottom: {
+        height: 100,
     }
 })
 

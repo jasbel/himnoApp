@@ -10,6 +10,7 @@ const HimnoStack = () => {
     return (
         <Stack.Navigator
             screenOptions={{
+                headerTitleAlign: 'center',
                 headerStyle: {
                     backgroundColor: Colors.bkgBlack,
                     shadowColor: Colors.bkgDark
