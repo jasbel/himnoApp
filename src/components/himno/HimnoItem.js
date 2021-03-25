@@ -1,10 +1,11 @@
 import React, { useEffect, useState } from 'react'
 import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
+import Storage from '../../libs/storage';
 import Colors from '../../res/colors';
 
 const HimnoItem = ({item, onPress}) => {
 
-    const [favorite, setFavorite] = useState(false);
+    const [isFavorite, setIsFavorite] = useState(false);
 
     const {title_es, description_es} = item;
 
@@ -12,10 +13,28 @@ const HimnoItem = ({item, onPress}) => {
         return require('himnoapp/src/assets/images/play.png');
     }
     const getIconStar = () => {
-        if (favorite) return require('himnoapp/src/assets/images/star.png');
+        if (isFavorite) return require('himnoapp/src/assets/images/star.png');
 
-        if (!favorite) return require('himnoapp/src/assets/images/unstar.png');
+        if (!isFavorite) return require('himnoapp/src/assets/images/unstar.png');
     }
+
+    const getFavorite = async () => {
+        try {
+            const key = `favorite-${item.id}`;
+
+            const favStr = await Storage.instance.get(key);
+
+            if(favStr !== null) {
+                setIsFavorite(true )
+            }
+        } catch (error) {
+            console.log(" Get Favorite Error:  ", error);
+        }
+    }
+
+    useEffect(() => {
+        getFavorite();
+    }, [])
 
     return (
         <Pressable style={styles.container} onPress={ onPress }>
@@ -44,8 +63,8 @@ const HimnoItem = ({item, onPress}) => {
 const styles = StyleSheet.create({
     container: {
         flexDirection: 'row',
-        marginBottom: 12
-
+        marginBottom: 12,
+        justifyContent: 'space-between'
     },
     figure: {
         backgroundColor: Colors.bkgLight,
@@ -53,8 +72,8 @@ const styles = StyleSheet.create({
         padding: 6,
         paddingRight: 6,
         paddingLeft: 9,
-        marginRight: 8,
-        alignSelf: 'center'
+        marginRight: 5,
+        alignSelf: 'center',
     },
     icon: {
         width: 30,
@@ -64,7 +83,7 @@ const styles = StyleSheet.create({
         position: 'relative',
         borderBottomWidth: 1,
         borderBottomColor: Colors.bkgLight,
-        width: '80%'
+        width: '85%'
     },
     title: {
         fontWeight: 'bold',
@@ -72,7 +91,6 @@ const styles = StyleSheet.create({
         color: Colors.txtPrimary,
         textShadowColor: Colors.txtBlack,
         textShadowRadius: 0.1
-
     },
     description: {
         fontSize: 16,
@@ -84,7 +102,6 @@ const styles = StyleSheet.create({
         right: 0,
         width: 25,
         height: 25
-
     },
 })
 

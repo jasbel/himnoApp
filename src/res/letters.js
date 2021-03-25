@@ -4,7 +4,7 @@ export const songs = [
         id: "0",
         num_song: "0",
         title_es: "FUI HECHO JUSTO ",
-        description_es: "`Fui hecho justo sin merecerlo,..",
+        description_es: "Fui hecho justo sin merecerlo,..",
 
         paragraphs: [
             {
@@ -38,7 +38,7 @@ Fue necesaria para nuestra redención.`,
         id: "1",
         num_song: "1",
         title_es: "VIVIR POR FE",
-        description_es: "Por fe, veremos a nuestro Dios...",
+        description_es: "Por fe, veremos a...",
 
         paragraphs: [
             {
@@ -738,7 +738,7 @@ Tu nos llamas por nombre hoy.`,
         id: "16",
         num_song: "16",
         title_es: "EL PODER DE LA CRUZ",
-        description_es: "Oh, el ver aquel negro amanecer...",
+        description_es: "Oh, el ver aquel negro ama...",
 
         paragraphs: [
             {
@@ -954,7 +954,7 @@ Gracia que me trajo a su redil`,
         id: "20",
         num_song: "20",
         title_es: "ERES MI TODO",
-        description_es: "Tu eres mi fuerza y mi poder,",
+        description_es: "Tu eres mi fuerza y mi pod...",
 
         paragraphs: [
             {
@@ -986,6 +986,375 @@ tu me sostienes mi Señor,
 `Cristo salvador, digno de adorar,
 Cristo redentor digno de adorar.`,
                 chorus_position_ignore: [2]
+            },
+        ],
+    },
+    {
+        id: "21",
+        num_song: "21",
+        title_es: "GLORIFICATE",
+        description_es: "Que toda nación te adore,...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Que toda nación te adore,
+Que toda la tierra clame a ti. 
+Que todos tus santos canten; 
+¡Santo es el Señor!`
+            },
+            {
+                paragraph:
+`Declaramos tu grandeza,
+los cielos cuentan Tu gloria Dios
+y tus redimidos cantan
+¡Santo!, ¡Santo!`
+            },
+            {
+                paragraph:
+`Que toda nación te adore, 
+Que toda la tierra clame a ti.
+Que todos tus santos canten; 
+¡Santo es el Señor!`
+            },
+            {
+                paragraph:
+`Declaramos tu grandeza, 
+Los cielos cuentan tu gloria oh Dios 
+y tus redimidos cantan 
+¡Santo!, ¡Santo`
+            },
+            {
+                paragraph:
+`/¡Aleluya! te damos gloria vivimos para ti./`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Al cantar abre los cielos 
+Y haz llover, muestra tu gloria,
+Te queremos ver 
+Y al adorarte, exáltate 
+Glorifícate.`,
+                chorus_position_ignore: [1,3,4,5]
+            },
+            {
+                choir:
+`Al cantar abre los cielos 
+Y haz llover, muestra tu gloria,
+Te queremos ver 
+Y al adorarte, exáltate 
+/Glorifícate/`,
+                chorus_position_ignore: [1,2,3]
+            },
+        ],
+    },
+    {
+        id: "22",
+        num_song: "22",
+        title_es: "GLORIOSO INTERCAMBIO",
+        description_es: "¿Cómo puede ser que el ...",
+
+        paragraphs: [
+            {
+                paragraph:
+`¿Cómo puede ser que el bueno y justo
+Se hizo hombre y fuera a morir 
+por el más vil pecador?
+¿Cómo siendo yo su enemigo 
+el sufrimiento en mi lugar tomó 
+en aquella cruz?`
+            },
+            {
+                paragraph:
+`¿Como es posible que en Jesús 
+Como a su hijo Él me recibió 
+y su nombre llevo hoy? 
+Su perfecta vida de obediencia 
+al Padre Al yo creer, 
+Él me otorgó y perdón me dio.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Y cargo mi maldad sobre Él
+Su rectitud, por la fe, mía es
+
+Aleluya, glorioso intercambio,
+Oh cuan gran misterio.
+Que por gracia salvo soy
+Aleluya, gloria sea a Cristo,
+por su sacrificio
+Declarado justo soy en Él.`,
+                chorus_position_ignore: [2]
+            },
+            {
+                choir:
+`Y cargo mi maldad sobre Él
+Su rectitud, por la fe, mía es
+
+/Aleluya, glorioso intercambio,
+Oh cuan gran misterio.
+Que por gracia salvo soy
+Aleluya, gloria sea a Cristo,
+por su sacrificio
+Declarado justo soy/ …en Él.`,
+                chorus_position_ignore: [1]
+            },
+        ],
+    },
+    {
+        id: "23",
+        num_song: "23",
+        title_es: "HAY UN REDENTOR",
+        description_es: "Hay un redentor ...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Hay un redentor
+es Jesús Dios hijo
+Es mesías rey cordero
+el santísimo.`
+            },
+            {
+                paragraph:
+`Jesús me redime 
+nombre sobre todos; 
+ÉL ha muerto por nosotros
+por la voluntad de Dios.`
+            },
+            {
+                paragraph:
+`Cuando esté en la gloria
+yo veré su cara
+Serviré a mi rey por siempre
+en lugar sagrado.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Gracias Padre mío
+por darle a sufrir
+Y dejar su Espíritu
+tu obra aquí para cumplir`,
+                chorus_position_ignore: [3]
+            },
+            {
+                choir:
+`/ Gracias Padre mío
+por darle a sufrir
+Y dejar su Espíritu
+tu obra aquí para cumplir /
+
+Y dejar su Espíritu
+tu obra aquí para cumplir.`,
+                chorus_position_ignore: [1,2]
+            },
+        ],
+    },
+    {
+        id: "24",
+        num_song: "24",
+        title_es: "HE DECIDIDO SEGUIR A CRISTO",
+        description_es: "He decidido seguir a ...",
+
+        paragraphs: [
+            {
+                paragraph:
+`
+// He decidido seguir a Cristo. // 
+/ No vuelvo atrás; no vuelvo atrás. /`
+            },
+            {
+                paragraph:
+`// El Rey de gloria me ha transformado. // 
+/ No vuelvo atrás; no vuelvo atrás. /`
+            },
+            {
+                paragraph:
+`// En mis tristezas me da consuelo. // 
+/ No vuelvo atrás; no vuelvo atrás. /`
+            },
+            {
+                paragraph:
+`// La cruz delante, el mundo atrás. //
+/ No vuelvo atrás; no vuelvo atrás. /`
+            },
+        ],
+
+        chorus:[],
+    },
+    {
+        id: "25",
+        num_song: "25",
+        title_es: "LA GLORIA DE LA CRUZ",
+        description_es: "Cómo es que en Su perfecto...",
+
+        paragraphs: [
+            {
+                paragraph:
+`¿Cómo es que en Su perfecto 
+plan mi pecado perdonó, 
+cuando al morir mi culpa, 
+¿el Cordero la llevó?`
+            },
+            {
+                paragraph:
+`¿Cuán Sabio y Soberano Dios
+Su gloria mostrará, 
+cuando en Su trono, 
+el pecador se regocijará?`
+            },
+            {
+                paragraph:
+`Qué rectitud Él reveló, 
+librando al pecador, 
+y al culpable perdonó,
+sus manchas Él lavó.`
+            },
+            {
+                paragraph:
+`Tu sacrificio propició, 
+la ira del Señor,
+y por tu muerte y expiación, 
+hoy tengo redención. `
+            },
+            {
+                paragraph:
+`Que gracia para aquellos que,
+habrían de creer, 
+amor inagotable que 
+no puedo comprende`
+            },
+            {
+                paragraph:
+`La gracia que me perdonó,
+Tu hijo ahora soy
+Amado por la eternidad
+Por lo que hiciste oh Dios`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`¿Cuán Sabio y Soberano Dios
+Su gloria mostrará, 
+cuando en Su trono, 
+el pecador se regocijará?`,
+                chorus_position_ignore: [1,3,5]
+            },
+        ],
+    },
+    {
+        id: "27",
+        num_song: "27",
+        title_es: "LA HERMOSA VISIÓN DE LA CRUZ",
+        description_es: "Largos años vague...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Largos años vague
+por el valle del mal,
+sin consuelo, sin fe, sin amor
+
+Y la sombra fatal
+de la senda que hollé,
+puso en mi alma la hiel del dolor.`
+            },
+            {
+                paragraph:
+`Desde entonces, por Él, 
+ya no soy lo que fui, 
+una sombra sin Dios y sin ley.
+
+Mi existencia le di,
+y le quiero ser fiel;
+me constriñe el amor de mi Rey.`
+            },
+            {
+                paragraph:
+`Peregrino que vais
+por el valle del mal,
+vuestra senda solo es de dolor
+
+Esa carga fatal 
+que en el alma lleváis,
+ven y ponla a los pies del Señor.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`A mis pies el infierno se abrió,
+y clamé con el alma a Jesús.
+Y al instante la escena cambió,
+en la hermosa visión de la cruz.`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "28",
+        num_song: "28",
+        title_es: "LAVAME EN TU SANGRE",
+        description_es: "Que mi vida entera esté",
+
+        paragraphs: [
+            {
+                paragraph:
+`Que mi vida entera esté
+Consagrada a ti, Señor;
+Que a mis manos pueda guiar
+El impulso de tu amor.`
+            },
+            {
+                paragraph:
+`Que mis pies tan solo en pos 
+De lo santo puedan ir,
+Y que, a ti, Señor, mi voz 
+Se complazca en bendecir.`
+            },
+            {
+                paragraph:
+`Que mi tiempo todo esté
+Consagrado a tu loor.
+Que mis labios, al hablar,
+Hablen solo de tu amor`
+            },
+            {
+                paragraph:
+`Toma, oh Dios, mi voluntad,
+Y hazla tuya, nada más.
+Toma, sí, mi corazón,
+Por tu trono lo tendrás.`
+            },
+            {
+                paragraph:
+`Toma tú mi amor, que hoy
+A tus pies vengo a poner.
+Toma todo lo que soy,
+Todo tuyo quiero ser`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Lávame en tu sangre, Salvador; 
+Límpiame de toda mi maldad. 
+Traigo a ti mi vida para ser, Señor, 
+Tuya por la eternidad.`,
+                chorus_position_ignore: []
             },
         ],
     },
