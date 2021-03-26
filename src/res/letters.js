@@ -1683,200 +1683,377 @@ nunca en la lucha desmayar podre/`,
 `¡Oh amor de Dios! Su inmensidad
 El hombre no podría contar,
 Ni comprender la gran verdad,
-Que Dios al hombre pudo amar.
-Cuando el pecado entró al hogar
+Que Dios al hombre pudo amar.`
+            },
+            {
+                paragraph:
+`Cuando el pecado entró al hogar
 De Adán y Eva en Edén;
 Dios les sacó, más prometió
 Un Salvador también.`
             },
             {
                 paragraph:
-``
+`Si fuera tinta todo el mar,
+Y todo el cielo un gran papel,
+Y cada hombre un escritor,
+Y cada hoja un pincel.`
             },
             {
                 paragraph:
-``
+`Nunca podría describir
+El gran amor de Dios;
+Que al hombre pudo redimir
+De su pecado atroz`
+            },
+            {
+                paragraph:
+`Y cuando el tiempo pasara
+Con cada reino mundanal
+Y cada reino caerá
+Con cada trama y plan carnal`
+            },
+            {
+                paragraph:
+`El gran amor del redentor
+Por siempre durara
+La gran canción de salvación
+Tu pueblo cantara`
             },
         ],
 
         chorus:[
             {
                 choir:
-``,
+`¡Oh amor de Dios! Brotando está,
+Inmensurable eternal;
+Por las edades durará
+Inagotable raudal.`,
+                chorus_position_ignore: [6]
+            },
+            {
+                choir:
+`/¡Oh amor de Dios! Brotando está,
+Inmensurable eternal;
+Por las edades durará
+Inagotable raudal./`,
+                chorus_position_ignore: [1,2,3.4,5]
+            },
+        ],
+    },
+    {
+        id: "37",
+        num_song: "37",
+        title_es: "SEÑOR TE NECESITO",
+        description_es: "Me postro hoy, ante ti...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Me postro hoy, ante ti
+Y quiero allí, yo descansar
+Sin ti señor desecho estoy
+Mi corazón tu guiaras`
+            },
+            {
+                paragraph:
+`En mi pecar, tú gracia, es más
+Donde estás Tú, tú gracia está
+Y donde estás, yo libre soy
+Santidad es Cristo en mí`
+            },
+            {
+                paragraph:
+`Enséñame a cantarte a ti
+Al venir la tentación
+Cuando débil soy rendirme a ti
+Mi Esperanza y Salvación`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Oh Señor, te necesito
+en cada momento
+Mi defensor
+Mi redentor
+Dios, te necesito`,
                 chorus_position_ignore: []
             },
         ],
     },
     {
-        id: "3",
-        num_song: "3",
-        title_es: "",
-        description_es: "...",
+        id: "38",
+        num_song: "38",
+        title_es: "SI TE TENGO",
+        description_es: "No hay nada para mí que sea mejor...",
 
         paragraphs: [
             {
                 paragraph:
-``
+`No hay nada para mí que sea mejor,
+Que conocerte, mi Jesús.
+Pues en Tí encuentro paz´, Y el amor,
+Que me has dado en la cruz.
+Por eso yo quiero cantar.`
             },
             {
                 paragraph:
-``
-            },
-            {
-                paragraph:
-``
+`Puedo amarte por que Tú Me amaste a mí,
+Siendo yo un pecador.
+No merecía Tu perdón Menos aún,
+Ser llamado hijo de Dios.
+Por eso yo quiero cantar.`
             },
         ],
 
         chorus:[
             {
                 choir:
-``,
+`Eres todo lo que anhelo,
+Tu voluntad es lo que quiero.
+Tú satisfaces mi vida entera,
+Tú, mi porción y mi roca eterna.
+Lo que yo tengo lo doy por perdido,
+Si te tengo a Ti.`,
                 chorus_position_ignore: []
             },
         ],
     },
     {
-        id: "3",
-        num_song: "3",
-        title_es: "",
-        description_es: "...",
+        id: "39",
+        num_song: "39",
+        title_es: "SOLO EN JESÚS",
+        description_es: "Solo en Jesús esta mi fe...",
 
         paragraphs: [
             {
                 paragraph:
-``
+`Solo en Jesús esta mi fe,
+mi esperanza y mi canción.
+Piedra angular firme y sostén
+inconmovible en la aflicción.`
             },
             {
                 paragraph:
-``
+`Solo en Jesús hijo de Dios
+quien se humilló por nuestro bien.
+Cordero de mi salvación
+por este mundo herido fue.`
             },
             {
                 paragraph:
-``
+`En un sepulcro el yació,
+el cuerpo inerte del Señor.
+Mas el tercer día llegó
+resucitó en gloriosa luz`
+            },
+            {
+                paragraph:
+`En un sepulcro el yació,
+el cuerpo inerte del Señor.
+Mas el tercer día llegó
+resucitó en gloriosa luz`
             },
         ],
 
         chorus:[
             {
                 choir:
-``,
-                chorus_position_ignore: []
+`Cuán grande amor inmensa paz
+en el temor o adversidad.
+Consolador amigo fiel
+yo en su amor me sostendré.`,
+                chorus_position_ignore: [2,3,4]
+            },
+            {
+                choir:
+`En una cruz fue a morir
+Y Dios mostro su gracia ahí
+pues mi pecado Él llevo
+en su aflicción vida me dio.`,
+                chorus_position_ignore: [1,3,4]
+            },
+            {
+                choir:
+`Y al triunfar sobre el mal
+perdió el pecado potestad
+De Él suyo soy, Él mío es.
+Pues con su sangre me compró.`,
+                chorus_position_ignore: [1,2,4]
+            },
+            {
+                choir:
+`/Ningún poder ningún afán
+de Él me arrebatara.
+Hasta que Él venga otra vez
+en su poder me sostendré/.`,
+                chorus_position_ignore: [1,2,3]
             },
         ],
     },
     {
-        id: "3",
-        num_song: "3",
-        title_es: "",
+        id: "40",
+        num_song: "40",
+        title_es: "SUBLIME GRACIA",
         description_es: "...",
 
         paragraphs: [
             {
                 paragraph:
-``
+`Sublime gracia del Señor que aun infeliz salvo.
+Fui ciego mas hoy veo yo,
+Perdido y Él me hallo.`
             },
             {
                 paragraph:
-``
+`Su gracia me enseñó a temer,
+mis dudas ahuyento.
+Ohh cuan precioso fue a mis ser,
+Cuando él me transformo.`
             },
             {
                 paragraph:
-``
+`En los peligros o aflicción,
+que yo he tenido aquí.
+Su gracia siempre me libro,
+Y me guiara feliz.`
+            },
+            {
+                paragraph:
+`Y cuando en Sion por siglos mil,
+Brillante este cual sol.
+Y aun cantare por siempre aquí
+//Su amor que me salvo//.`
             },
         ],
 
         chorus:[
             {
                 choir:
-``,
+`Ya libre soy Dios me salvo,
+Y mis cadenas ya Él rompió
+Y como un rio fluye el perdón
+Sublime gracia inmenso amor.`,
                 chorus_position_ignore: []
+            },
+            {
+                choir:
+`//Fue por amor, su gran amor.
+Su gracia me salvo//.
+Lo hizo por amor.`,
+                chorus_position_ignore: [1,2,3]
             },
         ],
     },
     {
-        id: "3",
-        num_song: "3",
-        title_es: "",
+        id: "41",
+        num_song: "41",
+        title_es: "TE DOY GRACIAS",
         description_es: "...",
 
         paragraphs: [
             {
                 paragraph:
-``
+`Cuando sale el sol temprano cada día
+Es tu gracia que me da aliento de vida
+En ti vivimos, nos movemos y existimos
+Por orden de tu voz.`
             },
             {
                 paragraph:
-``
+`Tu presencia me refresca en la mañana
+Me alimenta y me sustenta tu Palabra
+Tu favor y bien rodean mi camino
+Por tu constante amor.`
             },
             {
                 paragraph:
-``
+`Al oscurecer, cuando llega la noche
+Tú me libras de ansiedades y temores
+Es tu mano mi refugio y mi descanso
+Eres mi guardador`
+            },
+            {
+                paragraph:
+`Padre, ¿Cómo he de dudar de tus bondades?
+Si a tu Hijo unigénito entregaste
+Me has llamado por mi nombre y me salvaste
+Agradecido estoy`
             },
         ],
 
         chorus:[
             {
                 choir:
-``,
-                chorus_position_ignore: []
+`Te doy gracias
+Grandes son tus obras,
+Oh mi Dios
+Te doy gracias
+Por tu fidelidad, bondad y amor
+Te doy gracias
+Mi alma te bendice hoy`,
+                chorus_position_ignore: [1,3,4]
             },
-        ],
-    },
-    {
-        id: "3",
-        num_song: "3",
-        title_es: "",
-        description_es: "...",
-
-        paragraphs: [
-            {
-                paragraph:
-``
-            },
-            {
-                paragraph:
-``
-            },
-            {
-                paragraph:
-``
-            },
-        ],
-
-        chorus:[
             {
                 choir:
-``,
-                chorus_position_ignore: []
+`Tu demuestras que me amas y me cuidas
+Y me suples siempre
+el pan de cada día
+Nada bueno tú retienes
+a tus hijos
+Eres mi proveedor`,
+                chorus_position_ignore: [1,3,4]
+            },
+            {
+                choir:
+`/Te doy gracias
+Grandes son tus obras,
+Oh mi Dios
+Te doy gracias
+Por tu fidelidad, bondad y amor
+Te doy gracias
+Mi alma te bendice hoy/`,
+                chorus_position_ignore: [1,2,4]
             },
         ],
     },
     {
         id: "42",
         num_song: "42",
-        title_es: "",
-        description_es: "...",
+        title_es: "TENGO UN REFUGIO",
+        description_es: "Tengo un refugio en tempestad...",
 
         paragraphs: [
             {
                 paragraph:
-``
+`Tengo un refugio en tempestad cuando aflicciones tengo
+Cuando me llena mi temor mi alma en Ti descansa`
             },
             {
                 paragraph:
-``
+`Tengo un refugio en tempestad
+si mi pecado acusa
+Culpable soy de mi maldad,
+Tu gracia aún me acepta`
             },
             {
                 paragraph:
-``
+`Tengo un refugio en tempestad
+si temo a la tormenta
+En mi debilidad yo sé
+Tu fuerza me sustenta`
             },
         ],
 
         chorus:[
             {
                 choir:
-``,
+`Oh Cristo, en Ti me esconderé,
+ya no soy condenado
+Refugio tengo en Tu cruz
+y salvación encuentro.`,
                 chorus_position_ignore: []
             },
         ],
