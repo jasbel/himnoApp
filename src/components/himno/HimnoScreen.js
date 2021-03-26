@@ -88,7 +88,7 @@ const HimnoScreen = (props) => {
                     <>
                         { index === 0 && <FavoriteScreen navigation={navigation} favorites={favorites} /> }
 
-                        <HimnoItem key={item.id} item={item} onPress={ () => handlePress(item) }/>
+                        <HimnoItem key={item.id} item={item} index={index} onPress={ () => handlePress(item) }/>
                     </>
                 }
 

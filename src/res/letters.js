@@ -843,8 +843,7 @@ Nuestro salvador
 / Él es cristo /
 Rey por siempre
 Nuestro redentor
-Él es cristo
-`
+Él es cristo`
             },
         ],
 
@@ -897,8 +896,7 @@ Confiado esta mi corazón
 
 De ti dependeré
 Tu voz escuchare, Jesús
-Te seguiré, mi buen pastor
-`,
+Te seguiré, mi buen pastor`,
                 chorus_position_ignore: []
             },
         ],
@@ -1457,7 +1455,7 @@ Marchemos a la unidad//.`,
         id: "31",
         num_song: "31",
         title_es: "ES EXALTADO",
-        description_es: "...",
+        description_es: "Es exaltado en lo alto ...",
 
         paragraphs: [
             {
@@ -1897,7 +1895,7 @@ en su poder me sostendré/.`,
         id: "40",
         num_song: "40",
         title_es: "SUBLIME GRACIA",
-        description_es: "...",
+        description_es: "Sublime gracia del Señor...",
 
         paragraphs: [
             {
@@ -1951,7 +1949,7 @@ Lo hizo por amor.`,
         id: "41",
         num_song: "41",
         title_es: "TE DOY GRACIAS",
-        description_es: "...",
+        description_es: "Cuando sale el sol temprano cada...",
 
         paragraphs: [
             {
@@ -2229,8 +2227,7 @@ compara con la gloria que ha de venir.
 `Bendito sea el nombre del Señor, en todo tiempo
 Se haga tu perfecta voluntad, en mí.
 Daré gloria a tu nombre a través de mi aflicción
-Dame tu gracia para ver: que vivir es Cristo.
-`,
+Dame tu gracia para ver: que vivir es Cristo.`,
                 chorus_position_ignore: []
             },
             {

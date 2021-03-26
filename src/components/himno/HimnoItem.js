@@ -3,11 +3,11 @@ import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
 import Storage from '../../libs/storage';
 import Colors from '../../res/colors';
 
-const HimnoItem = ({item, onPress}) => {
+const HimnoItem = ({item, onPress, index}) => {
 
     const [isFavorite, setIsFavorite] = useState(false);
 
-    const {title_es, description_es} = item;
+    const {title_es, description_es, id} = item;
 
     const getIcon = () => {
         return require('himnoapp/src/assets/images/play.png');
@@ -39,6 +39,9 @@ const HimnoItem = ({item, onPress}) => {
     return (
         <Pressable style={styles.container} onPress={ onPress }>
             <View style={[styles.figure, isFavorite && styles.figureIsFavorite ]}>
+                <Text style={[styles.numberHimno, isFavorite && styles.numberHimnoFavorite ]}>
+                    {parseInt(id) + 1}
+                </Text>
                 <Image
                     style={styles.icon}
                     source={ getIcon() }
@@ -71,11 +74,26 @@ const styles = StyleSheet.create({
         borderColor: Colors.bkgLight,
         borderRadius: 8,
         borderWidth: 2,
-        padding: 6,
-        paddingRight: 6,
-        paddingLeft: 9,
+        paddingTop: 10,
+        paddingRight: 8,
+        paddingLeft: 8,
+        paddingBottom: 2,
         marginRight: 5,
         alignSelf: 'center',
+        position: 'relative'
+    },
+    numberHimno: {
+        fontFamily: 'sans-serif-condensed',
+        fontSize: 16,
+        lineHeight: 15,
+        fontWeight: 'bold',
+        position: 'absolute',
+        top: 3,
+        left: 2,
+        color: Colors.bkgTransparentPrimary,
+    },
+    numberHimnoFavorite: {
+        color: Colors.bkgPrimary,
     },
     figureIsFavorite: {
         backgroundColor: Colors.yellow,
