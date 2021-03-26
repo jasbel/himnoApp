@@ -12,13 +12,19 @@ const FavoriteEmptyState = () => {
 
 const styles = StyleSheet.create({
     container: {
-        backgroundColor: Colors.green,
+        paddingBottom: 12,
+        borderBottomWidth: 1,
+        borderColor: Colors.bkgLight,
+        marginBottom: 12
     },
     text: {
-        color: Colors.txtPrimary,
+        backgroundColor: Colors.bkgLight,
+        color: Colors.white,
         fontWeight: 'bold',
         fontSize: 16,
-        textAlign: 'center'
+        padding: 3,
+        textAlign: 'center',
+        borderRadius: 6
     }
 })
 

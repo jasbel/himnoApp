@@ -115,7 +115,7 @@ const HimnoSong = (props) => {
                 <LinearGradient 
                     style={styles.spaceLinearGradient}
                     start={{x: 0, y: 0}} end={{x: 0, y: 1.0}}
-                    colors={[Colors.bkgLight, '#E0E9ED11']}
+                    colors={[Colors.bkgWhite, Colors.bkgTransparentWhite]}
                 />
             </View>
             <FlatList
@@ -128,10 +128,12 @@ const HimnoSong = (props) => {
                         <Text style={ styles.paragraph }> {item.paragraph} {"\n"}</Text>
                         { item.choir !==''  &&
                             <>
-                                <Image
-                                    style={ styles.iconChoir}
-                                    source={ getIconChoir()}
-                                />
+                                <View style={styles.containerIconChoir}>
+                                    <Image
+                                        style={ styles.iconChoir}
+                                        source={ getIconChoir()}
+                                    />
+                                </View>
                                 <Text style={ styles.choir}> {item.choir} {"\n"}</Text>
                             </>
                         }
@@ -174,8 +176,7 @@ const styles = StyleSheet.create({
         position: 'absolute',
         bottom: 8,
         right: 8,
-        backgroundColor: Colors.bkgLight,
-        opacity: 0.9,
+        backgroundColor: Colors.bkgTransparentPrimary,
         borderRadius: 50
     },
     iconStar: {
@@ -194,11 +195,16 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         color: Colors.txtBlack
     },
-    iconChoir: {
+    containerIconChoir: {
         marginLeft: 'auto',
         marginRight: 'auto',
         marginTop: -15,
-        marginBottom: 15
+        marginBottom: 15,
+        width: 170
+    },
+    iconChoir: {
+        width: 170,
+        height: 15
     },
     choir: {
         fontSize: 25,

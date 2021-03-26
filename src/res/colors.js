@@ -12,9 +12,12 @@ const Colors = {
     white: '#fff',
 
     bkgPrimary: '#235C6D',
+    bkgTransparentPrimary: '#235C6D44',
     bkgDark: '#173B46',
     bkgBlack: '#061013',
+    bkgTransparentLight: '#E0E9ED44',
     bkgLight: '#E0E9ED',
+    bkgTransparentWhite: '#F6F6F644',
     bkgWhite: '#F6F6F6',
 
     txtPrimary: '#235C6D',

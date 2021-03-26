@@ -7,6 +7,7 @@ import HimnoItem from './HimnoItem';
 import { titleApp } from '../../res/constant';
 import FavoriteScreen from '../favorite/FavoriteScreen';
 import Storage from '../../libs/storage';
+import { removeAccents } from '../../res/removeAccents';
 
 const HimnoScreen = (props) => {
 
@@ -47,7 +48,8 @@ const HimnoScreen = (props) => {
     const handleSearch = (query) => {
 
         const HimnosFiltered = dataSearch.filter((himno) => {
-            return himno.title_es.toLowerCase().includes(query.toLowerCase()) || himno.description_es.toLowerCase().includes(query.toLowerCase())
+
+            return removeAccents(himno.title_es).toLowerCase().includes(removeAccents(query).toLowerCase()) || removeAccents(himno.description_es).toLowerCase().includes(removeAccents(query).toLowerCase())
         });
 
         setData(HimnosFiltered)

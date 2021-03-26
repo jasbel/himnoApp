@@ -30,9 +30,9 @@ const styles = StyleSheet.create({
         borderTopWidth: 1,
         borderTopColor: Colors.bkgLight,
         paddingTop: 12,
-        borderBottomWidth: 1,
-        borderBottomColor: Colors.orange,
-        marginBottom: 12,
+        // borderBottomWidth: 1,
+        borderBottomColor: Colors.yellow,
+        // marginBottom: 12,
     }
 })
 
