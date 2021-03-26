@@ -1358,4 +1358,556 @@ Tuya por la eternidad.`,
             },
         ],
     },
+    {
+        id: "29",
+        num_song: "29",
+        title_es: "MARAVILLOSO ES EL GRAN AMOR",
+        description_es: "Maravilloso es el gran amor...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Maravilloso es el gran amor que Cristo el Salvador
+derramó en mí; Siendo rebelde y pecador,
+yo de su muerte causa fui. ¡Grande, sublime,
+inmensurable amor! Por mí murió el Salvador.`
+            },
+            {
+                paragraph:
+`El su celeste hogar abandonó, dejando posición,
+gloria y honor; De todo ello se despojó.
+por rescatar al pecador. Misericordia inmensa
+él mostró; su gran amor me alcanzó.`
+            },
+            {
+                paragraph:
+`¡Grande misterio! Dios el inmortal muriendo en la
+cruz entregó su ser; ni mente humana ni angelical
+jamás lo puede comprender. Inexplicable
+es el infinito amor que demostró mi Salvador.`
+            },
+            {
+                paragraph:
+`En vil prisión mi alma padeció, atada en pecado
+y oscuridad; pronto en mi celda resplandeció
+la clara luz de su verdad. Cristo las férreas
+cadenas destruyó; Quedó ya libre, ¡Gloria a Dios!`
+            },
+            {
+                paragraph:
+`Hoy ya no temo la condenación; Jesús
+es mi Señor, y yo suyo soy.
+Vivo en élque es mi salvación,
+vestido en su justicia voy.
+Libre acceso al Padre gozo ya
+y entrada al trono celestial.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`¡Oh, maravilla de su amor,
+por mí murió el Salvador!`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "30",
+        num_song: "30",
+        title_es: "MARCHEMOS A LA UNIDAD",
+        description_es: "Yo sé que fue pagado un alto precio...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Yo sé que fue pagado un alto precio,
+Para que seamos uno tu y yo.
+Cuando Jesús derramaba su vida,
+Él pensaba en ti, Él pensaba en mi
+En nuestra unidad.`
+            },
+            {
+                paragraph:
+`Nos veía redimidos por su sangre
+Combatiendo la batalla de la fé
+Codo a codo trabajando
+Su iglesia edificando
+Y rompiendo las cadenas por amor.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`//Y mediante el Espíritu Santo
+Proclamamos hoy aquí.
+Que pagaremos el precio de ser
+Todos un corazón en Jesús.
+Y si las tinieblas militan
+Y nos quieran separar
+Con nuestros ojos en Cristo
+Marchemos a la unidad//.`,
+                chorus_position_ignore: [1]
+            },
+        ],
+    },
+    {
+        id: "31",
+        num_song: "31",
+        title_es: "ES EXALTADO",
+        description_es: "...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Es exaltado en lo alto exaltado es el Rey.
+Le alabaré.
+Es exaltado por siempre exaltado
+Y yo le alabaré.`
+            },
+            {
+                paragraph:
+`Majestad, te adoro majestad
+Doy a Cristo toda gloria alabanza y honor.
+Majestad, reino y autoridad.
+Desde tu trono fluye por siempre tu majestad.`
+            },
+            {
+                paragraph:
+``
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Él es Señor, por siempre reinarás
+Su creación en él se gozará
+//Es exaltado en lo alto exaltado es el Rey//`,
+                chorus_position_ignore: [2]
+            },
+            {
+                choir:
+`Alabad y exaltad el nombre de Cristo
+Magnificad y glorificad a Cristo el Rey.
+Majestad, te adoro majestad,
+//Aquel que murió y resucitó es Rey mi Señor//`,
+                chorus_position_ignore: [1]
+            },
+        ],
+    },
+    {
+        id: "32",
+        num_song: "32",
+        title_es: "MIENTRAS TENGA ALIENTO",
+        description_es: "Como agradezco Señor...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Como agradezco Señor
+Tomaste en la cruz mi lugar.
+Como agradezco Señor
+Tu gran amor y bondades.
+Por acercarme a ti, por permitirme oír,
+y abrir mi corazón al evangelio.`
+            },
+            {
+                paragraph:
+`Como agradezco Señor
+por tanto, amor en tus ojos.
+como agradezco Señor
+el cambio que has hecho en mí.
+por darme tu poder, tu gozo y tu favor,
+y permitirme ver tus bondades.`
+            },
+            {
+                paragraph:
+`Como agradezco Señor
+Tomaste en la cruz mi lugar.
+Como agradezco Señor
+Tu gran amor y bondades.
+Por acercarme a ti, por permitirme oír,
+y abrir mi corazón al evangelio.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`//Mientras tenga aliento te alabare,
+Mientras viva te cantare,
+Mientras lata mi corazón te bendeciré//.`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "33",
+        num_song: "33",
+        title_es: "MIRAD CUAL AMOR",
+        description_es: "Mirad cual amor...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Mirad cual amor nos ha dado el Padre
+al hacernos hijos de Dios`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`///Para ser llamados hijos de Dios///`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "34",
+        num_song: "34",
+        title_es: "NO HAY OTRO",
+        description_es: "Hombres que nunca se postran...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Hombres que nunca se postran
+Que no se conforman al mundo y su placer.
+Hombres de vida consagrada
+Y corazón que busca tu gloria conocer.`
+            },
+            {
+                paragraph:
+`Hombres creen tu palabra llenos de valor
+Y profunda convicción
+Hombres firmes en la roca que tu
+Verdad proclaman con gran pasión`
+            },
+            {
+                paragraph:
+`Fieles discípulos de Cristo
+Que al reino de los cielos le dieron su lealtad
+Siervos que ante él se postran
+Y por el evangelio su vida dan`
+            },
+            {
+                paragraph:
+`/Mueve hoy Señor nuestro corazón
+Hazlo atento a tu verdad…
+Ven renuévanos y confórmanos
+Para hacer tu voluntad/`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Confesamos que tú eres nuestro Dios
+No hay otro, no hay otro
+Seguiremos el llamado de tu voz
+No hay otro, no hay otro`,
+                chorus_position_ignore: [1,4]
+            },
+            {
+                choir:
+`/Confesamos que tú eres nuestro Dios
+No hay otro, no hay otro
+Seguiremos el llamado de tu voz
+No hay otro, no hay otro./`,
+                chorus_position_ignore: [1,2,3]
+            },
+        ],
+    },
+    {
+        id: "35",
+        num_song: "35",
+        title_es: "NOBLE SOSTÉN",
+        description_es: "Noble sostén de la esperanza mía...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Noble sostén de la esperanza mía
+Fuente bendita, de vida eterna
+Tan solo el alma, que en tus fuerzas fía
+Tiene paz, tiene paz.`
+            },
+            {
+                paragraph:
+`Dura es la lucha, difícil la carrera
+Nunca en la lucha desmayar podré
+Mi espíritu renuevas con la idea nueva
+De vencer, de vencer.`
+            },
+            {
+                paragraph:
+`Yo soy muy débil, pero en ti soy fuerte
+Pues tú me dotas de tu gran poder
+Si tu estás conmigo ni a la misma muerte
+Temeré, no temeré`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Mi sostén es Jesús
+Nunca en la lucha desmayar podré
+Mi sostén es Jesús el Señor
+nunca en la lucha desmayar podré`,
+                chorus_position_ignore: [3]
+            },
+            {
+                choir:
+`Alelu., alelu.,
+nunca en la lucha desmayar podre
+/ Alelu., aleluya,
+nunca en la lucha desmayar podre/`,
+                chorus_position_ignore: [1,2]
+            },
+        ],
+    },
+    {
+        id: "36",
+        num_song: "36",
+        title_es: "OH AMOR DE DIOS",
+        description_es: "¡Oh amor de Dios! Su inmensidad...",
+
+        paragraphs: [
+            {
+                paragraph:
+`¡Oh amor de Dios! Su inmensidad
+El hombre no podría contar,
+Ni comprender la gran verdad,
+Que Dios al hombre pudo amar.
+Cuando el pecado entró al hogar
+De Adán y Eva en Edén;
+Dios les sacó, más prometió
+Un Salvador también.`
+            },
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+``,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "3",
+        num_song: "3",
+        title_es: "",
+        description_es: "...",
+
+        paragraphs: [
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+``,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "3",
+        num_song: "3",
+        title_es: "",
+        description_es: "...",
+
+        paragraphs: [
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+``,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "3",
+        num_song: "3",
+        title_es: "",
+        description_es: "...",
+
+        paragraphs: [
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+``,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "3",
+        num_song: "3",
+        title_es: "",
+        description_es: "...",
+
+        paragraphs: [
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+``,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "3",
+        num_song: "3",
+        title_es: "",
+        description_es: "...",
+
+        paragraphs: [
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+``,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "3",
+        num_song: "3",
+        title_es: "",
+        description_es: "...",
+
+        paragraphs: [
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+``,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "3",
+        num_song: "3",
+        title_es: "",
+        description_es: "...",
+
+        paragraphs: [
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+            {
+                paragraph:
+``
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+``,
+                chorus_position_ignore: []
+            },
+        ],
+    },
 ]
