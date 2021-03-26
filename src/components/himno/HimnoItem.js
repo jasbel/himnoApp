@@ -38,7 +38,7 @@ const HimnoItem = ({item, onPress}) => {
 
     return (
         <Pressable style={styles.container} onPress={ onPress }>
-            <View style={styles.figure}>
+            <View style={[styles.figure, isFavorite && styles.figureIsFavorite ]}>
                 <Image
                     style={styles.icon}
                     source={ getIcon() }
@@ -67,17 +67,23 @@ const styles = StyleSheet.create({
         justifyContent: 'space-between'
     },
     figure: {
-        backgroundColor: Colors.bkgLight,
+        backgroundColor: Colors.white,
+        borderColor: Colors.bkgLight,
         borderRadius: 8,
+        borderWidth: 2,
         padding: 6,
         paddingRight: 6,
         paddingLeft: 9,
         marginRight: 5,
         alignSelf: 'center',
     },
+    figureIsFavorite: {
+        backgroundColor: Colors.yellow,
+        borderColor: Colors.primary,
+    },
     icon: {
         width: 30,
-        height: 34
+        height: 34,
     },
     content: {
         position: 'relative',

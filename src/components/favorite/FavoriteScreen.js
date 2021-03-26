@@ -27,12 +27,11 @@ const FavoriteScreen = ({navigation, favorites}) => {
 
 const styles = StyleSheet.create({
     container: {
-        // backgroundColor: Colors.green,
         borderTopWidth: 1,
         borderTopColor: Colors.bkgLight,
         paddingTop: 12,
         borderBottomWidth: 1,
-        borderBottomColor: Colors.bkgLight,
+        borderBottomColor: Colors.orange,
         marginBottom: 12,
     }
 })
