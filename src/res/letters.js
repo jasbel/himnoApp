@@ -1853,8 +1853,8 @@ Un Salvador también.`
         ],
     },
     {
-        id: "3",
-        num_song: "3",
+        id: "42",
+        num_song: "42",
         title_es: "",
         description_es: "...",
 
@@ -1882,8 +1882,368 @@ Un Salvador también.`
         ],
     },
     {
-        id: "3",
-        num_song: "3",
+        id: "43",
+        num_song: "43",
+        title_es: "TODO LO PAGO",
+        description_es: "Puedo oír la voz de Cristo...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Puedo oír la voz de Cristo
+Que me llama hacia Él,
+Todo cuanto necesito
+Lo encuentro sólo en Él`
+            },
+            {
+                paragraph:
+`Buen pastor, refugio eterno,
+Mi todo en todo es Él.
+De la vida, Él es la fuente,
+Mi esperanza en Él pondré.`
+            },
+            {
+                paragraph:
+`Siendo yo su enemigo
+De mi tuvo compasión,
+Rechazaba yo su gracia
+Y Él abrió mi corazón.`
+            },
+            {
+                paragraph:
+`Nada bueno en mi yo encuentro
+Mi virtud viene de Él
+Y cuando en Él yo esté completo
+//Para siempre cantaré//`
+            },
+            {
+                paragraph:
+`Jesucristo es mi deleite
+Grande gozo tengo en Él
+Nada más me satisface
+//Cristo mi tesoro es//
+`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`/Cantaré// El cordero digno es
+Salvador pagó mi deuda
+Se lo debo todo a Él
+//Cantaré//
+Siempre yo le alabaré
+El mis manchas ha lavado
+//Suyo siempre yo seré//`,
+                chorus_position_ignore: [1,2,3]
+            },
+            {
+                choir:
+`Todo lo pago quien por mi murió
+Y mis manchas él lavo
+//Con sangre carmesí//`,
+                chorus_position_ignore: [1,2,3,4]
+            },
+        ],
+    },
+    {
+        id: "44",
+        num_song: "44",
+        title_es: "TÚ ERES MI RESPIRAR",
+        description_es: "Tú eres mi respirar...",
+
+        paragraphs: [
+            {
+                paragraph:
+`//Tú eres mi respirar//
+Dios tu presencia vive en mi.
+//Tú eres mi pan Señor//
+Dios tus palabras son para mi.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Y yo…….. te anhelo Señor…..
+Estoy…. Perdido sin ti….`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "45",
+        num_song: "45",
+        title_es: "TU NOMBRE LEVANTARE",
+        description_es: "Tú nombre levantaré...",
+
+        paragraphs: [
+            {
+                paragraph:
+`//Tú nombre levantaré,
+me deleito en adorarte.
+Te agradezco que en mi vida estés,
+que vinieras a salvarme//.`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`//Dejaste el trono para,
+mostrarnos la luz
+De Tú trono a la cruz,
+y mi deuda pagar.
+De la cruz a morir,
+de la muerte a tú trono;
+Tú nombre levantaré//.`,
+                chorus_position_ignore: []
+            },
+        ],
+    },
+    {
+        id: "46",
+        num_song: "46",
+        title_es: "VIVIR ES CRISTO",
+        description_es: "Como recibiré de ti el...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Como recibiré de ti el bien,
+Y el mal rechazare.
+Sí se que tú eres Señor
+Soberano y justo.`
+            },
+            {
+                paragraph:
+`Como he de alabarte en bendición
+y olvidarte en dolor.
+Si sé que tienes el control,
+de toda tu creación.`
+            },
+            {
+                paragraph:
+`Como he de creer en ti al tener, y dudar en la escasez
+Si sé que tú eres siempre fiel, y que nunca cambias.
+Como he de seguir en libertad y huir en la opresión
+Si sé que guardas para mí una eterna posesión.`
+            },
+            {
+                paragraph:
+`Como he de confiar en tu bondad y tu gran amor por mí,
+Si enviaste a Jesús en mi lugar a morir en una Cruz.
+//Tu gracia es suficiente//`
+            },
+            {
+                paragraph:
+`Fija mis ojos solo en ti en lo eterno, en el 
+cielo
+La aflicción de este mundo jamás se 
+compara con la gloria que ha de venir.
+//Vivir es Cristo, vivir es Cristo//`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Bendito sea el nombre del Señor, en todo tiempo
+Se haga tu perfecta voluntad, en mí.
+Daré gloria a tu nombre a través de mi aflicción
+Dame tu gracia para ver: que vivir es Cristo.
+`,
+                chorus_position_ignore: []
+            },
+            {
+                choir:
+`…VIVIR ES CRISTO`,
+                chorus_position_ignore: [1,2,3,4]
+            },
+        ],
+    },
+    {
+        id: "47",
+        num_song: "47",
+        title_es: "VIVIR POR FE",
+        description_es: "Por fe, veremos a nuestro...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Por fe, veremos a nuestro Dios
+En el plan que creó en la eternidad.
+En la vida de los fieles que llamó
+A vivir por fe y no por ver.
+
+Por fe, el justo vivirá
+Por la fe, caminamos junto a el
+Como viendo al invisible protector
+Vivir por fe y no por ver`
+            },
+            {
+                paragraph:
+`Por fe, profetas hablaron bien
+Por la fe, proclamaron la verdad
+El Mesías prometido en edén
+El que la muerte venció en la cruz
+
+Por fe, la iglesia se moverá
+Con poder del espíritu de Dios
+Y las fuerzas del infierno no podrán
+Dañar la obra de nuestro Dios.`
+            },
+            {
+                paragraph:
+`Por fe los montes se moverán
+Si la fe permanece en Jesús
+El poder del evangelio librara
+A todo aquel que confía en él`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Sus promesas como rocas son,
+Sus promesas cumple nuestro Dios
+Nos movemos solo por la fe en Él
+Vivir por fe y no por ver`,
+                chorus_position_ignore: [3]
+            },
+            {
+                choir:
+`/Sus promesas como rocas son,
+Sus promesas cumple nuestro Dios
+Nos movemos solo por la fe en él
+Vivir por fe y no por ver./
+/Vivir por fe y no por ver./`,
+                chorus_position_ignore: [1,2]
+            },
+        ],
+    },
+    {
+        id: "48",
+        num_song: "48",
+        title_es: "YAHWEH",
+        description_es: "Con tu palabra el mundo...",
+
+        paragraphs: [
+            {
+                paragraph:
+`Con tu palabra el mundo afirmaste Señor.
+Tú aliento de vida;
+del polvo la humanidad formó.
+Despliegas tu nombre, y gloria en toda la creación.
+SANTO DIOS, SANTO DIOS.
+
+Aun cuando el pecado, tu creación corrompió.
+En tú fidelidad nos prometiste redención.
+un plan soberano por gracia y justicia mostró
+SANTO DIOS, SANTO DIOS
+
+Siempre guardas tus palabras, siempre 
+cumples tus promesas.
+Por amor de tu nombre; Santo nombre.`
+            },
+            {
+                paragraph:
+`En tiempo preciso el verbo carne se hizo.
+A que por bien esperamos,
+El prometido en el principio.
+Y vimos tu rostro llena de gracia y verdad.
+En Jesús hijo de Dios SANTO DIOS.
+`
+            },
+            {
+                paragraph:
+`Nos aferramos a tus palabras,
+Y creemos en tus promesas,
+Y adoramos hoy tu nombre;
+SANTO NOMBRE.
+`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`YAHWEH, YAHWEH.
+Poderoso, Dios eterno ,verdadero.
+¿Ohh quién es como tú?
+YAHWEH, YAHWEH.
+Tú nombre permanecerá para siempre
+Ohhh YAHWEH`,
+                chorus_position_ignore: [3]
+            },
+            {
+                choir:
+`YAHWEH ES TU NOMBRE :YAHWEH.
+Ohhh ¡YAHWEH!`,
+                chorus_position_ignore: [1,2]
+            },
+        ],
+    },
+    {
+        id: "49",
+        num_song: "49",
+        title_es: "10.000 RAZONES",
+        description_es: "Que todo lo que soy alabe...",
+
+        paragraphs: [
+            {
+                paragraph:
+`CORO`
+            },
+            {
+                paragraph:
+`Sale el sol, es un nuevo amanecer,
+Cantaré a tí otra vez.
+Sea lo que venga confiaré en ti.
+Alabaré en el anochecer.
+`
+            },
+            {
+                paragraph:
+`Tu amor no tiene fin y tu eres para siempre.
+Y bondadoso es tu corazón.
+Por todo lo que has hecho yo sigo 
+cantando.
+10.000 razones para alabar.`
+            },
+            {
+                paragraph:
+`En ese día cuando ya no tenga fuerzas,
+Y se acerque tu gloria.
+Mi alma cantará de tu amor sin final.
+10.000 años y para siempre más.
+`
+            },
+        ],
+
+        chorus:[
+            {
+                choir:
+`Que todo lo que soy alabe al Señor,
+Con todo mi corazón.
+De tu grande amor cantaré,
+Tu nombre alabaré.`,
+                chorus_position_ignore: [1,4]
+            },
+            {
+                choir:
+`//Que todo lo que soy alabe al Señor,
+Con todo mi corazón.
+De tu grande amor cantaré,
+Tu nombre alabaré//`,
+                chorus_position_ignore: [1,2,3]
+            },
+        ],
+    },
+    {
+        id: "50",
+        num_song: "50",
         title_es: "",
         description_es: "...",
 
