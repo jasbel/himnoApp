@@ -128,10 +128,10 @@ Que se acerca a ti`
             },
             {
                 paragraph:
-`En silencio soportó
-Dolor y humillación
-Obediente al Padre fue
-La cruz por mí cargó`
+`A la muerte Él venció
+La tumba abierta está
+Aleluya al Salvador
+Jesús resucitó`
             }
         ],
         chorus:[
@@ -141,7 +141,7 @@ La cruz por mí cargó`
 Derramaste allí tu amor
 Mi alma cantará Aleluya
 Gloria y honra a ti Señor`,
-                chorus_position_ignore: []
+                chorus_position_ignore: [1]
             }
         ],
 
@@ -175,13 +175,6 @@ Quién al morir resucitó
 El inmutable gran Yo Soy
 El Rey de gloria y majestad`
             },
-            {
-                paragraph:
-`En silencio soportó
-Dolor y humillación
-Obediente al Padre fue
-La cruz por mí cargó`
-            }
         ],
         chorus:[
             {
@@ -189,8 +182,7 @@ La cruz por mí cargó`
 `Y en Sus manos por Su amor
 Mi nombre ya grabado está
 Y mientras en el cielo esté
-Nadie de Él me apartará
-Nadie de Él me apartará`,
+/ Nadie de Él me apartará /`,
                 chorus_position_ignore: [2,3]
             },
             {
@@ -198,17 +190,17 @@ Nadie de Él me apartará`,
 `Y por su muerte el Salvador
 Ya mi pecado perdonó
 Pues Dios, el Justo, aceptó
-Su sacrificio hecho por mí
-Su sacrificio hecho por mí`,
+/ Su sacrificio hecho por mí /`,
                 chorus_position_ignore: [1,3]
             },
             {
                 choir:
-`//Unido a Él no moriré
+`/ Unido a Él no moriré
 Pues con Su sangre me compró
 Mi vida escondida está
-En Cristo Dios, mi Salvador
-En Cristo Dios, mi Salvador//`,
+En Cristo Dios, mi Salvador/
+
+/En Cristo Dios, mi Salvador/`,
                 chorus_position_ignore: [1,2]
             },
         ],
@@ -1243,10 +1235,10 @@ Por lo que hiciste oh Dios`
         chorus:[
             {
                 choir:
-`¿Cuán Sabio y Soberano Dios
-Su gloria mostrará, 
-cuando en Su trono, 
-el pecador se regocijará?`,
+`Oh, la Gloria de la Cruz,
+Tu Hijo enviaste a morir.
+Mi vida dejaré atrás, para conocer
+la gloria de, la gloria de la cruz.`,
                 chorus_position_ignore: [1,3,5]
             },
         ],

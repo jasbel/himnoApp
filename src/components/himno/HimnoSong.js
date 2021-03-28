@@ -69,7 +69,7 @@ const HimnoSong = (props) => {
 
         let filter = undefined ;
         if (chorus !== undefined) {
-            filter = chorus.filter( choirItem => (compareArrayIgnore( choirItem.chorus_position_ignore, i)))
+            filter = chorus.filter( choirItem => (compareArrayIgnore( choirItem.chorus_position_ignore, i + 1)))
             choir = filter[0] && filter[0].choir;
         }
 
@@ -125,7 +125,10 @@ const HimnoSong = (props) => {
                 keyExtractor={( item , index) => index.toString()}
                 renderItem={({item, index}) =>
                     <View key={item.key}>
-                        <Text style={ styles.paragraph }> {item.paragraph} {"\n"}</Text>
+                        <Text style={ [
+                            styles.paragraph,
+                            false && {fontSize: 34, lineHeight: 34}
+                        ] }> {item.paragraph} {"\n"}</Text>
                         { item.choir !==''  &&
                             <>
                                 <View style={styles.containerIconChoir}>
@@ -144,7 +147,7 @@ const HimnoSong = (props) => {
 
             <Pressable
                 onPress = { () => toggleFavorite() }
-                style={ styles.containerFloat }
+                style={ [styles.containerFloat, isFavorite && styles.containerFloatFavorite] }
             >
                 <Image
                     style={ styles.iconStar }
@@ -178,6 +181,9 @@ const styles = StyleSheet.create({
         right: 8,
         backgroundColor: Colors.bkgTransparentPrimary,
         borderRadius: 50
+    },
+    containerFloatFavorite: {
+        backgroundColor: Colors.bkgTransparentDark,
     },
     iconStar: {
         margin: 6,

@@ -14,6 +14,7 @@ const Colors = {
     bkgPrimary: '#235C6D',
     bkgTransparentPrimary: '#235C6D44',
     bkgDark: '#173B46',
+    bkgTransparentDark: '#173B46CC',
     bkgBlack: '#061013',
     bkgTransparentLight: '#E0E9ED44',
     bkgLight: '#E0E9ED',

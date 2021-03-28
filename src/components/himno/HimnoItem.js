@@ -3,7 +3,7 @@ import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
 import Storage from '../../libs/storage';
 import Colors from '../../res/colors';
 
-const HimnoItem = ({item, onPress, index}) => {
+const HimnoItem = ({item, onPress}) => {
 
     const [isFavorite, setIsFavorite] = useState(false);
 

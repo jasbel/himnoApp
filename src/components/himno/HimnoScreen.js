@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { FlatList, Image, StyleSheet, Text, TextInput, View } from 'react-native';
+import { FlatList, StyleSheet, View } from 'react-native';
 import Colors from '../../res/colors';
 import HimnoSearch from './HimnoSearch';
 import {songs} from '../../res/letters';
@@ -14,8 +14,9 @@ const HimnoScreen = (props) => {
     const {navigation} = props;
     const [dataSearch, setDataSearch] = useState(songs)
     const [data, setData] = useState(songs);
-    const [allData, setAllData] = useState([])
+    const [noFavoritesData, setNoFavoriteData] = useState([])
     const [favorites, setFavorites] = useState([]);
+    const [modeSearch, setModeSearch] = useState(false);
 
     const getHimnos = async () => {
         try {
@@ -34,7 +35,7 @@ const HimnoScreen = (props) => {
             });
             
             setFavorites( favorites );
-            setAllData( dataNotFavorite );
+            setNoFavoriteData( dataNotFavorite );
 
         } catch (error) {
             console.log("Get Favorites Err", error);
@@ -47,12 +48,19 @@ const HimnoScreen = (props) => {
 
     const handleSearch = (query) => {
 
-        const HimnosFiltered = dataSearch.filter((himno) => {
+        // console.log(query ? `hay : ${query} ` : `no hay:  ${query}`);
+
+        query && !modeSearch && setModeSearch(true);
+        !query && setModeSearch(false);
+
+        const HimnosFiltered = data.filter((himno) => {
 
             return removeAccents(himno.title_es).toLowerCase().includes(removeAccents(query).toLowerCase()) || removeAccents(himno.description_es).toLowerCase().includes(removeAccents(query).toLowerCase())
         });
 
-        setData(HimnosFiltered)
+        setDataSearch(HimnosFiltered);
+
+        !query && getHimnos();
     }
 
     useEffect(() => {
@@ -82,13 +90,13 @@ const HimnoScreen = (props) => {
 
             <FlatList
                 style = {styles.contentItems}
-                data = {allData}
+                data = { !modeSearch ? noFavoritesData : dataSearch}
                 showsVerticalScrollIndicator={false}
                 renderItem={({item, index}) =>
                     <>
-                        { index === 0 && <FavoriteScreen navigation={navigation} favorites={favorites} /> }
+                        {!modeSearch && index === 0 && <FavoriteScreen navigation={navigation} favorites={favorites} /> }
 
-                        <HimnoItem key={item.id} item={item} index={index} onPress={ () => handlePress(item) }/>
+                        <HimnoItem key={item.id} item={item} onPress={ () => handlePress(item) }/>
                     </>
                 }
 
