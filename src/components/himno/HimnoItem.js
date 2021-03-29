@@ -1,7 +1,10 @@
 import React, { useEffect, useState } from 'react'
-import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
+import { Dimensions, Image, Pressable, StyleSheet, Text, View } from 'react-native'
 import Storage from '../../libs/storage';
 import Colors from '../../res/colors';
+import { responsive } from '../../res/responsive';
+
+const widthScreen = Dimensions.get('window').width;
 
 const HimnoItem = ({item, onPress}) => {
 
@@ -107,17 +110,18 @@ const styles = StyleSheet.create({
         position: 'relative',
         borderBottomWidth: 1,
         borderBottomColor: Colors.bkgLight,
-        width: '85%'
+        width: '83%'
     },
     title: {
         fontWeight: 'bold',
-        fontSize: 19,
+        fontSize: 18,
+        fontSize: responsive(20, 18, widthScreen),
         color: Colors.txtPrimary,
         textShadowColor: Colors.txtBlack,
         textShadowRadius: 0.1
     },
     description: {
-        fontSize: 16,
+        fontSize: responsive(17, 16, widthScreen),
         color: Colors.txtBlack
     },
     iconStar: {

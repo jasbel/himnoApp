@@ -269,22 +269,27 @@ Quién al sabio Dios puede enseñar,
 ¿Quién llevo el mal del pecador?
 Jesucristo, humilde al perecer,
 Ha triunfado y reina con poder.`
+            },
+            {
+                paragraph:
+` `
             }
         ],
 
         chorus:[
             {
                 choir:
-`Contempla a Dios, en su trono está venid y adoradle.
-Contempla al Rey, nadie es como Él venid y adoradle.`,
-                chorus_position_ignore: [2,3]
+`//¡Reinaras por siempre!//
+//¡Que tu gloria brille hoy!//`,
+                chorus_position_ignore: [1,2,3]
             },
             {
                 choir:
-`//¡Reinaras por siempre!//
-//¡Que tu gloria brille hoy!//`,
-                chorus_position_ignore: [1,2]
+`Contempla a Dios, en su trono está venid y adoradle.
+Contempla al Rey, nadie es como Él venid y adoradle.`,
+                chorus_position_ignore: []
             },
+            
         ],
     },
     {
@@ -366,7 +371,7 @@ ahora que te puedo oír,
 ahora que crece en mí;
 tu persona sin igual
 Quiero dejar que seas tú para que no sea yo;
-El que manda al que vean pues en mi a ti han de ver`
+El que manda al que vean pues en mi a ti han de ver.`
             },
             {
                 paragraph:

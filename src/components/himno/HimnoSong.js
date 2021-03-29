@@ -3,14 +3,15 @@ import { Alert, Dimensions, FlatList, Image, Pressable, StyleSheet, Text, View }
 import LinearGradient from 'react-native-linear-gradient';
 import Storage from '../../libs/storage';
 import Colors from '../../res/colors';
+import { responsive } from '../../res/responsive';
 
 const widthScreen = Dimensions.get('window').width;
 
 const HimnoSong = (props) => {
 
     const {route, navigation} = props;
-    const [isFavorite, setIsFavorite] = useState(false)
-    const [himno, setHimno] = useState(route.params.himno)
+    const [isFavorite, setIsFavorite] = useState(false);
+    const [himno, setHimno] = useState(route.params.himno);
     const {paragraphs, chorus} = himno;
 
     const toggleFavorite = () => {
@@ -69,8 +70,8 @@ const HimnoSong = (props) => {
 
         let filter = undefined ;
         if (chorus !== undefined) {
-            filter = chorus.filter( choirItem => (compareArrayIgnore( choirItem.chorus_position_ignore, i + 1)))
-            choir = filter[0] && filter[0].choir;
+            filter = chorus.filter( choirItem => (compareArrayIgnore( choirItem.chorus_position_ignore, i + 1)));
+            choir = filter.length && joinChoirs(filter);
         }
 
         choir = choir || '';
@@ -78,13 +79,22 @@ const HimnoSong = (props) => {
         return ({...item, choir})
     })
 
+    function compareArrayIgnore (arr, val) {
+        return arr.find(arrValue => arrValue === val) ? false : true;
+    }
+
+    function joinChoirs(filter) {
+        return filter.length >= 2 ? 
+            filter.reduce((accumulatorChoir, currentChoir, currentIndex) =>
+                accumulatorChoir  + currentChoir.choir + (filter.length !== currentIndex + 1 ? '\n\n' : ''), '' )
+            :
+            filter[0].choir;
+    }
+
     const getIconChoir = () => {
         return require('himnoapp/src/assets/images/verse.png');
     }
 
-    function compareArrayIgnore (arr, val) {
-        return arr.find(arrValue => arrValue === val) ? false : true;
-    }
 
     const getIconStar = () => {
         if (isFavorite) return require('himnoapp/src/assets/images/star.png');
@@ -103,6 +113,7 @@ const HimnoSong = (props) => {
         })
 
         setHimno( himno);
+
     }, [])
 
     useEffect(() => {
@@ -125,10 +136,7 @@ const HimnoSong = (props) => {
                 keyExtractor={( item , index) => index.toString()}
                 renderItem={({item, index}) =>
                     <View key={item.key}>
-                        <Text style={ [
-                            styles.paragraph,
-                            false && {fontSize: 34, lineHeight: 34}
-                        ] }> {item.paragraph} {"\n"}</Text>
+                        <Text style={ [styles.paragraph] }> {item.paragraph} {"\n"}</Text>
                         { item.choir !==''  &&
                             <>
                                 <View style={styles.containerIconChoir}>
@@ -137,7 +145,9 @@ const HimnoSong = (props) => {
                                         source={ getIconChoir()}
                                     />
                                 </View>
-                                <Text style={ styles.choir}> {item.choir} {"\n"}</Text>
+                                <Text style={ [ styles.choir ]}>
+                                        {item.choir} {"\n"}
+                                </Text>
                             </>
                         }
                         {(verses.length - 1 === index) && <View style={styles.spaceBottom}></View>}
@@ -196,8 +206,8 @@ const styles = StyleSheet.create({
     },
     paragraph: {
         fontFamily: 'sans-serif-medium',
-        fontSize: 25,
-        lineHeight: 25,
+        fontSize: responsive(27, 23, widthScreen),
+        lineHeight: responsive(28, 24, widthScreen),
         textAlign: 'center',
         color: Colors.txtBlack
     },
@@ -213,8 +223,8 @@ const styles = StyleSheet.create({
         height: 15
     },
     choir: {
-        fontSize: 25,
-        lineHeight: 25,
+        fontSize: responsive(27, 23, widthScreen),
+        lineHeight: responsive(28, 24, widthScreen),
         textAlign: 'center',
         fontWeight: 'bold',
         fontStyle: 'italic',
