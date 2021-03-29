@@ -445,9 +445,20 @@ Todo lo ha hecho hermoso en Su tiempo y voluntad
 Aunque frágiles mis pasos; limitado mi entender
 Su palabra me asegura: todo obra para bien`
             },
+            {
+                paragraph:
+``
+            },
         ],
 
         chorus:[
+            {
+                choir:
+`/Venga lo que venga, prevaleceré
+Dios es mi esperanza
+Su promesa es ﬁel/`,
+                chorus_position_ignore: [1,2]
+            },
             {
                 choir:
 `De la mano soberana de mi Dios me sostendré
@@ -459,16 +470,9 @@ aﬁrmando está mi fe`,
             },
             {
                 choir:
-`/Venga lo que venga, prevaleceré
-Dios es mi esperanza
-Su promesa es ﬁel/`,
-                chorus_position_ignore: [1]
-            },
-            {
-                choir:
 `Tú ordenas mis pasos
 y afirmando estás mi fe`,
-                chorus_position_ignore: [1]
+                chorus_position_ignore: [1,2]
             },
         ],
     },
