@@ -1935,7 +1935,7 @@ Y aun cantare por siempre aquí
 Y mis cadenas ya Él rompió
 Y como un rio fluye el perdón
 Sublime gracia inmenso amor.`,
-                chorus_position_ignore: []
+                chorus_position_ignore: [2]
             },
             {
                 choir:
