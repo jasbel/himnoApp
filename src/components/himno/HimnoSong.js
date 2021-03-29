@@ -206,7 +206,7 @@ const styles = StyleSheet.create({
     },
     paragraph: {
         fontFamily: 'sans-serif-medium',
-        fontSize: responsive(27, 23, widthScreen),
+        fontSize: responsive(28, 23, widthScreen),
         lineHeight: responsive(28, 24, widthScreen),
         textAlign: 'center',
         color: Colors.txtBlack
@@ -223,7 +223,7 @@ const styles = StyleSheet.create({
         height: 15
     },
     choir: {
-        fontSize: responsive(27, 23, widthScreen),
+        fontSize: responsive(28, 23, widthScreen),
         lineHeight: responsive(28, 24, widthScreen),
         textAlign: 'center',
         fontWeight: 'bold',

@@ -518,17 +518,31 @@ Santo, Santo es Él,
 levantamos nuestra alabanza
 al que en el trono está/`
             },
+            {
+                paragraph:
+`Digno es él cordero Santo;
+Santo, Santo es Él,
+levantamos nuestra alabanza
+al que en el trono está`
+            },
         ],
 
         chorus:[
             {
                 choir:
-`/Santo, Santo, Santo,
-Dios todopoderoso quien fue quien es
-y quien vendrá,
+`Santo, Santo, Santo,
+Dios todopoderoso quien fue quien es y quien vendrá,
 La creación hoy canta y damos gloria a Él,
-tu eres digno por siempre y siempre/`,
-                chorus_position_ignore: []
+tu eres digno por siempre y siempre`,
+                chorus_position_ignore: [2]
+            },
+            {
+                choir:
+`/ Santo, Santo, Santo,
+Dios todopoderoso quien fue quien es y quien vendrá,
+La creación hoy canta y damos gloria a Él,
+tu eres digno por siempre y siempre /`,
+                chorus_position_ignore: [1]
             },
         ],
     },
@@ -613,13 +627,13 @@ Te adoramos`
             },
             {
                 paragraph:
-`El Dios que descendió
-desde Su trono
+`El Dios que descendió desde Su trono
 Para llevar sobre Sus hombros
 Nuestra culpa y transgresión
 Jesús, exaltado sobre todo
 Nombre sobre todo nombre
 Solo en Él hay salvación.
+
 A Él sea la gloria y el poder
 Todo es de Él y para Él`
             },
@@ -628,7 +642,7 @@ Todo es de Él y para Él`
         chorus:[
             {
                 choir:
-`Nadie es como El, oh gran YO SO`,
+`Nadie es como El, oh gran YO SOY`,
                 chorus_position_ignore: [1,3,4,5]
             },
         ],
@@ -678,7 +692,7 @@ Porque agradecido estoy
 por tu inmenso amor
 Te alabaré, te glorificaré
 Porque tu hijo soy, te alabaré`,
-                chorus_position_ignore: [1,3,4]
+                chorus_position_ignore: [1]
             },
         ],
     },
@@ -722,6 +736,7 @@ hacia Cruz//.`
 El mismo amor que al ciego vista da.
 Nos llamas con nombre hoy.
 Tu nos llamas por nombre hoy.
+
 El mismo Dios que los cielos formo.
 El mismo Dios que en la cruz murió.
 Nos llama con nombre hoy.
@@ -780,7 +795,7 @@ Tu generoso amor.`
 mi lugar Él tomó
 Mi castigo sufrió,
 En esa Cruz halle perdón`,
-                chorus_position_ignore: [2,3,4]
+                chorus_position_ignore: [4]
             },
             {
                 choir:
@@ -1046,7 +1061,19 @@ Y haz llover, muestra tu gloria,
 Te queremos ver 
 Y al adorarte, exáltate 
 /Glorifícate/`,
-                chorus_position_ignore: [1,2,3]
+                chorus_position_ignore: [1,2,3,5]
+            },
+            {
+                choir:
+`//Glorifícate 
+Abre los cielos 
+Y haz llover,
+Muestra tu gloria
+Te queremos ver 
+Y al adorarte, exáltate//
+
+//Glorifícate//`,
+                chorus_position_ignore: [1,2,3,4]
             },
         ],
     },
@@ -1062,6 +1089,7 @@ Y al adorarte, exáltate
 `¿Cómo puede ser que el bueno y justo
 Se hizo hombre y fuera a morir 
 por el más vil pecador?
+
 ¿Cómo siendo yo su enemigo 
 el sufrimiento en mi lugar tomó 
 en aquella cruz?`
@@ -1070,7 +1098,8 @@ en aquella cruz?`
                 paragraph:
 `¿Como es posible que en Jesús 
 Como a su hijo Él me recibió 
-y su nombre llevo hoy? 
+y su nombre llevo hoy?
+
 Su perfecta vida de obediencia 
 al Padre Al yo creer, 
 Él me otorgó y perdón me dio.`
@@ -1353,7 +1382,15 @@ Todo tuyo quiero ser`
 Límpiame de toda mi maldad. 
 Traigo a ti mi vida para ser, Señor, 
 Tuya por la eternidad.`,
-                chorus_position_ignore: []
+                chorus_position_ignore: [5]
+            },
+            {
+                choir:
+`Lávame en tu sangre, Salvador; 
+Límpiame de toda mi maldad. 
+/ Traigo a ti mi vida para ser, Señor, 
+Tuya por la eternidad. /`,
+                chorus_position_ignore: [1,2,3,4]
             },
         ],
     },
@@ -1444,6 +1481,7 @@ Y rompiendo las cadenas por amor.`
 Proclamamos hoy aquí.
 Que pagaremos el precio de ser
 Todos un corazón en Jesús.
+
 Y si las tinieblas militan
 Y nos quieran separar
 Con nuestros ojos en Cristo
@@ -1552,15 +1590,18 @@ Mientras lata mi corazón te bendeciré//.`,
         paragraphs: [
             {
                 paragraph:
-`Mirad cual amor nos ha dado el Padre
-al hacernos hijos de Dios`
+`Mirad cual amor 
+nos ha dado el Padre
+al hacernos 
+hijos de Dios`
             },
         ],
 
         chorus:[
             {
                 choir:
-`///Para ser llamados hijos de Dios///`,
+`///Para ser llamados
+hijos de Dios///`,
                 chorus_position_ignore: []
             },
         ],
@@ -1576,6 +1617,7 @@ al hacernos hijos de Dios`
                 paragraph:
 `Hombres que nunca se postran
 Que no se conforman al mundo y su placer.
+
 Hombres de vida consagrada
 Y corazón que busca tu gloria conocer.`
             },
@@ -1583,6 +1625,7 @@ Y corazón que busca tu gloria conocer.`
                 paragraph:
 `Hombres creen tu palabra llenos de valor
 Y profunda convicción
+
 Hombres firmes en la roca que tu
 Verdad proclaman con gran pasión`
             },
@@ -1590,6 +1633,7 @@ Verdad proclaman con gran pasión`
                 paragraph:
 `Fieles discípulos de Cristo
 Que al reino de los cielos le dieron su lealtad
+
 Siervos que ante él se postran
 Y por el evangelio su vida dan`
             },
@@ -1664,8 +1708,9 @@ nunca en la lucha desmayar podré`,
                 choir:
 `Alelu., alelu.,
 nunca en la lucha desmayar podre
+
 / Alelu., aleluya,
-nunca en la lucha desmayar podre/`,
+/ nunca en la lucha desmayar podre / /`,
                 chorus_position_ignore: [1,2]
             },
         ],
@@ -1724,19 +1769,21 @@ Tu pueblo cantara`
         chorus:[
             {
                 choir:
-`¡Oh amor de Dios! Brotando está,
+`¡Oh amor de Dios!
+Brotando está,
 Inmensurable eternal;
 Por las edades durará
 Inagotable raudal.`,
-                chorus_position_ignore: [6]
+                chorus_position_ignore: [1,3,5,6]
             },
             {
                 choir:
-`/¡Oh amor de Dios! Brotando está,
+`/¡Oh amor de Dios!
+Brotando está,
 Inmensurable eternal;
 Por las edades durará
 Inagotable raudal./`,
-                chorus_position_ignore: [1,2,3.4,5]
+                chorus_position_ignore: [1,2,3,4,5]
             },
         ],
     },
@@ -2328,16 +2375,14 @@ Por amor de tu nombre; Santo nombre.`
 A que por bien esperamos,
 El prometido en el principio.
 Y vimos tu rostro llena de gracia y verdad.
-En Jesús hijo de Dios SANTO DIOS.
-`
+En Jesús hijo de Dios SANTO DIOS.`
             },
             {
                 paragraph:
 `Nos aferramos a tus palabras,
 Y creemos en tus promesas,
 Y adoramos hoy tu nombre;
-SANTO NOMBRE.
-`
+SANTO NOMBRE.`
             },
         ],
 
@@ -2347,10 +2392,11 @@ SANTO NOMBRE.
 `YAHWEH, YAHWEH.
 Poderoso, Dios eterno ,verdadero.
 ¿Ohh quién es como tú?
+
 YAHWEH, YAHWEH.
 Tú nombre permanecerá para siempre
 Ohhh YAHWEH`,
-                chorus_position_ignore: [3]
+                chorus_position_ignore: []
             },
             {
                 choir:
@@ -2416,33 +2462,4 @@ Tu nombre alabaré//`,
             },
         ],
     },
-//     {
-//         id: "50",
-//         num_song: "50",
-//         title_es: "",
-//         description_es: "...",
-
-//         paragraphs: [
-//             {
-//                 paragraph:
-// ``
-//             },
-//             {
-//                 paragraph:
-// ``
-//             },
-//             {
-//                 paragraph:
-// ``
-//             },
-//         ],
-
-//         chorus:[
-//             {
-//                 choir:
-// ``,
-//                 chorus_position_ignore: []
-//             },
-//         ],
-//     },
 ]
