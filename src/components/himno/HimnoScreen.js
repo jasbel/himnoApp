@@ -64,6 +64,7 @@ const HimnoScreen = (props) => {
     }
 
     useEffect(() => {
+
         navigation.setOptions({
             title: titleApp,
             headerTitleStyle: {
@@ -88,19 +89,29 @@ const HimnoScreen = (props) => {
 
             <HimnoSearch onChange={handleSearch}/>
 
+            {  }
+
             <FlatList
                 style = {styles.contentItems}
                 data = { !modeSearch ? noFavoritesData : dataSearch}
                 showsVerticalScrollIndicator={false}
                 renderItem={({item, index}) =>
                     <>
-                        {!modeSearch && index === 0 && <FavoriteScreen navigation={navigation} favorites={favorites} /> }
+                        { !modeSearch && index === 0 &&
+                                <FavoriteScreen navigation={navigation} favorites={favorites} />
+                        }
+
+
 
                         <HimnoItem key={item.id} item={item} onPress={ () => handlePress(item) }/>
                     </>
                 }
 
             />
+            
+            { !noFavoritesData.length &&
+                <FavoriteScreen navigation={navigation} favorites={favorites} />
+            }
         </View>
     )
 }

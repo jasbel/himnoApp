@@ -84,7 +84,7 @@ const HimnoSong = (props) => {
     }
 
     function joinChoirs(filter) {
-        return filter.length >= 2 ? 
+        return filter.length >= 2 ?
             filter.reduce((accumulatorChoir, currentChoir, currentIndex) =>
                 accumulatorChoir  + currentChoir.choir + (filter.length !== currentIndex + 1 ? '\n\n' : ''), '' )
             :
@@ -94,7 +94,6 @@ const HimnoSong = (props) => {
     const getIconChoir = () => {
         return require('himnoapp/src/assets/images/verse.png');
     }
-
 
     const getIconStar = () => {
         if (isFavorite) return require('himnoapp/src/assets/images/star.png');
@@ -123,7 +122,7 @@ const HimnoSong = (props) => {
     return (
         <View style={styles.container}>
             <View style={styles.spaceTop}>
-                <LinearGradient 
+                <LinearGradient
                     style={styles.spaceLinearGradient}
                     start={{x: 0, y: 0}} end={{x: 0, y: 1.0}}
                     colors={[Colors.bkgWhite, Colors.bkgTransparentWhite]}

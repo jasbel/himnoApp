@@ -1897,10 +1897,10 @@ resucitó en gloriosa luz`
             },
             {
                 paragraph:
-`En un sepulcro el yació,
-el cuerpo inerte del Señor.
-Mas el tercer día llegó
-resucitó en gloriosa luz`
+`Desde al nacer hasta el morir
+Sea el poder de Cristo en mi.
+No temeré seguro estoy
+mi vida yo a Él le doy.`
             },
         ],
 
@@ -1972,7 +1972,7 @@ Y me guiara feliz.`
 Brillante este cual sol.
 Y aun cantare por siempre aquí
 //Su amor que me salvo//.`
-            },
+            }
         ],
 
         chorus:[
@@ -1982,7 +1982,15 @@ Y aun cantare por siempre aquí
 Y mis cadenas ya Él rompió
 Y como un rio fluye el perdón
 Sublime gracia inmenso amor.`,
-                chorus_position_ignore: [2]
+                chorus_position_ignore: [1, 3]
+            },
+            {
+                choir:
+`/ Ya libre soy Dios me salvo,
+Y mis cadenas ya Él rompió
+Y como un rio fluye el perdón
+Sublime gracia inmenso amor. /`,
+                chorus_position_ignore: [1,2,4]
             },
             {
                 choir:
@@ -2137,35 +2145,37 @@ Y Él abrió mi corazón.`
 `Nada bueno en mi yo encuentro
 Mi virtud viene de Él
 Y cuando en Él yo esté completo
-//Para siempre cantaré//`
+/ Para siempre cantaré /`
             },
             {
                 paragraph:
 `Jesucristo es mi deleite
 Grande gozo tengo en Él
 Nada más me satisface
-//Cristo mi tesoro es//
-`
+/ Cristo mi tesoro es /`
             },
         ],
 
         chorus:[
             {
                 choir:
-`/Cantaré// El cordero digno es
+`/ Cantaré /
+El cordero digno es
 Salvador pagó mi deuda
 Se lo debo todo a Él
-//Cantaré//
+
+/ Cantaré /
 Siempre yo le alabaré
 El mis manchas ha lavado
-//Suyo siempre yo seré//`,
+/ Suyo siempre yo seré /`,
                 chorus_position_ignore: [1,2,3]
             },
             {
                 choir:
 `Todo lo pago quien por mi murió
 Y mis manchas él lavo
-//Con sangre carmesí//`,
+
+/ Con sangre carmesí /`,
                 chorus_position_ignore: [1,2,3,4]
             },
         ],
@@ -2181,6 +2191,7 @@ Y mis manchas él lavo
                 paragraph:
 `//Tú eres mi respirar//
 Dios tu presencia vive en mi.
+
 //Tú eres mi pan Señor//
 Dios tus palabras son para mi.`
             },
@@ -2189,8 +2200,10 @@ Dios tus palabras son para mi.`
         chorus:[
             {
                 choir:
-`Y yo…….. te anhelo Señor…..
-Estoy…. Perdido sin ti….`,
+`Y yo……..
+te anhelo Señor…..
+Estoy….
+Perdido sin ti….`,
                 chorus_position_ignore: []
             },
         ],
@@ -2276,7 +2289,7 @@ compara con la gloria que ha de venir.
 Se haga tu perfecta voluntad, en mí.
 Daré gloria a tu nombre a través de mi aflicción
 Dame tu gracia para ver: que vivir es Cristo.`,
-                chorus_position_ignore: []
+                chorus_position_ignore: [1,2]
             },
             {
                 choir:
@@ -2340,6 +2353,7 @@ Vivir por fe y no por ver`,
 Sus promesas cumple nuestro Dios
 Nos movemos solo por la fe en él
 Vivir por fe y no por ver./
+
 /Vivir por fe y no por ver./`,
                 chorus_position_ignore: [1,2]
             },
@@ -2415,7 +2429,7 @@ Ohhh ¡YAHWEH!`,
         paragraphs: [
             {
                 paragraph:
-`CORO`
+``
             },
             {
                 paragraph:
@@ -2450,7 +2464,7 @@ Mi alma cantará de tu amor sin final.
 Con todo mi corazón.
 De tu grande amor cantaré,
 Tu nombre alabaré.`,
-                chorus_position_ignore: [1,4]
+                chorus_position_ignore: [4]
             },
             {
                 choir:
