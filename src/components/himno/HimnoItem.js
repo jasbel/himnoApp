@@ -1,10 +1,8 @@
 import React, { useEffect, useState } from 'react'
-import { Dimensions, Image, Pressable, StyleSheet, Text, View } from 'react-native'
+import { Image, Pressable, StyleSheet, Text, View } from 'react-native'
 import Storage from '../../libs/storage';
 import Colors from '../../res/colors';
-import { responsive } from '../../res/responsive';
-
-const widthScreen = Dimensions.get('window').width;
+import { responsive, widthScreen } from '../../res/responsive';
 
 const HimnoItem = ({item, onPress}) => {
 

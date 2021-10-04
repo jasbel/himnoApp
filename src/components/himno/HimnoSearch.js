@@ -1,9 +1,9 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { StyleSheet, Text, TextInput, View } from 'react-native'
 import LinearGradient from 'react-native-linear-gradient'
 import Colors from '../../res/colors'
 
-const HimnoSearch = ({onChange}) => {
+const HimnoSearch = ({onChange, modeSearch}) => {
 
     const [query, setQuery] = useState('')
 
@@ -14,6 +14,10 @@ const HimnoSearch = ({onChange}) => {
             onChange(query);
         }
     }
+
+    useEffect(() => {
+        !modeSearch && setQuery('');
+    }, [modeSearch])
 
 
     return (

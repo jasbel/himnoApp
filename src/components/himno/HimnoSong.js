@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Alert, Dimensions, FlatList, Image, Pressable, StyleSheet, Text, View } from 'react-native';
+import { Alert, Button, Dimensions, FlatList, Image, Pressable, StyleSheet, Text, View } from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import Storage from '../../libs/storage';
 import Colors from '../../res/colors';
@@ -7,12 +7,18 @@ import { responsive } from '../../res/responsive';
 
 const widthScreen = Dimensions.get('window').width;
 
+const initialValues = {
+    fontSize: responsive(28, 23, widthScreen),
+    fontSizeIncremental: 1
+}
+
 const HimnoSong = (props) => {
 
     const {route, navigation} = props;
     const [isFavorite, setIsFavorite] = useState(false);
     const [himno, setHimno] = useState(route.params.himno);
     const {paragraphs, chorus} = himno;
+    const [customFontSize, setCustomFontSize] = useState(initialValues.fontSize)
 
     const toggleFavorite = () => {
         if(isFavorite) { removeFavorite() }
@@ -101,6 +107,10 @@ const HimnoSong = (props) => {
         if (!isFavorite) return require('himnoapp/src/assets/images/unstar-white.png');
     }
 
+    const onPressFontSize = (valueFontSize) => {
+        setCustomFontSize((customFontSize) => customFontSize + valueFontSize )
+    }
+
     useEffect(() => {
         const { himno } = route.params;
         navigation.setOptions({
@@ -108,7 +118,23 @@ const HimnoSong = (props) => {
             headerStyle: {
                 backgroundColor: Colors.bkgDark,
             },
-            headerTintColor: Colors.txtWhite
+            headerTintColor: Colors.txtWhite,
+            headerRight: () => (
+                <View style={styles.headerRightContainer}>
+                    <Button
+                        style={styles.headerButton}
+                        color={Colors.bkgTransparentPrimary}
+                        onPress={() => onPressFontSize(-initialValues.fontSizeIncremental)}
+                        title="-T"
+                    />
+                    <Button
+                        style={styles.headerButton}
+                        color={Colors.bkgTransparentPrimary}
+                        onPress={() => onPressFontSize(initialValues.fontSizeIncremental)}
+                        title="+T"
+                    />
+                </View>
+            )
         })
 
         setHimno( himno);
@@ -135,7 +161,17 @@ const HimnoSong = (props) => {
                 keyExtractor={( item , index) => index.toString()}
                 renderItem={({item, index}) =>
                     <View key={item.key}>
-                        <Text style={ [styles.paragraph] }> {item.paragraph} {"\n"}</Text>
+                        <Text
+                            style={ [
+                                styles.paragraph,
+                                {
+                                    fontSize: customFontSize,
+                                    lineHeight: customFontSize
+                                }
+                            ] }
+                        >
+                            {item.paragraph} {"\n"}
+                        </Text>
                         { item.choir !==''  &&
                             <>
                                 <View style={styles.containerIconChoir}>
@@ -144,7 +180,15 @@ const HimnoSong = (props) => {
                                         source={ getIconChoir()}
                                     />
                                 </View>
-                                <Text style={ [ styles.choir ]}>
+                                <Text
+                                    style={ [
+                                        styles.choir,
+                                        {
+                                            fontSize: customFontSize,
+                                            lineHeight: customFontSize
+                                        }
+                                    ]}
+                                >
                                         {item.choir} {"\n"}
                                 </Text>
                             </>
@@ -173,6 +217,10 @@ const styles = StyleSheet.create({
         paddingRight: 12,
         backgroundColor: Colors.bkgWhite,
         position: 'relative',
+    },
+    headerButton: {},
+    headerRightContainer: {
+        flexDirection: 'row'
     },
     spaceTop: {
         position: 'absolute',
@@ -205,8 +253,6 @@ const styles = StyleSheet.create({
     },
     paragraph: {
         fontFamily: 'sans-serif-medium',
-        fontSize: responsive(28, 23, widthScreen),
-        lineHeight: responsive(28, 24, widthScreen),
         textAlign: 'center',
         color: Colors.txtBlack
     },
@@ -222,8 +268,6 @@ const styles = StyleSheet.create({
         height: 15
     },
     choir: {
-        fontSize: responsive(28, 23, widthScreen),
-        lineHeight: responsive(28, 24, widthScreen),
         textAlign: 'center',
         fontWeight: 'bold',
         fontStyle: 'italic',

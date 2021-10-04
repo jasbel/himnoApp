@@ -43,12 +43,12 @@ const HimnoScreen = (props) => {
     }
 
     const handlePress = ( himno ) => {
+
         props.navigation.navigate('HimnoSong', { himno });
+        setModeSearch(false)
     }
 
     const handleSearch = (query) => {
-
-        // console.log(query ? `hay : ${query} ` : `no hay:  ${query}`);
 
         query && !modeSearch && setModeSearch(true);
         !query && setModeSearch(false);
@@ -64,7 +64,6 @@ const HimnoScreen = (props) => {
     }
 
     useEffect(() => {
-
         navigation.setOptions({
             title: titleApp,
             headerTitleStyle: {
@@ -87,9 +86,7 @@ const HimnoScreen = (props) => {
     return (
         <View style={styles.container}>
 
-            <HimnoSearch onChange={handleSearch}/>
-
-            {  }
+            <HimnoSearch onChange={handleSearch} modeSearch={modeSearch}/>
 
             <FlatList
                 style = {styles.contentItems}
@@ -101,17 +98,15 @@ const HimnoScreen = (props) => {
                                 <FavoriteScreen navigation={navigation} favorites={favorites} />
                         }
 
-
-
                         <HimnoItem key={item.id} item={item} onPress={ () => handlePress(item) }/>
                     </>
                 }
-
             />
-            
+
             { !noFavoritesData.length &&
                 <FavoriteScreen navigation={navigation} favorites={favorites} />
             }
+
         </View>
     )
 }
