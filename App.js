@@ -1,6 +1,6 @@
 import { NavigationContainer } from '@react-navigation/native';
 import React from 'react';
-import HimnoStack from './src/components/himno/HimnoStack';
+import HimnoStack from './src/navigate/HimnoStack';
 
 const App = () => {
 

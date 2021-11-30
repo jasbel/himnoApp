@@ -1,1 +1,1 @@
-export const titleApp = "Himnos y Canticos";
+export const titleApp = 'Himnos y Canticos';
