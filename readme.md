@@ -79,3 +79,8 @@ c:Atlas Connect -->
 https://play.google.com/store/apps/details?id=com.himnoapp
 
 ### Notificacion
+
+### Reset Cache
+cd android & gradlew clean
+rm -rf node_modules && npm install
+npm start -- --reset-cache
