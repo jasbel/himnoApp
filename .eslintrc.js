@@ -3,6 +3,7 @@ module.exports = {
   extends: '@react-native-community',
   rules: {
     'prettier/prettier': 0,
-    // 'curly': 'none'
+    curly: ['warn', 'multi'],
+    // quotes: ["warn", ["double", "single"]],
   },
 };

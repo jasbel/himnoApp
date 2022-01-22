@@ -4,7 +4,7 @@ import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
 import Colors from '../res/colors';
 import {percent} from '../res/responsive';
 
-const HimnoHomeScreen = props => {
+const HimnoHomeScreen = (props: { navigation: any; }) => {
   const {navigation} = props;
 
   const getLogo = () => {
@@ -30,7 +30,7 @@ const HimnoHomeScreen = props => {
       </Pressable>
 
       <View style={styles.footer}>
-        <Text style={styles.textFooter}> Version 1.8.0. By JAsbel </Text>
+        <Text style={styles.textFooter}> Version 1.9.0. By JAsbel & Kairos </Text>
       </View>
     </View>
   );

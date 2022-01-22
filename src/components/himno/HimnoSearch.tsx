@@ -1,17 +1,20 @@
 import React, {useEffect, useState} from 'react';
-import {Platform, StyleSheet, Text, TextInput, View} from 'react-native';
+import {Platform, StyleSheet, TextInput, View} from 'react-native';
 import LinearGradient from 'react-native-linear-gradient';
 import Colors from '../../res/colors';
 
-const HimnoSearch = ({onChange, modeSearch}) => {
-  const [query, setQuery] = useState('');
+interface Props {
+  onChange: (query: string) => void;
+  modeSearch: boolean;
+}
 
-  const handleText = query => {
-    setQuery(query);
+const HimnoSearch = ({onChange, modeSearch}: Props) => {
+  const [query, setQuery] = useState('' as string);
 
-    if (onChange) {
-      onChange(query);
-    }
+  const handleText = (cQuery: string) => {
+    setQuery(cQuery);
+
+    if (onChange) onChange(cQuery);
   };
 
   useEffect(() => {
@@ -23,7 +26,7 @@ const HimnoSearch = ({onChange, modeSearch}) => {
       <TextInput
         style={[
           styles.textInput,
-          Platform.OS == 'ios' ? styles.textInputIOS : styles.textInputAndroid,
+          Platform.OS === 'ios' ? styles.textInputIOS : styles.textInputAndroid,
         ]}
         onChangeText={handleText}
         value={query}

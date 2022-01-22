@@ -1,7 +1,7 @@
-import React, { useState } from 'react'
-import { Image, StyleSheet, Text, View } from 'react-native'
-import Colors from '../../res/colors'
-import { responsive, widthScreen } from '../../res/responsive';
+import React from 'react';
+import {Image, StyleSheet, Text, View} from 'react-native';
+import Colors from '../../res/colors';
+import {widthScreen} from '../../res/responsive';
 
 interface Props {
   item: any;
@@ -9,13 +9,7 @@ interface Props {
   customFontSize?: number;
 }
 
-const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
-  const initialValues = {
-    fontSize: responsive(28, 23, widthScreen),
-    fontSizeIncremental: 1,
-  };
-
-
+const ItemHimnoLetter = ({item, isFinalVerse, customFontSize}: Props) => {
   const getIconChoir = () => {
     return require('himnoapp/src/assets/images/verse.png');
   };
@@ -49,15 +43,12 @@ const ItemHimnoLetter = ({ item, isFinalVerse, customFontSize }: Props) => {
           </Text>
         </>
       )}
-      {isFinalVerse && (
-        <View style={styles.spaceBottom} />
-      )}
+      {isFinalVerse && <View style={styles.spaceBottom} />}
     </View>
-  )
-}
+  );
+};
 
-export default ItemHimnoLetter
-
+export default ItemHimnoLetter;
 
 const styles = StyleSheet.create({
   container: {

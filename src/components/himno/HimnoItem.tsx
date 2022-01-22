@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Image, Pressable, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
+import { Image, StyleSheet, Text, TouchableOpacity, View } from 'react-native';
 import Storage from '../../libs/storage';
 import Colors from '../../res/colors';
 import { responsive, widthScreen } from '../../res/responsive';
