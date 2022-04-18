@@ -1,6 +1,7 @@
 import React, {useEffect, useState} from 'react';
 import {Platform, StyleSheet, TextInput, View} from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
+// import LinearGradient from 'react-native-linear-gradient';
+import { opacityColor } from '../../helpers/helper';
 import Colors from '../../res/colors';
 
 interface Props {
@@ -33,12 +34,12 @@ const HimnoSearch = ({onChange, modeSearch}: Props) => {
         placeholder={'Buscar...'}
         placeholderTextColor={Colors.txtDark}
       />
-      <LinearGradient
+      {/* <LinearGradient
         style={styles.spaceLinearGradient}
         start={{x: 0, y: 0}}
         end={{x: 0, y: 1.0}}
         colors={[Colors.bkgWhite, '#F6F6F611']}
-      />
+      /> */}
     </View>
   );
 };
@@ -48,6 +49,8 @@ const styles = StyleSheet.create({
     paddingTop: 12,
     paddingBottom: 8,
     position: 'relative',
+    borderBottomColor: opacityColor(Colors.bkgWhite, 0.5),
+    borderBottomWidth: 4,
   },
   spaceLinearGradient: {
     height: 0,

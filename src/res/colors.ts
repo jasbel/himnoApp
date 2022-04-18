@@ -9,7 +9,7 @@ const Colors = {
     red: '#F4481E',
     grayLight: '#E0E9ED',
     blueLight: '#336699',
-    dark: '#000',
+    dark: '#000000',
     light: '#F6F6F6',
     white: '#fff',
 

@@ -9,11 +9,12 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
+// import LinearGradient from 'react-native-linear-gradient';
 import ItemHimnoLetter from '../components/himno/ItemHimnoLetter';
 import Storage from '../libs/storage';
 import Colors from '../res/colors';
 import {responsive} from '../res/responsive';
+import { opacityColor } from '../helpers/helper';
 
 const widthScreen = Dimensions.get('window').width;
 
@@ -165,12 +166,12 @@ const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
   return (
     <View style={styles.container}>
       <View style={styles.spaceTop}>
-        <LinearGradient
+        {/* <LinearGradient
           style={styles.spaceLinearGradient}
           start={{x: 0, y: 0}}
           end={{x: 0, y: 1.0}}
           colors={[Colors.bkgWhite, Colors.bkgTransparentWhite]}
-        />
+        /> */}
       </View>
       <FlatList
         style={styles.content}
@@ -209,6 +210,8 @@ const styles = StyleSheet.create({
     top: 0,
     width: widthScreen,
     zIndex: 10,
+    borderBottomColor: opacityColor(Colors.bkgWhite, 0.5),
+    borderBottomWidth: 4,
   },
   spaceLinearGradient: {
     height: 18,
