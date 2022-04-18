@@ -31,7 +31,7 @@ class Storage {
         }
     };
 
-    multiGet = async (keys: string[]) => {
+    multiGet = async (keys: any[]): Promise<any> => {
         try {
             return await AsyncStorage.multiGet(keys);
         } catch (e: any) {

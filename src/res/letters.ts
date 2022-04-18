@@ -10,10 +10,8 @@ export const songs: Songs[] = [
 
     paragraphs: [
       {
-        paragraph: `Fui hecho justo sin merecerlo,
-toda mi culpa ya cubierta esta.
-Toda mi deuda quedó saldada,
-por la persona del cordero inmortal.`,
+        paragraph: 
+        'Fui hecho justo sin merecerlo\ntoda mi culpa ya cubierta esta.\nToda mi deuda quedó saldada,\npor la persona del cordero inmortal.',
       },
       {
         paragraph: `Regenerado y transformado,
@@ -1486,22 +1484,22 @@ hijos de Dios///`,
     id: '34',
     num_song: '34',
     title_es: 'NO HAY OTRO',
-    description_es: 'Hombres que nunca se postran...',
+    description_es: 'Un pueblo que nunca se postran...',
     musicalNote: 'C|Do',
 
     paragraphs: [
       {
-        paragraph: `Hombres que nunca se postran
+        paragraph: `Un pueblo que nunca se postran
 Que no se conforman al mundo y su placer.
 
-Hombres de vida consagrada
+Un pueblo de vida consagrada
 Y corazón que busca tu gloria conocer.`,
       },
       {
-        paragraph: `Hombres creen tu palabra llenos de valor
+        paragraph: `Un pueblo creen tu palabra llenos de valor
 Y profunda convicción
 
-Hombres firmes en la roca que tu
+Un pueblo firmes en la roca que tu
 Verdad proclaman con gran pasión`,
       },
       {

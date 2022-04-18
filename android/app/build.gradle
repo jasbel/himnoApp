@@ -134,8 +134,8 @@ android {
         applicationId "com.himnoapp"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
-        versionCode 11
-        versionName "2.8.0"
+        versionCode 12
+        versionName "2.8.1"
     }
     signingConfigs {
         release {

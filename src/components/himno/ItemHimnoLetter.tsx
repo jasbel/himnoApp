@@ -24,7 +24,7 @@ const ItemHimnoLetter = ({item, isFinalVerse, customFontSize}: Props) => {
             lineHeight: customFontSize,
           },
         ]}>
-        {item.paragraph} {'\n'}
+        {`${item.paragraph}`} {'\n'}
       </Text>
       {item.choir !== '' && (
         <>
