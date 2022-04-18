@@ -22,7 +22,7 @@ const initialValues = {
   fontSizeIncremental: 1,
 };
 
-const HimnoSongScreen = props => {
+const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
   const {route, navigation} = props;
   const [isFavorite, setIsFavorite] = useState(false);
   const [himno, setHimno] = useState(route.params.himno);
@@ -43,7 +43,7 @@ const HimnoSongScreen = props => {
 
     const stored = await Storage.instance.store(key, himnoStr);
 
-    if (stored) setIsFavorite(true);
+    if (stored) {setIsFavorite(true);}
   };
 
   const removeFavorite = async () => {
@@ -81,12 +81,12 @@ const HimnoSongScreen = props => {
   };
 
   /* TODO: mejorar la respuesta de indefinido , array vacio, o string vacio en choir y chorus */
-  const verses = paragraphs.map((item, i) => {
+  const verses = paragraphs.map((item: any, i: number) => {
     let choir = '';
 
     let filter;
     if (chorus !== undefined) {
-      filter = chorus.filter(choirItem =>
+      filter = chorus.filter((choirItem: { chorus_position_ignore: any; }) =>
         compareArrayIgnore(choirItem.chorus_position_ignore, i + 1),
       );
       choir = filter.length && joinChoirs(filter);
@@ -97,14 +97,14 @@ const HimnoSongScreen = props => {
     return {...item, choir};
   });
 
-  function compareArrayIgnore(arr, val) {
-    return arr.find(arrValue => arrValue === val) ? false : true;
+  function compareArrayIgnore(arr: any[], val: any) {
+    return arr.find((arrValue: any) => arrValue === val) ? false : true;
   }
 
-  function joinChoirs(filter) {
+  function joinChoirs(filter: any[]) {
     return filter.length >= 2
       ? filter.reduce(
-          (accumulatorChoir, currentChoir, currentIndex) =>
+          (accumulatorChoir: any, currentChoir: { choir: any; }, currentIndex: number) =>
             accumulatorChoir +
             currentChoir.choir +
             (filter.length !== currentIndex + 1 ? '\n\n' : ''),
@@ -114,14 +114,14 @@ const HimnoSongScreen = props => {
   }
 
   const getIconStar = () => {
-    if (isFavorite) return require('himnoapp/src/assets/images/star.png');
+    if (isFavorite) {return require('himnoapp/src/assets/images/star.png');}
 
     if (!isFavorite)
-      return require('himnoapp/src/assets/images/unstar-white.png');
+      {return require('himnoapp/src/assets/images/unstar-white.png');}
   };
 
-  const onPressFontSize = valueFontSize => {
-    setCustomFontSize(cFontSize => cFontSize + valueFontSize);
+  const onPressFontSize = (valueFontSize: number) => {
+    setCustomFontSize((cFontSize: any) => cFontSize + valueFontSize);
   };
 
   const getInit = () => {
@@ -136,13 +136,11 @@ const HimnoSongScreen = props => {
       headerRight: () => (
         <View style={styles.headerRightContainer}>
           <Button
-            style={styles.headerButton}
             color={Colors.bkgTransparentPrimary}
             onPress={() => onPressFontSize(-initialValues.fontSizeIncremental)}
             title="-T"
           />
           <Button
-            style={styles.headerButton}
             color={Colors.bkgTransparentPrimary}
             onPress={() => onPressFontSize(initialValues.fontSizeIncremental)}
             title="+T"
@@ -203,7 +201,6 @@ const styles = StyleSheet.create({
     backgroundColor: Colors.bkgWhite,
     position: 'relative',
   },
-  headerButton: {},
   headerRightContainer: {
     flexDirection: 'row',
   },

@@ -3,19 +3,21 @@ import {FlatList, StyleSheet, View} from 'react-native';
 import Colors from '../res/colors';
 import HimnoSearch from '../components/himno/HimnoSearch';
 import {songs} from '../res/letters';
-import HimnoItem from '../components/himno/HimnoItem.tsx';
+import HimnoItem from '../components/himno/HimnoItem';
 import {titleApp} from '../res/constant';
 import FavoriteScreen from '../components/favorite/FavoriteScreen';
 import Storage from '../libs/storage';
 import {removeAccents} from '../res/removeAccents';
+import { Songs } from '../types/types';
+import { responsive } from '../res/responsive';
 
-const HimnoScreen = props => {
+const HimnoScreen = (props: { navigation: any; }) => {
   const {navigation} = props;
   const [dataSearch, setDataSearch] = useState(songs);
-  // eslint-disable-next-line no-unused-vars
-  const [data, setData] = useState(songs);
-  const [noFavoritesData, setNoFavoriteData] = useState([]);
-  const [favorites, setFavorites] = useState([]);
+  // const [data] = useState(songs);
+  const data = songs;
+  const [noFavoritesData, setNoFavoriteData] = useState([] as any);
+  const [favorites, setFavorites] = useState([] as any);
   const [modeSearch, setModeSearch] = useState(false);
 
   const getHimnos = async () => {
@@ -23,10 +25,10 @@ const HimnoScreen = props => {
       const allKeys = await Storage.instance.getAllKeys();
       const keys = allKeys.filter(key => key.includes('favorite-'));
       const favs = await Storage.instance.multiGet(keys);
-      const cFavorites = favs.map(fav => JSON.parse(fav[1]));
+      const cFavorites = favs.map((fav: string[]) => JSON.parse(fav[1]));
 
       const dataNotFavorite = data.filter(himnoItem => {
-        const himno = cFavorites.filter(itemFav => {
+        const himno = cFavorites.filter((itemFav: { id: string; }) => {
           return itemFav.id === himnoItem.id;
         });
 
@@ -39,12 +41,12 @@ const HimnoScreen = props => {
     }
   };
 
-  const handlePress = himno => {
+  const handlePress = (himno: Songs) => {
     props.navigation.navigate('HimnoSong', {himno});
     setModeSearch(false);
   };
 
-  const handleSearch = query => {
+  const handleSearch = (query: string) => {
     query && !modeSearch && setModeSearch(true);
     !query && setModeSearch(false);
 
@@ -70,7 +72,7 @@ const HimnoScreen = props => {
       headerTitleStyle: {
         fontWeight: 'bold',
         textTransform: 'uppercase',
-        fontSize: 23,
+        fontSize: responsive(23, 20),
       },
     });
     const unsubscribe = navigation.addListener('focus', () => getHimnos());
@@ -95,7 +97,7 @@ const HimnoScreen = props => {
         data={!modeSearch ? noFavoritesData : dataSearch}
         showsVerticalScrollIndicator={false}
         renderItem={({item, index}) => (
-          <>
+          <View>
             {!modeSearch && index === 0 && (
               <FavoriteScreen navigation={navigation} favorites={favorites} />
             )}
@@ -105,7 +107,7 @@ const HimnoScreen = props => {
               item={item}
               onPress={() => handlePress(item)}
             />
-          </>
+          </View>
         )}
       />
 
@@ -115,6 +117,8 @@ const HimnoScreen = props => {
     </View>
   );
 };
+
+export default HimnoScreen;
 
 const styles = StyleSheet.create({
   container: {
@@ -127,5 +131,3 @@ const styles = StyleSheet.create({
     paddingTop: 12,
   },
 });
-
-export default HimnoScreen;

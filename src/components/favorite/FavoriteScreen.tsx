@@ -1,11 +1,11 @@
 import React from 'react';
 import {FlatList, StyleSheet, View} from 'react-native';
 import Colors from '../../res/colors';
-import HimnoItem from '../himno/HimnoItem.tsx';
+import HimnoItem from '../himno/HimnoItem';
 import FavoriteEmptyState from './FavoriteEmptyState';
 
-const FavoriteScreen = ({navigation, favorites}) => {
-  const handlePress = himno => {
+const FavoriteScreen = ({navigation, favorites}: any) => {
+  const handlePress = (himno: any) => {
     navigation.navigate('HimnoSong', {himno});
   };
 
