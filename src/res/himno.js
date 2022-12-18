@@ -1,7 +1,7 @@
 [
   {
-    title: ' 1  Ujchasqas Chimpamuyku',
-    note: ' (Re menor)', //(note)
+    title_es: ' 1  Ujchasqas Chimpamuyku',
+    musicalNote: ' (Re menor)', //(note)
     paragraph: {
       _1: ' Ujchasqas chimpamuyku Qanman, Diosníy Tatáy,', //(1)
       _2: ' Tukuy reverenciawan Qanmanta uyarikoj.', //(2)
@@ -50,8 +50,8 @@
     },
   },
   {
-    title: ' 2  Yupaychana Diosninchejta',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 2  Yupaychana Diosninchejta',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Yupaychana Diosninchejta,', //(1)
       _2: ' Paymanta bendición jamun.', //(2)
@@ -76,8 +76,8 @@
     },
   },
   {
-    title: ' 3  Yupaychay Qan Almáy',
-    note: ' (Re Mayor) T.H.C .', //(note)
+    title_es: ' 3  Yupaychay Qan Almáy',
+    musicalNote: ' (Re Mayor) T.H.C .', //(note)
     paragraph: {
       _1: ' Yupaychay, qan almáy, Señorniykita.', //(1)
       _2: " Sonqoy sinch'i kashan, Señor, takisaj.", //(2)
@@ -134,8 +134,8 @@
     },
   },
   {
-    title: ' 4  Gloria Kachun Jesusman',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 4  Gloria Kachun Jesusman',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " /Gloria kachun Jesusman k'ata Salvawajllaman. ", //(1)
       _2: ' Payllapimin noqa creeni/', //(2)
@@ -172,8 +172,8 @@
     },
   },
   {
-    title: ' 5  Salvador Bendito',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 5  Salvador Bendito',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Salvador bendito, mañakoj jamuyki', //(1)
       _2: ' Kay wajcha sonqoypi kawsanaykita.', //(2)
@@ -227,8 +227,8 @@
     },
   },
   {
-    title: ' 6  Munasqa Cristo',
-    note: ' (Re Menor) CALA 68', //(note)
+    title_es: ' 6  Munasqa Cristo',
+    musicalNote: ' (Re Menor) CALA 68', //(note)
     paragraph: {
       _1: ' /Munasqa Cristo, Qanman jamuyki', //(1)
       _2: ' Qhatisunaypaj wañunaykama./', //(2)
@@ -265,8 +265,8 @@
     },
   },
   {
-    title: ' 7  Sonqoy Kusisqa',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 7  Sonqoy Kusisqa',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Sonqoy kusisqa kawsáy tarispa./', //(1)
       _2: " /Señorllata jap'inachej sonqosninchejpi./", //(2)
@@ -305,8 +305,8 @@
     },
   },
   {
-    title: ' 8 Tiyan Sumaj Amigoy',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 8 Tiyan Sumaj Amigoy',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Tiyan sumaj amigoy may munakoj,', //(1)
       _2: ' Munakoj, munakoj,', //(2)
@@ -357,8 +357,8 @@
     },
   },
   {
-    title: ' 9 Salvacionta Qowan Jesús',
-    note: ' (Re Mayor)          H.yC.490', //(note)
+    title_es: ' 9 Salvacionta Qowan Jesús',
+    musicalNote: ' (Re Mayor)          H.yC.490', //(note)
     paragraph: {
       _1: ' Salvacionta qowan Jesús,', //(1)
       _2: ' Payllapi creejtiy.', //(2)
@@ -407,8 +407,8 @@
     },
   },
   {
-    title: ' 10  Cristoj Atiynenqa',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 10  Cristoj Atiynenqa',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " Cristoj atiynenqa sut'inchasqa kashan", //(1)
       _2: ' Tukuy jatun imas ruwasqasnimpi.', //(2)
@@ -445,8 +445,8 @@
     },
   },
   {
-    title: ' 11 Jesusmin Wajyawanchej',
-    note: ' (Fa Mayor)          T. Hurtado', //(note)
+    title_es: ' 11 Jesusmin Wajyawanchej',
+    musicalNote: ' (Fa Mayor)          T. Hurtado', //(note)
     paragraph: {
       _1: ' /Jesusmin wajyawanchej: &quot;Pitaj rinman willamoj\nRunas uyarinampaj santo Evangeliota?&rdquo;/', //(1)
     },
@@ -484,8 +484,8 @@
     },
   },
   {
-    title: " Hermanos Jap'ikunachej",
-    note: ' (Re Menor)', //(note)
+    title_es: " Hermanos Jap'ikunachej",
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " /Hermanos, jap'ikunachej Señorpa armasninta, Supaypis jamuwajtinchej, chaywan atipanapaj./", //(1)
     },
@@ -528,8 +528,8 @@
     },
   },
   {
-    title: ' Kusisqa Kani',
-    note: ' (La Mayor) H. y C. 397', //(note)
+    title_es: ' Kusisqa Kani',
+    musicalNote: ' (La Mayor) H. y C. 397', //(note)
     paragraph: {
       _1: ' Kusisqa kani, salvoña kaspa,', //(1)
       _2: ' Wañuymanta, juiciomantawan.', //(2)
@@ -579,8 +579,8 @@
     },
   },
   {
-    title: ' Munasqa Hermanóy',
-    note: ' (Sol Mayor)        J. Morales', //(note)
+    title_es: ' Munasqa Hermanóy',
+    musicalNote: ' (Sol Mayor)        J. Morales', //(note)
     paragraph: {
       _1: " Munasqa hermanóy, Diosllapajpuni llank'ay. ", //(1)
       _2: " Mask'allay Cristollapi, Payllamin qosonqa.   ", //(2)
@@ -615,8 +615,8 @@
     },
   },
   {
-    title: ' 15  Imawan Runa Ñanninta',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 15  Imawan Runa Ñanninta',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Imawan runa ñanninta llimphuchanqa?/ ', //(1)
       _2: ' /Palabraykita kasuspa, ñanninta llimphuchanqa /', //(2)
@@ -659,8 +659,8 @@
     },
   },
   {
-    title: ' 16 Tentaconespi',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 16 Tentaconespi',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Tentacionespi yacháy munayman', //(1)
       _2: ' Imaraykuchus jamusqanta.', //(2)
@@ -715,8 +715,8 @@
     },
   },
   {
-    title: ' 17  Jesucristo Salvadorqa',
-    note: ' (Fa Mayor)        H. y C. 59', //(note)
+    title_es: ' 17  Jesucristo Salvadorqa',
+    musicalNote: ' (Fa Mayor)        H. y C. 59', //(note)
     paragraph: {
       _1: ' Jesucristo Salvadorqa may sumaj amigoy; ', //(1)
       _2: ' Ruwasqasninmanta willaramusaj.', //(2)
@@ -777,8 +777,8 @@
     },
   },
   {
-    title: ' 18   Janaj Pachamanta Señor',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 18   Janaj Pachamanta Señor',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Janaj pachamanta Señor Jesucristo', //(1)
       _2: " Pay urayk'amuspa cuentata mañanqa/", //(2)
@@ -813,8 +813,8 @@
     },
   },
   {
-    title: ' 19 Tukuynin Hermanos',
-    note: ' (Re Menor)       S. Claros V.', //(note)
+    title_es: ' 19 Tukuynin Hermanos',
+    musicalNote: ' (Re Menor)       S. Claros V.', //(note)
     paragraph: {
       _1: ' /Tukuynin hermanos Cristopi ujchasqa ', //(1)
       _2: ' Takinachej Diosman tukuy sonqowan./', //(2)
@@ -849,8 +849,8 @@
     },
   },
   {
-    title: ' 20  Hermanóy Ama Puñuychu',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 20  Hermanóy Ama Puñuychu',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " Hermanóy, ama puñuychu.\nRijch'ariy pata qhawariy.\nínti, killa urmanqaña,\nSinch'i llakiyllaña kanqa", //(1)
     },
@@ -885,8 +885,8 @@
     },
   },
   {
-    title: ' 21 Señorniypata Qori Llajtan',
-    note: ' (Re Menor)        C. 53', //(note)
+    title_es: ' 21 Señorniypata Qori Llajtan',
+    musicalNote: ' (Re Menor)        C. 53', //(note)
     paragraph: {
       _1: ' /Señorniypata qori llajtan\nWiñay wiñaypaj lliphirenqa./\n/Dios Tatay chayta wakicherqa\nTukuynin wawasnillampajmin./', //(1)
     },
@@ -937,8 +937,8 @@
     },
   },
   {
-    title: ' 22 Llakisqachu Kanki',
-    note: ' (Re Menor)        C.  53', //(note)
+    title_es: ' 22 Llakisqachu Kanki',
+    musicalNote: ' (Re Menor)        C.  53', //(note)
     paragraph: {
       _1: ' Llakisqachu kanki kay pachapeqa? Sapayakunkichu chinkasqa kaspa?              Nitaj Dioswan kaspa,llakisqa kanki;           Juchapi kasparí, wañuyman rinki.', //(1)
     },
@@ -995,8 +995,8 @@
     },
   },
   {
-    title: ' 23    Noqa Wajcha Purishani',
-    note: ' (Re Mayor)        H. y C. 233', //(note)
+    title_es: ' 23    Noqa Wajcha Purishani',
+    musicalNote: ' (Re Mayor)        H. y C. 233', //(note)
     paragraph: {
       _1: " Noqa wajcha purishani juchasniyta apaspa. Qhespiyniyta mask'ashani kay pachapi musphaspa.", //(1)
       _2: " Mayllamanchus qayllashani samakuyta mask'aspa.", //(2)
@@ -1026,8 +1026,8 @@
     },
   },
   {
-    title: ' 24 Evangelio May Sumaj',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 24 Evangelio May Sumaj',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Evangelio may sumaj. Biblia leeytaqa', //(1)
       _2: ' Dios Tatanchej yachachiwasun./', //(2)
@@ -1060,8 +1060,8 @@
     },
   },
   {
-    title: ' 25  Dios Tatanchej Kawsayta',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 25  Dios Tatanchej Kawsayta',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Dios Tatanchej kawsayta', //(1)
       _2: ' Qhasilla jaywarishan juchasapasman./', //(2)
@@ -1112,8 +1112,8 @@
     },
   },
   {
-    title: ' 26  Kay Pachapeqa',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 26  Kay Pachapeqa',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " kay pachapeqa llakiylla Junt'a.", //(1)
       _2: ' May chhika pruebas jamuwan,', //(2)
@@ -1164,8 +1164,8 @@
     },
   },
   {
-    title: " 27  Juchasniy Q'epirisqa",
-    note: ' (Re Menor)        T. Hurtado', //(note)
+    title_es: " 27  Juchasniy Q'epirisqa",
+    musicalNote: ' (Re Menor)        T. Hurtado', //(note)
     paragraph: {
       _1: " /Juchasniy q'epirisqa laqha ñán risharqani/", //(1)
       _2: ' /Jesús wajyawajtintaj, usqhayta chimparqani./', //(2)
@@ -1200,8 +1200,8 @@
     },
   },
   {
-    title: ' 28 Cristo Diospa Churi',
-    note: ' (Si Menor)', //(note)
+    title_es: ' 28 Cristo Diospa Churi',
+    musicalNote: ' (Si Menor)', //(note)
     paragraph: {
       _1: ' /Cristo Diospa Churin, Salvawa jníy kanki./', //(1)
       _2: ' /Juchasapa kani, Qantaj Diospa Santón./', //(2)
@@ -1236,8 +1236,8 @@
     },
   },
   {
-    title: ' 29   Laqhayayllapi Purerqani',
-    note: ' (Re Menor)        S. Choquetarqui', //(note)
+    title_es: ' 29   Laqhayayllapi Purerqani',
+    musicalNote: ' (Re Menor)        S. Choquetarqui', //(note)
     paragraph: {
       _1: ' Laqhayayllapi purerqani', //(1)
       _2: ' Diosmanta chinkasqa.', //(2)
@@ -1312,8 +1312,8 @@
     },
   },
   {
-    title: ' 30  Señor Jesucristo',
-    note: ' (Mi Mayor)', //(note)
+    title_es: ' 30  Señor Jesucristo',
+    musicalNote: ' (Mi Mayor)', //(note)
     paragraph: {
       _1: ' Señor Jesucristo kutirimonqaña', //(1)
       _2: ' Salvo kajkunata pusarikapoj.', //(2)
@@ -1376,8 +1376,8 @@
     },
   },
   {
-    title: ' 31  Tukuy Suyanachej',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 31  Tukuy Suyanachej',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Tukuy suyanachej pisi tiempotawan', //(1)
       _2: ' Ña kutirimonqaña Jesusninchej.', //(2)
@@ -1477,8 +1477,8 @@
     },
   },
   {
-    title: ' 32  Señor Jesucristoj Kutimuynin',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 32  Señor Jesucristoj Kutimuynin',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Señor Jesucristoj kutimuynin qayllaña.', //(1)
       _2: " Tutapis, p'unchaypis jamunanta suyana./", //(2)
@@ -1527,8 +1527,8 @@
     },
   },
   {
-    title: ' 33   Señor Jamojtin Angelqa',
-    note: ' (Re Mayor)        T. Hurtado', //(note)
+    title_es: ' 33   Señor Jamojtin Angelqa',
+    musicalNote: ' (Re Mayor)        T. Hurtado', //(note)
     paragraph: {
       _1: ' /Señor jamojtin, angelqa           Trompetanwan qhaparenqa creejkunata/             /Ripusunchej Jesúswan,             Yaykusunchej cieloman tukuy    salvasqas/', //(1)
     },
@@ -1576,8 +1576,8 @@
     },
   },
   {
-    title: ' 34 Rey Jesús Jamonqaña',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 34 Rey Jesús Jamonqaña',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Rey Jesús jamonqaña janaj pacha llajtamanta        Yuraj phuyus chawpipi, angelesnimpiwan khuska.', //(1)
     },
@@ -1622,8 +1622,8 @@
     },
   },
   {
-    title: ' Señor Jesusneyqa Munakuyniyoj  35',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Señor Jesusneyqa Munakuyniyoj  35',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Señor Jesusneyqa may munakuyniyoj;', //(1)
       _2: ' Pay noqanchejrayku cruzpi wañorqa.', //(2)
@@ -1712,8 +1712,8 @@
     },
   },
   {
-    title: ' 36  Cristoj Kutimuynin',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 36  Cristoj Kutimuynin',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " Cristoj kutimuynin mayk'ajchus kananta Manapuni ni pi yachanchu.", //(1)
       _2: ' Angelkunapis nillataj yachankuchu;', //(2)
@@ -1787,8 +1787,8 @@
     },
   },
   {
-    title: ' 37  Ashkha Kuti Wajyawanki',
-    note: ' (Re Menor)        CALA 46', //(note)
+    title_es: ' 37  Ashkha Kuti Wajyawanki',
+    musicalNote: ' (Re Menor)        CALA 46', //(note)
     paragraph: {
       _1: ' Ashkha kuti wajyawanki', //(1)
       _2: " Chajraykipi llank'anaypaj.", //(2)
@@ -1863,8 +1863,8 @@
     },
   },
   {
-    title: ' Tukuy Sonqonchejwan Takina 38',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Tukuy Sonqonchejwan Takina 38',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' /Tukuy sonqonchejwan takina Cristoman, Kusikuyninchejwan Dios Tatanchejman/', //(1)
     },
@@ -1918,8 +1918,8 @@
     },
   },
   {
-    title: ' 39 Qanman Diosníy Oraciompi',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 39 Qanman Diosníy Oraciompi',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Qanman, Diosníy, oraciompi', //(1)
       _2: ' Kay pachapi may llakisqa', //(2)
@@ -1982,8 +1982,8 @@
     },
   },
   {
-    title: ' 40 Diosta Munakuywan',
-    note: ' (Fa Mayor)        J.P.', //(note)
+    title_es: ' 40 Diosta Munakuywan',
+    musicalNote: ' (Fa Mayor)        J.P.', //(note)
     paragraph: {
       _1: ' /Diosta munakuywan tukuy suyanachej,     Chay kutimuynimpi pusasqa kanapaj./', //(1)
     },
@@ -2030,8 +2030,8 @@
     },
   },
   {
-    title: ' 41  Dios Tataj Sutimpi Tantakuna',
-    note: ' (Fa mayor)        J.P.', //(note)
+    title_es: ' 41  Dios Tataj Sutimpi Tantakuna',
+    musicalNote: ' (Fa mayor)        J.P.', //(note)
     paragraph: {
       _1: ' /Dios Tataj sutimpi tukuy tantakuna   Mañakuspa bendicionninta./', //(1)
     },
@@ -2101,8 +2101,8 @@
     },
   },
   {
-    title: " 42 Juchamanta Jark'away",
-    note: ' (Mi Menor)           E.T.', //(note)
+    title_es: " 42 Juchamanta Jark'away",
+    musicalNote: ' (Mi Menor)           E.T.', //(note)
     paragraph: {
       _1: " /Juchamanta jark'away, Tatáy,", //(1)
       _2: ' Tentaciompitaj atipasaj./', //(2)
@@ -2153,8 +2153,8 @@
     },
   },
   {
-    title: ' 43  Pusaway Munasqa Cristo',
-    note: ' (Re  Menor)', //(note)
+    title_es: ' 43  Pusaway Munasqa Cristo',
+    musicalNote: ' (Re  Menor)', //(note)
     paragraph: {
       _1: ' Pusaway, munasqa Cristo, makisniykej atiynimpi. Ama saqerpariwaychu, waqaychakullawaypuni.', //(1)
     },
@@ -2217,8 +2217,8 @@
     },
   },
   {
-    title: ' 44 Testimonioywan',
-    note: ' (Mi Menor)        F. Colque', //(note)
+    title_es: ' 44 Testimonioywan',
+    musicalNote: ' (Mi Menor)        F. Colque', //(note)
     paragraph: {
       _1: ' /Testimonioywan, Dios, chimpaykamuyki/', //(1)
       _2: ' Yachaspa cruzpi Qan wañusqaykita./', //(2)
@@ -2248,8 +2248,8 @@
     },
   },
   {
-    title: ' 45  Sutiykita Oqharispa',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 45  Sutiykita Oqharispa',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Sutiykita oqharispa, wiñaypajmin takisaj.', //(1)
       _2: ' Santo kanki, Cristo, yupaychasqaykiy', //(2)
@@ -2310,8 +2310,8 @@
     },
   },
   {
-    title: ' 46 Kusikorqani chay nishawajtinku',
-    note: ' (Re menor)      S. Claros V.', //(note)
+    title_es: ' 46 Kusikorqani chay nishawajtinku',
+    musicalNote: ' (Re menor)      S. Claros V.', //(note)
     paragraph: {
       _1: ' Kusikorqani chay nishawajtinku:', //(1)
       _2: ' &ldquo;Jakullachejña Señorpa wasinman.', //(2)
@@ -2360,8 +2360,8 @@
     },
   },
   {
-    title: ' 47  Kay Pacha Kawsaypi',
-    note: ' (Re Menor   )', //(note)
+    title_es: ' 47  Kay Pacha Kawsaypi',
+    musicalNote: ' (Re Menor   )', //(note)
     paragraph: {
       _1: ' Kay pacha kawsaypi llakikuyllapuni.', //(1)
       _2: ' /Wajcha almaypis mana tarinchu allin kawsaytaqa/', //(2)
@@ -2433,8 +2433,8 @@
     },
   },
   {
-    title: ' 48  Llakiypipis Pruebaspipis',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 48  Llakiypipis Pruebaspipis',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' /Llakiypipis, pruebaspipis', //(1)
       _2: ' Iglesiaqa ñawpajllaman renqa./', //(2)
@@ -2465,8 +2465,8 @@
     },
   },
   {
-    title: ' 49  Juchapimin Kasharqani',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 49  Juchapimin Kasharqani',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Juchapimin kasharqani', //(1)
       _2: ' Llulla yachachiypitaj,', //(2)
@@ -2567,8 +2567,8 @@
     },
   },
   {
-    title: ' 50   Cenaykipi Tantakuyku',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 50   Cenaykipi Tantakuyku',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " Cenaykipi tantakuyku uj sonqolla jamuyku Yuyarikoj, Señorniyku, ñak'arisqaykimanta. Wañusqaykimanta yuyarikoj jamuyku.", //(1)
     },
@@ -2594,9 +2594,9 @@
     },
   },
   {
-    title: ' 51  Nawpaqeykiman Señor Diosníy',
+    title_es: ' 51  Nawpaqeykiman Señor Diosníy',
     space: true,
-    note: ' (Re Mayor)', //(note)
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Ñawpaqeykiman, Señor Diosníy,', //(1)
       _2: ' Kay wawasniyki qayllamuyku.', //(2)
@@ -2672,8 +2672,8 @@
     },
   },
   {
-    title: ' 52   Cristollaman Qoni',
-    note: ' (Re Mayor)        P. Martínez', //(note)
+    title_es: ' 52   Cristollaman Qoni',
+    musicalNote: ' (Re Mayor)        P. Martínez', //(note)
     paragraph: {
       _1: ' /Cristollaman qoni tukuy kawsayniyta.', //(1)
       _2: ' Payllamin noqata salvakuwarqa./', //(2)
@@ -2735,8 +2735,8 @@
     },
   },
   {
-    title: ' 53 Huerto Edenmantamin',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 53 Huerto Edenmantamin',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Huerto Edenmantamin qallarerqa', //(1)
       _2: ' Kusikoyqa noqanchejpaj.', //(2)
@@ -2833,8 +2833,8 @@
     },
   },
   {
-    title: ' 54  Munakoj Salvador',
-    note: ' (Mi Mayor)      J. Cayo', //(note)
+    title_es: ' 54  Munakoj Salvador',
+    musicalNote: ' (Mi Mayor)      J. Cayo', //(note)
     paragraph: {
       _1: ' /Munakoj Salvador, Qan khuyawarqayku', //(1)
       _2: ' Kay wawasniykita/', //(2)
@@ -2912,8 +2912,8 @@
     },
   },
   {
-    title: ' 55  Sonqoyqa Kusisqallapuni',
-    note: ' (Mi Mayor)', //(note)
+    title_es: ' 55  Sonqoyqa Kusisqallapuni',
+    musicalNote: ' (Mi Mayor)', //(note)
     paragraph: {
       _1: ' Sonqoyqa kusisqallapuni kashan,', //(1)
       _2: ' Cristota qhatejtiy.', //(2)
@@ -2972,8 +2972,8 @@
     },
   },
   {
-    title: ' 56  Dios Tatáy Uyarimuway',
-    note: ' (Re Menor)             A. Jiménez', //(note)
+    title_es: ' 56  Dios Tatáy Uyarimuway',
+    musicalNote: ' (Re Menor)             A. Jiménez', //(note)
     paragraph: {
       _1: ' /Dios Tatáy, Qan uyarimuway.                   Qanllata qhatiyta yanapariway/', //(1)
     },
@@ -3033,8 +3033,8 @@
     },
   },
   {
-    title: ' 57  Khuyakoj Dios Tata',
-    note: ' (Re Menor)        M. Zeballos', //(note)
+    title_es: ' 57  Khuyakoj Dios Tata',
+    musicalNote: ' (Re Menor)        M. Zeballos', //(note)
     paragraph: {
       _1: ' Khuyakoj Dios Tata, wajyakuwarqanki.', //(1)
       _2: ' Chay jinatapuni munakuwanki.', //(2)
@@ -3105,8 +3105,8 @@
     },
   },
   {
-    title: ' 58 Kusikunachej Santo Diosmanta',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 58 Kusikunachej Santo Diosmanta',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Kusikunachej Santo Diosmanta,', //(1)
       _2: " Kusiy p'unchay Navidadpi.", //(2)
@@ -3144,8 +3144,8 @@
     },
   },
   {
-    title: ' 59 Dios Tatáy Qan Yanapaway',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 59 Dios Tatáy Qan Yanapaway',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Dios Tatáy, Qan yanapaway', //(1)
       _2: ' Atipayta llakikuypi.', //(2)
@@ -3220,8 +3220,8 @@
     },
   },
   {
-    title: ' 60  Manchay Kusikuypuni',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 60  Manchay Kusikuypuni',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Manchay kusikuypuni noqapaj ari, Tatáy, Belenpi nacesqayki./', //(1)
     },
@@ -3284,8 +3284,8 @@
     },
   },
   {
-    title: ' 61  Pilla salvasonqa',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 61  Pilla salvasonqa',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Pilla salvasonqa nina juiciomanta?', //(1)
       _2: ' Pilla salvasonqa chay larwaymanta?/', //(2)
@@ -3327,8 +3327,8 @@
     },
   },
   {
-    title: ' 62 Jesucristo Wajyawajtin',
-    note: ' (Sol Mayor)          H.yC. 155', //(note)
+    title_es: ' 62 Jesucristo Wajyawajtin',
+    musicalNote: ' (Sol Mayor)          H.yC. 155', //(note)
     paragraph: {
       _1: ' Jesucristo wajyawajtin, usqhayllata ripusaj. Salvawajniypa uyanta rikusaj.', //(1)
       _2: ' Tukuy salvos kajkunataj cieloman riponqanku. Paykunataj Jesusniywan kanqanku.', //(2)
@@ -3387,8 +3387,8 @@
     },
   },
   {
-    title: ' Cristo Diospa Churin  63',
-    note: ' (Re Menor)        P. M.', //(note)
+    title_es: ' Cristo Diospa Churin  63',
+    musicalNote: ' (Re Menor)        P. M.', //(note)
     paragraph: {
       _1: ' /Cristo Diospa Churin cruzpi wañusqanwan,', //(1)
       _2: ' Cielo punkutaqa Pay kicharerqa/', //(2)
@@ -3438,8 +3438,8 @@
     },
   },
   {
-    title: " 64   Kunan P'unchay Kashan",
-    note: ' (Re Menor)', //(note)
+    title_es: " 64   Kunan P'unchay Kashan",
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " /Kunan p'unchay kashan salvación p'unchay./", //(1)
       _2: ' /Wajcha almaykipaj perdompis tiyan/', //(2)
@@ -3474,8 +3474,8 @@
     },
   },
   {
-    title: ' Cristo Wajyashan Runasta 65',
-    note: ' (Re Mayor)               P. Martínez', //(note)
+    title_es: ' Cristo Wajyashan Runasta 65',
+    musicalNote: ' (Re Mayor)               P. Martínez', //(note)
     paragraph: {
       _1: ' /Cristo wajyashan tukuy runasta./', //(1)
       _2: ' /&quot;Jampuway wawáy&quot;,', //(2)
@@ -3518,8 +3518,8 @@
     },
   },
   {
-    title: ' 66   Jaku Riña Runamasi',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 66   Jaku Riña Runamasi',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Jaku riña runamasi, Señor Jesusman/ /Juchasniykimanta willay, perdonasonqa./', //(1)
     },
@@ -3545,8 +3545,8 @@
     },
   },
   {
-    title: ' Jesucristo Wajyashan     67',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Jesucristo Wajyashan     67',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Jesucristo wajyashan. Pitaj rinman willamoj/       /Runas uyarinampaj santo Evangeliota?/', //(1)
     },
@@ -3568,8 +3568,8 @@
     },
   },
   {
-    title: ' Kay Pachaqa Llakiylla  68',
-    note: ' (Re Menor)        S. Claros', //(note)
+    title_es: ' Kay Pachaqa Llakiylla  68',
+    musicalNote: ' (Re Menor)        S. Claros', //(note)
     paragraph: {
       _1: ' Kay pachaqa llakiylla, imapis tukukojlla.', //(1)
       _2: ' Kaypi kawsay tukukun, cielopi qallarikun.', //(2)
@@ -3626,8 +3626,8 @@
     },
   },
   {
-    title: ' 69   Jesucristoj Yawarnin',
-    note: ' (Re  Menor)        I. Hurtado', //(note)
+    title_es: ' 69   Jesucristoj Yawarnin',
+    musicalNote: ' (Re  Menor)        I. Hurtado', //(note)
     paragraph: {
       _1: ' /Jesucristoj yawarnin', //(1)
       _2: ' Tukuy juchamanta pichawan,', //(2)
@@ -3686,8 +3686,8 @@
     },
   },
   {
-    title: ' 70  May Kusisqas Ujtawan',
-    note: ' (Re Mayor)          H.yC.297', //(note)
+    title_es: ' 70  May Kusisqas Ujtawan',
+    musicalNote: ' (Re Mayor)          H.yC.297', //(note)
     paragraph: {
       _1: " May kusisqas ujtawan rikunakullanchcjtaj, Qanwan tinkunakuspa, gracias Diosman. Sonqonchejpi kusisqas, munakuywan junt'asqas Tukuyninchej Señoría yupaychasun.", //(1)
     },
@@ -3753,8 +3753,8 @@
     },
   },
   {
-    title: ' 71   Jesusneyqa Llimphuchan',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 71   Jesusneyqa Llimphuchan',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Jesusneyqa llimphuchan', //(1)
       _2: ' Juchayta cruzpi wañuspa./', //(2)
@@ -3817,8 +3817,8 @@
     },
   },
   {
-    title: ' Maytapis Riyman Jesuswan  72',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Maytapis Riyman Jesuswan  72',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Maytapis riyman Jesuswan.', //(1)
       _2: ' Waqaychawajniy kapuwan,', //(2)
@@ -3897,8 +3897,8 @@
     },
   },
   {
-    title: ' 73  Cristo Waqaychawan',
-    note: ' (La Mayor)', //(note)
+    title_es: ' 73  Cristo Waqaychawan',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' Cristo waqaychawan, Paypi confiani,', //(1)
       _2: ' Noqawan Pay kashan, maypipis kajtiy.', //(2)
@@ -3962,8 +3962,8 @@
     },
   },
   {
-    title: ' 74  Sumaj Munakoj Jesusníy',
-    note: ' (Re Menor)        A. M.', //(note)
+    title_es: ' 74  Sumaj Munakoj Jesusníy',
+    musicalNote: ' (Re Menor)        A. M.', //(note)
     paragraph: {
       _1: ' /Sumaj munakoj Jesusníy,', //(1)
       _2: ' Wiñay kawsayta qowanki./', //(2)
@@ -4002,8 +4002,8 @@
     },
   },
   {
-    title: ' 75   Janaj Pacha Llajta',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 75   Janaj Pacha Llajta',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Janaj pacha llajta Diospata llajtanmin.            Ni tukukonqachu wiñaypajmin kanqa.          Kay pacha llajtaqa pasakapojllamin,', //(1)
       _2: ' Llanthu phuyujiña chinkaripojllamin.', //(2)
@@ -4053,8 +4053,8 @@
     },
   },
   {
-    title: ' 76 Qan aparqanki',
-    note: ' (Re Mayor)       H.yC.516', //(note)
+    title_es: ' 76 Qan aparqanki',
+    musicalNote: ' (Re Mayor)       H.yC.516', //(note)
     paragraph: {
       _1: " Qan aparqanki, Señorníy, sinch'i llasa cruzta. Munakuwasqaykirayku Qan ñak'arerqanki.", //(1)
     },
@@ -4122,8 +4122,8 @@
     },
   },
   {
-    title: ' Cristolla Munakim  77',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Cristolla Munakim  77',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Cristolla munakun tukuy runasta,', //(1)
       _2: ' Nitaj qhesachanchu juchasapasta./', //(2)
@@ -4148,8 +4148,8 @@
     },
   },
   {
-    title: ' 78  Dios Kaypi Kashan',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 78  Dios Kaypi Kashan',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' /Dios kaypi kashan, may jatun kusiy. Señorninchej nerqa: &quot;Iskay, kinsapis Tantakojtinku Noqaj sutiypi,', //(1)
       _2: ' Paykunawan kashani&quot;.', //(2)
@@ -4172,8 +4172,8 @@
     },
   },
   {
-    title: ' 79   Karunchakuni Diosmanta',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 79   Karunchakuni Diosmanta',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Karunchakuni Diosmanta; kutirikusaj. Ancha unayta juchapi, Señor, purini.', //(1)
     },
@@ -4237,8 +4237,8 @@
     },
   },
   {
-    title: ' 80 Punkumin Kani',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 80 Punkumin Kani',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' &quot;Punkumin kani&quot;, Jesucristo nin.', //(1)
       _2: ' /&quot;Noqanejta yaykojkuna', //(2)
@@ -4280,8 +4280,8 @@
     },
   },
   {
-    title: ' 81  Señor Jesusninchej',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 81  Señor Jesusninchej',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Señor Jesusninchej nisunki:', //(1)
       _2: ' &quot;Jamuy noqaman, wawáy,', //(2)
@@ -4344,8 +4344,8 @@
     },
   },
   {
-    title: ' 82  Evangeliota Qhatisajpuni',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 82  Evangeliota Qhatisajpuni',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' //Evangeliota qhatisajpuni  //', //(1)
       _2: ' /Ni qhepaman kutiymanchu./', //(2)
@@ -4377,8 +4377,8 @@
     },
   },
   {
-    title: ' 83  Cielosta Rikuspa',
-    note: ' (Mi Mayor)', //(note)
+    title_es: ' 83  Cielosta Rikuspa',
+    musicalNote: ' (Mi Mayor)', //(note)
     paragraph: {
       _1: ' Cielosta rikuspa, intita rikuspa,', //(1)
       _2: ' /Atiyniykimanta yuyachiwan/', //(2)
@@ -4419,8 +4419,8 @@
     },
   },
   {
-    title: ' Kay Pacha Kawsaypi  84',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Kay Pacha Kawsaypi  84',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Kay pacha kawsaypi ni imaypis kanchu,       Janaj pachapiri tiyan wasisniy.           Chinkasqa kashajtiy kay laqha mundopi       Jesús tariwarqa khuyakuynimpi.', //(1)
     },
@@ -4482,8 +4482,8 @@
     },
   },
   {
-    title: ' 85  Cielopimin Cristo Kashan',
-    note: ' (La Mayor)', //(note)
+    title_es: ' 85  Cielopimin Cristo Kashan',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' Cielopimin Cristo kashan,', //(1)
       _2: ' Chaypi mana llakiy kanchu.', //(2)
@@ -4582,8 +4582,8 @@
     },
   },
   {
-    title: ' 86 Creejkuna Alabaychej',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 86 Creejkuna Alabaychej',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Creejkuna, alabaychej,', //(1)
       _2: ' Cristollata yupaychaychej.', //(2)
@@ -4622,8 +4622,8 @@
     },
   },
   {
-    title: " Obrerosta Cristo Mask'ashan 87",
-    note: ' (La Mayor)', //(note)
+    title_es: " Obrerosta Cristo Mask'ashan 87",
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: " Obrerosta Cristo mask'ashan", //(1)
       _2: ' Paywan riy munajta.', //(2)
@@ -4721,8 +4721,8 @@
     },
   },
   {
-    title: ' 88   Gracias Kachun',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 88   Gracias Kachun',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Gracias kachun Dios Tataman', //(1)
       _2: ' Jesús Salvadormanta/', //(2)
@@ -4785,8 +4785,8 @@
     },
   },
   {
-    title: ' 89 Laqhayayllapi',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 89 Laqhayayllapi',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Laqhayayllapi, llakikuyllapi', //(1)
       _2: ' Juchasapaj alman musphasan/', //(2)
@@ -4839,8 +4839,8 @@
     },
   },
   {
-    title: ' 90 Jovenesqa Diospi Confíanachej',
-    note: ' (Mib) Jovenesqa Diospi confíanachej,', //(note)
+    title_es: ' 90 Jovenesqa Diospi Confíanachej',
+    musicalNote: ' (Mib) Jovenesqa Diospi confíanachej,', //(note)
     paragraph: {
       _1: ' Supaypis contranchejpi jamuchun.', //(1)
       _2: ' Tentacionespi atipasunchej', //(2)
@@ -4913,8 +4913,8 @@
     },
   },
   {
-    title: ' 91 Qan Sapallayki Diosníy',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 91 Qan Sapallayki Diosníy',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' Qan sapallayki, Diosníy,', //(1)
       _2: ' Wawaykipaj rejsikuwanki.', //(2)
@@ -4989,8 +4989,8 @@
     },
   },
   {
-    title: ' 92  Munakoj Dios Tata',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 92  Munakoj Dios Tata',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Munakoj Dios Tata munakuwarqanchej,', //(1)
       _2: " K'ata Churintaqa kachamuwarqanchej. Juchasninchej manta perdonawarqanchej, Qhapaj yawarninwan mayllawarqanchejtaj.", //(2)
@@ -5058,8 +5058,8 @@
     },
   },
   {
-    title: ' 93  Dioswan Purinapaj',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 93  Dioswan Purinapaj',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Dioswan purinapaj wakichikunachej. Munakuynin jatun tukuy wawasnimpaj/', //(1)
     },
@@ -5123,8 +5123,8 @@
     },
   },
   {
-    title: ' Jesucristo Jamonqa 94',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Jesucristo Jamonqa 94',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Jesucristo jamonqa phuyus chawpipi.', //(1)
       _2: ' Tukuy salvos kajkuna Paywan risunchej./', //(2)
@@ -5191,8 +5191,8 @@
     },
   },
   {
-    title: " 95  Jesús Nerqa: Noqamin Sach'a Kani",
-    note: ' (Re Menor)', //(note)
+    title_es: " 95  Jesús Nerqa: Noqamin Sach'a Kani",
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Jesús nerqa: &quot;Noqamin cheqamanta', //(1)
       _2: " Sach'a kani, Tataytajrí poqochejniymin.", //(2)
@@ -5265,8 +5265,8 @@
     },
   },
   {
-    title: ' 96  Señor Jesucristo Yanaparillaway',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 96  Señor Jesucristo Yanaparillaway',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Señor Jesucristo, yanaparillaway', //(1)
       _2: ' Qanllawan puriyta kay kawsayniypi.', //(2)
@@ -5336,8 +5336,8 @@
     },
   },
   {
-    title: ' 97  Jamonqaña Jesús',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 97  Jamonqaña Jesús',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Jamonqaña Jesús janaj pachamanta.', //(1)
       _2: ' Señalesta rikunchejña,', //(2)
@@ -5449,8 +5449,8 @@
     },
   },
   {
-    title: ' 98  Tukuy Sonqonchejwan',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 98  Tukuy Sonqonchejwan',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Tukuy sonqonchejwan Diosta yupaychana;', //(1)
       _2: ' Pay noqanchejrayku cruzpi wañorqa.', //(2)
@@ -5533,8 +5533,8 @@
     },
   },
   {
-    title: ' 99  Jesús Salvawajniypi',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 99  Jesús Salvawajniypi',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Jesús Salvawajniypi noqa confiakuni.', //(1)
       _2: ' Ima pisiwajtimpis, Payman willakuni.', //(2)
@@ -5583,8 +5583,8 @@
     },
   },
   {
-    title: ' 100   Señor Jesusniy Pusaway',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 100   Señor Jesusniy Pusaway',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Señor Jesusníy, pusaway makiymanta.', //(1)
       _2: " Wawayki kani, chajraykipi llank'asaj./", //(2)
@@ -5667,8 +5667,8 @@
     },
   },
   {
-    title: ' 101 Dios Tatayman Takisaj',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 101 Dios Tatayman Takisaj',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Dios Tatayman takisaj, ALELUYA.                Llakiy pipis takisaj, ALELUYA./', //(1)
     },
@@ -5739,8 +5739,8 @@
     },
   },
   {
-    title: ' Kawsayniyta Qopusaj  102',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Kawsayniyta Qopusaj  102',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Kawsayniyta qopusaj Señor Jesusniyman,   Cruzpi Pay noqapaj wañorqa./', //(1)
     },
@@ -5784,8 +5784,8 @@
     },
   },
   {
-    title: ' 103 Señor Qanman Mañakuni',
-    note: ' (Do Menor)', //(note)
+    title_es: ' 103 Señor Qanman Mañakuni',
+    musicalNote: ' (Do Menor)', //(note)
     paragraph: {
       _1: ' Señor, Qanman mañakuni.', //(1)
       _2: ' Uyariy wajeha sonqoyta,', //(2)
@@ -5844,8 +5844,8 @@
     },
   },
   {
-    title: ' Señorníy Yanapaway     104',
-    note: ' (Do Menor)        E. Guarachi', //(note)
+    title_es: ' Señorníy Yanapaway     104',
+    musicalNote: ' (Do Menor)        E. Guarachi', //(note)
     paragraph: {
       _1: ' Señorníy, yanapaway. Qanllapi confiakuni. /Llakiyniypi sonqochaway. Chimpakamuyki./', //(1)
     },
@@ -5880,8 +5880,8 @@
     },
   },
   {
-    title: ' 105   Munakoj Señorníy',
-    note: ' (Re Mayor)        CALA 78', //(note)
+    title_es: ' 105   Munakoj Señorníy',
+    musicalNote: ' (Re Mayor)        CALA 78', //(note)
     paragraph: {
       _1: ' /Munakoj Señorníy, yanapaway ari, Munakuyniykita runasman willayta/', //(1)
     },
@@ -5950,8 +5950,8 @@
     },
   },
   {
-    title: ' Rikuchiway Ñanniykita   106',
-    note: ' (La Mayor)          Zeballos', //(note)
+    title_es: ' Rikuchiway Ñanniykita   106',
+    musicalNote: ' (La Mayor)          Zeballos', //(note)
     paragraph: {
       _1: ' Rikuchiway ñanniykita, munakoj Dios Tatáy            Qanmanta mañakamuyki tukuy sonqoymanta.', //(1)
     },
@@ -5991,8 +5991,8 @@
     },
   },
   {
-    title: ' 107      Señor Jesusniywan',
-    note: ' (La  Mayor)        L.  Guarachi', //(note)
+    title_es: ' 107      Señor Jesusniywan',
+    musicalNote: ' (La  Mayor)        L.  Guarachi', //(note)
     paragraph: {
       _1: ' Señor Jesusniywan noqa purisaj,', //(1)
       _2: ' Cheqan ñannillanta Payqa pusawan.', //(2)
@@ -6024,8 +6024,8 @@
     },
   },
   {
-    title: ' Salvador Khuyakuwajníy 108',
-    note: ' (Sol Mayor)        H. y C. 110', //(note)
+    title_es: ' Salvador Khuyakuwajníy 108',
+    musicalNote: ' (Sol Mayor)        H. y C. 110', //(note)
     paragraph: {
       _1: ' Salvador khuyakuwajníy, chimpaykamuyki. Qanlla qoyta atiwanki kusiy kawsayta.', //(1)
     },
@@ -6076,8 +6076,8 @@
     },
   },
   {
-    title: " 109 Señorpa Chajrampi Llank'amusaj",
-    note: ' (Sol  Mayor)', //(note)
+    title_es: " 109 Señorpa Chajrampi Llank'amusaj",
+    musicalNote: ' (Sol  Mayor)', //(note)
     paragraph: {
       _1: " Señorpa chajrampi llank'amusaj, Kamachisqanman jiña junt'aspa.", //(1)
       _2: " Takispa, orakuspa, llank'amuyta munani Señorniypa chajrampi.", //(2)
@@ -6155,8 +6155,8 @@
     },
   },
   {
-    title: ' 110  Cristoj Chakisninman',
-    note: ' (Mi Mayor)', //(note)
+    title_es: ' 110  Cristoj Chakisninman',
+    musicalNote: ' (Mi Mayor)', //(note)
     paragraph: {
       _1: ' /Cristoj chakisninman chimpaykamusaj, Salvacionninmanta graciasta qospa/', //(1)
     },
@@ -6206,8 +6206,8 @@
     },
   },
   {
-    title: ' 111  Señor Jamonqaña',
-    note: ' (la mayor)', //(note)
+    title_es: ' 111  Señor Jamonqaña',
+    musicalNote: ' (la mayor)', //(note)
     paragraph: {
       _1: ' /Señor jamonqaña phuyus chawpillapi,', //(1)
       _2: ' Tukuy rikonqa/', //(2)
@@ -6270,8 +6270,8 @@
     },
   },
   {
-    title: ' 112 Señor Qanman Jamuni',
-    note: ' (Mi Menor)        F. Paredes', //(note)
+    title_es: ' 112 Señor Qanman Jamuni',
+    musicalNote: ' (Mi Menor)        F. Paredes', //(note)
     paragraph: {
       _1: " /Señor, Qanman jamuni, kawsayniyta qopuyki. Bendeciway, Dios Tatáy, pusawaytaj k'anchaypi./", //(1)
     },
@@ -6313,8 +6313,8 @@
     },
   },
   {
-    title: " 113  Jallp'a Chinkanqa",
-    note: ' (Re Mayor)', //(note)
+    title_es: " 113  Jallp'a Chinkanqa",
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " /Jallp'a chinkanqa, cielo chinkanqa,", //(1)
       _2: ' Diospa Palabran ni chinkanqachu./', //(2)
@@ -6388,8 +6388,8 @@
     },
   },
   {
-    title: ' 114 Gracias Dios Tataman',
-    note: ' (Mi menor)', //(note)
+    title_es: ' 114 Gracias Dios Tataman',
+    musicalNote: ' (Mi menor)', //(note)
     paragraph: {
       _1: ' /Gracias, gracias Dios Tataman,', //(1)
       _2: " K'ata Churinta kachamun/", //(2)
@@ -6442,8 +6442,8 @@
     },
   },
   {
-    title: ' Diosta Yupaychaychej',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Diosta Yupaychaychej',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " Diosta yupaychaychej Jesús Salvajninchejta, Jatun k'anchayninwan wawasninman jamonqa.", //(1)
     },
@@ -6496,8 +6496,8 @@
     },
   },
   {
-    title: ' Cristoj Jamunán Suyani',
-    note: ' (Re  Menor)', //(note)
+    title_es: ' Cristoj Jamunán Suyani',
+    musicalNote: ' (Re  Menor)', //(note)
     paragraph: {
       _1: " Cristoj jamunán suyani. Jayk'ajchus jamonqari? Jamojtin chaypachatajrí, noqa Paywan ripusaj.", //(1)
     },
@@ -6545,8 +6545,8 @@
     },
   },
   {
-    title: ' Diosman Chimpaykojtiy   117',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Diosman Chimpaykojtiy   117',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Diosman chimpaykojtiy, pruebas jamuwarqa./ /Chaywampis Dios Tatay kallpachawarqa./', //(1)
     },
@@ -6569,8 +6569,8 @@
     },
   },
   {
-    title: ' Dios Tataman Qopunachej 118',
-    note: ' (Re Mayor)        S. Claros', //(note)
+    title_es: ' Dios Tataman Qopunachej 118',
+    musicalNote: ' (Re Mayor)        S. Claros', //(note)
     paragraph: {
       _1: ' Dios Tataman qopunachej', //(1)
       _2: ' Ofrendasta tukuyninchej.', //(2)
@@ -6613,8 +6613,8 @@
     },
   },
   {
-    title: ' 119  Kay Pachata Cielotawan',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 119  Kay Pachata Cielotawan',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Kay pachata, cielotawan', //(1)
       _2: ' Atiyniyoj Dios Tatanchej', //(2)
@@ -6713,8 +6713,8 @@
     },
   },
   {
-    title: ' 120 Santa Bibliapi',
-    note: ' (Re  Mayor)        S. Claros', //(note)
+    title_es: ' 120 Santa Bibliapi',
+    musicalNote: ' (Re  Mayor)        S. Claros', //(note)
     paragraph: {
       _1: ' Santa Bibliapi tiyapuwanchej', //(1)
       _2: ' Sumaj yachachiy tukuy runaspaj.', //(2)
@@ -6813,8 +6813,8 @@
     },
   },
   {
-    title: ' Munakoj Jatun Dios     121',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Munakoj Jatun Dios     121',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Munakoj jatun Dios Tatáy,', //(1)
       _2: ' Qanllaman qayllaykamuyki.', //(2)
@@ -6889,8 +6889,8 @@
     },
   },
   {
-    title: ' Kawsayqa Tukukonqa  122',
-    note: ' (Re  Mayor)', //(note)
+    title_es: ' Kawsayqa Tukukonqa  122',
+    musicalNote: ' (Re  Mayor)', //(note)
     paragraph: {
       _1: " Kawsayqa tukukonqa, laqhes jiña urmanqa, Llant'a jiña ninapaj. Mask'awaj.", //(1)
       _2: " P'unchaykuna phawashan, tukuynejpi nikushan: &quot;Jamuy cuenta qoj Diosman&quot;. Mask'awaj.", //(2)
@@ -6964,8 +6964,8 @@
     },
   },
   {
-    title: ' 123   Diosníy Chimpamuyku',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 123   Diosníy Chimpamuyku',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Diosníy, chimpamuyku tukuy wawasniyki, Qanmanta mañarikuspa jatun yanapayniykita/', //(1)
     },
@@ -7009,8 +7009,8 @@
     },
   },
   {
-    title: ' Señor Qan Pusaway  124',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Señor Qan Pusaway  124',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Señor, Qan pusaway munakuyniykipi, Yawarniykiwantaj juchayta mayllaway.', //(1)
     },
@@ -7074,8 +7074,8 @@
     },
   },
   {
-    title: ' 125    Señor Jesucristo',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 125    Señor Jesucristo',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " /Señor Jesucristo noqarayku wañun cruzpi,               Tukuy manuytapis chay wañusqanwan junt'arqa./", //(1)
     },
@@ -7115,8 +7115,8 @@
     },
   },
   {
-    title: ' Kay Pacha Kawsayllaqa 126',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Kay Pacha Kawsayllaqa 126',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Kay pacha kawsayllaqa ni pita salvanqachu. Cristoman chimpaykojlla salvacionta tarenqa.', //(1)
     },
@@ -7179,8 +7179,8 @@
     },
   },
   {
-    title: ' 127   Kusikuyniyojmin kanku',
-    note: ' (Mi Menor)         Mat. 5:3-12', //(note)
+    title_es: ' 127   Kusikuyniyojmin kanku',
+    musicalNote: ' (Mi Menor)         Mat. 5:3-12', //(note)
     paragraph: {
       _1: ' Kusikuyniyojmin kanku wajcha almayojkunaqa; /Janaj pacha paykunajta./', //(1)
     },
@@ -7216,8 +7216,8 @@
     },
   },
   {
-    title: ' Señor Jesusníy Khuyakuway 128',
-    note: ' (Mi Menor)        C. López', //(note)
+    title_es: ' Señor Jesusníy Khuyakuway 128',
+    musicalNote: ' (Mi Menor)        C. López', //(note)
     paragraph: {
       _1: ' /Señor Jesusníy, khuyakuway,', //(1)
       _2: ' Señor Jesusníy, waqaychaway.', //(2)
@@ -7256,8 +7256,8 @@
     },
   },
   {
-    title: ' Diosníy Qanllapiña Confiani',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Diosníy Qanllapiña Confiani',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Diosníy, Qanllapiña noqa confiakuni', //(1)
       _2: ' Tukuy sonqoymanta./', //(2)
@@ -7324,8 +7324,8 @@
     },
   },
   {
-    title: ' JESUCRISTO KUTIMONQA    130',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' JESUCRISTO KUTIMONQA    130',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Jesucristo kutimonqa', //(1)
       _2: ' Juzganampaj kay mundota', //(2)
@@ -7417,8 +7417,8 @@
     },
   },
   {
-    title: ' Dioslla Ruwarqa  131',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Dioslla Ruwarqa  131',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Dioslla ruwarqa tukuy imasta;               Ñawiyojkuna qhawanankupaj', //(1)
       _2: ' Tukuy qorita, tukuy qolqeta,', //(2)
@@ -7483,8 +7483,8 @@
     },
   },
   {
-    title: ' 132   Kay Mosoj Watapi',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 132   Kay Mosoj Watapi',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Kay mosoj watapi, Diosníy, qayllamuyku Bendicionniykita mañakususpa./', //(1)
     },
@@ -7532,8 +7532,8 @@
     },
   },
   {
-    title: " Uj P'unchaypi Jesús     133",
-    note: ' (Fa Mayor)        F. Paredes', //(note)
+    title_es: " Uj P'unchaypi Jesús     133",
+    musicalNote: ' (Fa Mayor)        F. Paredes', //(note)
     paragraph: {
       _1: " Uj p'unchaypi Jesús jamorqa", //(1)
       _2: ' Jericó llajta, chaynejman.', //(2)
@@ -7632,8 +7632,8 @@
     },
   },
   {
-    title: ' Diosta Yupaychana   134',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Diosta Yupaychana   134',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Diosta yupaychana kay santo wasimpi', //(1)
       _2: ' Tukuy sonqowan/', //(2)
@@ -7657,8 +7657,8 @@
     },
   },
   {
-    title: ' Munakoj Jesucristo 135',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Munakoj Jesucristo 135',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Munakoj Jesucristo wajyashawanchej/           /Kunan chimpaykunachej ancha kusiywan./', //(1)
     },
@@ -7685,8 +7685,8 @@
     },
   },
   {
-    title: ' 136  Cristoj Santa Iglesianqa',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 136  Cristoj Santa Iglesianqa',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Cristoj Santa Iglesianqa purenqa', //(1)
       _2: ' Kusiy munakuywan kawsaspa,', //(2)
@@ -7768,8 +7768,8 @@
     },
   },
   {
-    title: ' 137  Señor Jesucristo Noqa',
-    note: ' (Re  Menor)', //(note)
+    title_es: ' 137  Señor Jesucristo Noqa',
+    musicalNote: ' (Re  Menor)', //(note)
     paragraph: {
       _1: ' Señor Jesucristo, nocía qhatisqayki,', //(1)
       _2: " Qanmanta mañaspa tuta p'unchaypi.", //(2)
@@ -7838,8 +7838,8 @@
     },
   },
   {
-    title: ' 138  Casarakojkuna Canapi',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 138  Casarakojkuna Canapi',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Casarakojkuna Cana llajtapi', //(1)
       _2: ' Jesús Salvadorta wajyakorqanku. Yachachisqasninwan khuska Pay rerqa, Chaypitaj tukuynin kusikorqanku.', //(2)
@@ -7882,8 +7882,8 @@
     },
   },
   {
-    title: ' 139 Uj Pacha Juchapi',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 139 Uj Pacha Juchapi',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Uj pacha juchapi chinkasqa karqani.          Dios salvawarqay/', //(1)
       _2: ' /Wajyawajtinkama, usqayta chimpani,', //(2)
@@ -7926,8 +7926,8 @@
     },
   },
   {
-    title: ' 140   Gracias Dios Tatáy',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 140   Gracias Dios Tatáy',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Gracias, gracias, Dios Tatáy', //(1)
       _2: ' Juchayta llimphuchanki', //(2)
@@ -8010,8 +8010,8 @@
     },
   },
   {
-    title: ' Mana Yarqhay Kanchu   141',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Mana Yarqhay Kanchu   141',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' Mana yarqhay kanchu, mana llakiy kanchu, Kusikuyllapuni creejkunapaj.', //(1)
     },
@@ -8061,8 +8061,8 @@
     },
   },
   {
-    title: ' 142   Jesucristowan Mayllatapis',
-    note: ' (Re Mayor)        E.T. 19', //(note)
+    title_es: ' 142   Jesucristowan Mayllatapis',
+    musicalNote: ' (Re Mayor)        E.T. 19', //(note)
     paragraph: {
       _1: ' Jesucristowan mayllatapis riyman,', //(1)
       _2: ' Wiñay chikaymanta Salvawajniywan.', //(2)
@@ -8144,8 +8144,8 @@
     },
   },
   {
-    title: ' May Kusikuyniyojmin Kanqanku  143',
-    note: ' (Re Menor)', //(note)
+    title_es: ' May Kusikuyniyojmin Kanqanku  143',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' May kusikuyniyojmin kanqanku', //(1)
       _2: " Chay llamp'u sonqoyoj kajkunaqa/", //(2)
@@ -8202,8 +8202,8 @@
     },
   },
   {
-    title: ' 144  Yuyarikuy Tukuy',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 144  Yuyarikuy Tukuy',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Yuyarikuy tukuy tiempopi', //(1)
       _2: " Dios Tatamanta /                             /Dios Tatalla honrasqa kanqa              Nisqanta jun'ajtinchej./", //(2)
@@ -8234,8 +8234,8 @@
     },
   },
   {
-    title: ' Sumaj Munakoj Jesuslla   145',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Sumaj Munakoj Jesuslla   145',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Sumaj munakoj Jesuslla juchayta pichawan.', //(1)
       _2: " Cruzpi yawar jich'asqanwan llimphuchawan sonqoyta.", //(2)
@@ -8285,8 +8285,8 @@
     },
   },
   {
-    title: ' 146   Cristota Suyanachej',
-    note: ' (Mi Menor)      F. P.', //(note)
+    title_es: ' 146   Cristota Suyanachej',
+    musicalNote: ' (Mi Menor)      F. P.', //(note)
     paragraph: {
       _1: " /Cristota suyanachej, jayk'ajchus Pay jamonqa. Jamojtin chaypacharí, Paywan tukuy ripusun/", //(1)
     },
@@ -8335,8 +8335,8 @@
     },
   },
   {
-    title: ' Señorníy Wajyawarqa    147',
-    note: ' (Re Menor)        M.M.S.', //(note)
+    title_es: ' Señorníy Wajyawarqa    147',
+    musicalNote: ' (Re Menor)        M.M.S.', //(note)
     paragraph: {
       _1: " Señorníy wajyawarqa chajrampi llank'anaypaj. Kunan Hakisqa kani mana llank'asqaymanta.", //(1)
     },
@@ -8384,8 +8384,8 @@
     },
   },
   {
-    title: ' 148 Amañapis Kankumanchu',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 148 Amañapis Kankumanchu',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Amañapis kankumanchu sirvisojkuna Qantaqa, Sapallaypis sirvisqayki Iglesiapi, mayllapipis./', //(1)
     },
@@ -8430,8 +8430,8 @@
     },
   },
   {
-    title: ' Señor Jesús Jamonqa    149',
-    note: ' (Re Menor)        M.MS', //(note)
+    title_es: ' Señor Jesús Jamonqa    149',
+    musicalNote: ' (Re Menor)        M.MS', //(note)
     paragraph: {
       _1: ' /Señor Jesús jamonqa, phuyuspi chayamonqa. Pusawasun salvosta janaj pachaman/', //(1)
     },
@@ -8475,8 +8475,8 @@
     },
   },
   {
-    title: ' 150   Santa Bibliaqa',
-    note: ' (La Mayor)', //(note)
+    title_es: ' 150   Santa Bibliaqa',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' Santa Bibliaqa Diospa Palabranmin. Yachachiwanchej cheqa kajmanta,', //(1)
       _2: " Jesucristo Diospa chay k'ata Churin", //(2)
@@ -8556,8 +8556,8 @@
     },
   },
   {
-    title: ' Kallpachawayku Dios    151',
-    note: ' (Sol Mayor)        H.yC. 144', //(note)
+    title_es: ' Kallpachawayku Dios    151',
+    musicalNote: ' (Sol Mayor)        H.yC. 144', //(note)
     paragraph: {
       _1: ' Kallpachawayku, Dios, chay atiyniykiwan.', //(1)
       _2: " Chay Santo Espirituykiwan Rijch'arichiwayku.", //(2)
@@ -8603,8 +8603,8 @@
     },
   },
   {
-    title: ' 152   Señor Jesús Wajyasunki',
-    note: ' (Re Menor)        M.M.', //(note)
+    title_es: ' 152   Señor Jesús Wajyasunki',
+    musicalNote: ' (Re Menor)        M.M.', //(note)
     paragraph: {
       _1: ' /Señor Jesús wajyasunki:', //(1)
       _2: ' &quot;Jampuway, wawáy&quot;, nisunki.', //(2)
@@ -8679,8 +8679,8 @@
     },
   },
   {
-    title: ' 153 Diosninchej Wakichin',
-    note: ' (Fa Mayor)        F. Paredes', //(note)
+    title_es: ' 153 Diosninchej Wakichin',
+    musicalNote: ' (Fa Mayor)        F. Paredes', //(note)
     paragraph: {
       _1: ' /Diosninchej wakichin cielopi wasista/ /Tiyakunanchejpaj Cristo Señorllawan/', //(1)
     },
@@ -8707,8 +8707,8 @@
     },
   },
   {
-    title: ' 154 Señorniypata Thaskisqanta',
-    note: ' (Fa Mayor)        H. y C. 498', //(note)
+    title_es: ' 154 Señorniypata Thaskisqanta',
+    musicalNote: ' (Fa Mayor)        H. y C. 498', //(note)
     paragraph: {
       _1: ' /Señorniypata thaskisqanta risaj,', //(1)
       _2: ' Mayta munani Pay jiña kayta.', //(2)
@@ -8780,8 +8780,8 @@
     },
   },
   {
-    title: ' 155  Getsemaní Lugarpeqa',
-    note: '( )', //(note)
+    title_es: ' 155  Getsemaní Lugarpeqa',
+    musicalNote: '( )', //(note)
     paragraph: {
       _1: ' Getsemaní lugarpeqa', //(1)
       _2: ' Señor Jesús orasharqa:', //(2)
@@ -8904,8 +8904,8 @@
     },
   },
   {
-    title: ' 156    Ima Llakiy',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 156    Ima Llakiy',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " /Ima llakiy kay pachapi, juchallapi sapa p'unchay, Llakiy llapi, waqayllapi", //(1)
       _2: ' /Mana kaypi tarinichu kusikuyta sonqoypeqa. Kay pachapi Ilakiyllamin./', //(2)
@@ -8937,8 +8937,8 @@
     },
   },
   {
-    title: ' 157  Dios Wajyasunki',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 157  Dios Wajyasunki',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' Dios wajyasunki qanta, Palabranta uyariy. Atipaytaj juchata, kusiypitaj kawsanki.', //(1)
     },
@@ -8986,8 +8986,8 @@
     },
   },
   {
-    title: ' 158   Munakoj Dios Tata',
-    note: ' (Re Mayor)        J.P.', //(note)
+    title_es: ' 158   Munakoj Dios Tata',
+    musicalNote: ' (Re Mayor)        J.P.', //(note)
     paragraph: {
       _1: ' Munakoj Dios Tata, chimpaykamuyki,', //(1)
       _2: " Qanmanta mañaspa k'umuykamuyki. Munakuyniykipi Qan kawsachiway", //(2)
@@ -9048,8 +9048,8 @@
     },
   },
   {
-    title: ' Señor Jesusníy Yanapaway 159',
-    note: ' (Re Menor)        C. López', //(note)
+    title_es: ' Señor Jesusníy Yanapaway 159',
+    musicalNote: ' (Re Menor)        C. López', //(note)
     paragraph: {
       _1: ' /Señor Jesusníy, yanapaway,', //(1)
       _2: ' Tentaciompi kallpa qoway/', //(2)
@@ -9105,8 +9105,8 @@
     },
   },
   {
-    title: " 160  Diospaj Llank'asaj",
-    note: ' (Re Mayor)', //(note)
+    title_es: " 160  Diospaj Llank'asaj",
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " /Diospaj llank'asaj Señor Jesuswan,", //(1)
       _2: ' Janaj pachaman Paywan rinaypaj/', //(2)
@@ -9173,8 +9173,8 @@
     },
   },
   {
-    title: ' 161  Jesucristo Jamonqa',
-    note: ' (Re  Menor)', //(note)
+    title_es: ' 161  Jesucristo Jamonqa',
+    musicalNote: ' (Re  Menor)', //(note)
     paragraph: {
       _1: ' /Jesucristo jamonqa phuyus chawpipi,', //(1)
       _2: " Tukuy atiyninwantaj urayk'amonqa/", //(2)
@@ -9241,8 +9241,8 @@
     },
   },
   {
-    title: ' 162    Dios Tataj Llajtanman',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 162    Dios Tataj Llajtanman',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' Dios Tataj llajtanman tukuyninchej ripusunchej, Tukuy sonqonchejwan Payllataña sirvikuna.', //(1)
     },
@@ -9271,8 +9271,8 @@
     },
   },
   {
-    title: ' 163    Jesucristo Jamonqa',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 163    Jesucristo Jamonqa',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Jesucristo jamonqaña,', //(1)
       _2: " Chay p'unchaytaj qayllapiña.", //(2)
@@ -9347,8 +9347,8 @@
     },
   },
   {
-    title: ' 164   Munakuyta Tarisun',
-    note: ' (Re Mayor)        J. P.', //(note)
+    title_es: ' 164   Munakuyta Tarisun',
+    musicalNote: ' (Re Mayor)        J. P.', //(note)
     paragraph: {
       _1: ' /Munakuyta tarisun Dios Tatanchejpi.', //(1)
       _2: ' Tukuy sonqo Paypi creespa,', //(2)
@@ -9410,8 +9410,8 @@
     },
   },
   {
-    title: ' 165  Cristo Orashajtin',
-    note: ' (Re Mayor)               S. Claros', //(note)
+    title_es: ' 165  Cristo Orashajtin',
+    musicalNote: ' (Re Mayor)               S. Claros', //(note)
     paragraph: {
       _1: ' Cristo orashajtin Getsemanipi,', //(1)
       _2: ' Judasqa entregaykorqa.', //(2)
@@ -9510,8 +9510,8 @@
     },
   },
   {
-    title: ' Jesucristo Señorninchej   166',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Jesucristo Señorninchej   166',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Jesucristo Señorninchej', //(1)
       _2: ' Jamonqaña phuyuspi,', //(2)
@@ -9574,8 +9574,8 @@
     },
   },
   {
-    title: ' 167  Señor Jesusniy Noqawan',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 167  Señor Jesusniy Noqawan',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Señor Jesusniy noqawan kashan,', //(1)
       _2: ' Pantay noqata waqaychashawan/', //(2)
@@ -9642,8 +9642,8 @@
     },
   },
   {
-    title: ' 168   Diospi Confíaspa',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 168   Diospi Confíaspa',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Diospi confíaspa tukuy kawsayniypi,', //(1)
       _2: ' Qhatisaj kusiywan Dios Tatanchejta/', //(2)
@@ -9669,8 +9669,8 @@
     },
   },
   {
-    title: ' 169 Belén Llajtapi',
-    note: ' (Mi Menor)        N. Calani', //(note)
+    title_es: ' 169 Belén Llajtapi',
+    musicalNote: ' (Mi Menor)        N. Calani', //(note)
     paragraph: {
       _1: ' /Belén llajtapi Señor Jesús nacekorqa./', //(1)
       _2: ' /María warmi nacechikorqa Jesusta./', //(2)
@@ -9712,8 +9712,8 @@
     },
   },
   {
-    title: ' Jesuspa Jamunan 170',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' Jesuspa Jamunan 170',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: " Jesuspa jamunan p'unchaypeqa", //(1)
       _2: ' May jinajatun kusiychus kanqa.', //(2)
@@ -9790,8 +9790,8 @@
     },
   },
   {
-    title: ' 171  Cieloman Ripunayqa',
-    note: ' (Re Menor)        C.73', //(note)
+    title_es: ' 171  Cieloman Ripunayqa',
+    musicalNote: ' (Re Menor)        C.73', //(note)
     paragraph: {
       _1: ' Cieloman ripunay qa ancha walejpunimin. Cristomin yanapajniy, Payllapi confiakusaj.', //(1)
     },
@@ -9836,8 +9836,8 @@
     },
   },
   {
-    title: ' Yachachiway Dios Tatáy   172',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Yachachiway Dios Tatáy   172',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Yachachiway, Dios Tatáy,', //(1)
       _2: ' Santa Palabraykita', //(2)
@@ -9920,8 +9920,8 @@
     },
   },
   {
-    title: ' 173    Chay Ancho Ñanta',
-    note: ' (Do Mayor)        P. C. 30', //(note)
+    title_es: ' 173    Chay Ancho Ñanta',
+    musicalNote: ' (Do Mayor)        P. C. 30', //(note)
     paragraph: {
       _1: ' Chay ancho ñanta saqesaj,', //(1)
       _2: " K'ullku ñanta noqa risaj.", //(2)
@@ -9993,8 +9993,8 @@
     },
   },
   {
-    title: ' 174  Señor Jesucristo',
-    note: ' (Fa Mayor)        F. P.', //(note)
+    title_es: ' 174  Señor Jesucristo',
+    musicalNote: ' (Fa Mayor)        F. P.', //(note)
     paragraph: {
       _1: ' Señor Jesucristo kaypachaman jamun,', //(1)
       _2: " /Yawarninta jich'an", //(2)
@@ -10027,8 +10027,8 @@
     },
   },
   {
-    title: ' Janaj Pachapi Señor Jesusqa 175',
-    note: ' (Mi Menor )', //(note)
+    title_es: ' Janaj Pachapi Señor Jesusqa 175',
+    musicalNote: ' (Mi Menor )', //(note)
     paragraph: {
       _1: ' /Janaj pachapi Señor Jesusqa/', //(1)
       _2: ' /Ña wakichishanña qori llajtata/', //(2)
@@ -10069,8 +10069,8 @@
     },
   },
   {
-    title: ' 176   Laqha Juchapi',
-    note: ' (Re Menor)        M.M.S.', //(note)
+    title_es: ' 176   Laqha Juchapi',
+    musicalNote: ' (Re Menor)        M.M.S.', //(note)
     paragraph: {
       _1: ' /Laqha juchapi purishajtiy,', //(1)
       _2: ' Señor Jesusniy wajyawarqa', //(2)
@@ -10121,8 +10121,8 @@
     },
   },
   {
-    title: ' Kutirina Jesusman  177',
-    note: ' (Fa  Mayor)', //(note)
+    title_es: ' Kutirina Jesusman  177',
+    musicalNote: ' (Fa  Mayor)', //(note)
     paragraph: {
       _1: ' Kutirina Jesusman, munakoj Salvadorman. Juchanchejta perdonan, yawarnintaj llimphuchan.', //(1)
     },
@@ -10171,8 +10171,8 @@
     },
   },
   {
-    title: ' 178   Cristoqa Muñan Salvayta',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 178   Cristoqa Muñan Salvayta',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Cristoqa muñan salvayta', //(1)
       _2: ' Chinkasqa kaj wawasninta,', //(2)
@@ -10247,8 +10247,8 @@
     },
   },
   {
-    title: ' May Kusisqa Rishani   179',
-    note: ' (Re Mayor)        A .  Mamani', //(note)
+    title_es: ' May Kusisqa Rishani   179',
+    musicalNote: ' (Re Mayor)        A .  Mamani', //(note)
     paragraph: {
       _1: ' /May kusisqa rishani janaj pachaman, Almastawan pusaspa Salvawajniyman/', //(1)
     },
@@ -10290,8 +10290,8 @@
     },
   },
   {
-    title: ' 180  Orayta yachachiway',
-    note: ' (Re Mayor)        E.T. 99', //(note)
+    title_es: ' 180  Orayta yachachiway',
+    musicalNote: ' (Re Mayor)        E.T. 99', //(note)
     paragraph: {
       _1: ' Orayta yachachiway; Diosníy, Qanlla atinki. Astawan feta qoway pisiwasqanman jiña.', //(1)
     },
@@ -10356,8 +10356,8 @@
     },
   },
   {
-    title: ' Kusikoyqa Tiyapuwanqa   181',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Kusikoyqa Tiyapuwanqa   181',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Kusikoyqa tiyapuwanqa', //(1)
       _2: ' Jesusniywan janaj pachapi.', //(2)
@@ -10440,8 +10440,8 @@
     },
   },
   {
-    title: ' 182 Jesucristo Wicharipunampaj',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 182 Jesucristo Wicharipunampaj',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Jesucristo wicharipunampaj', //(1)
       _2: ' Jatun kamachiyta saqewarqanchej.', //(2)
@@ -10523,8 +10523,8 @@
     },
   },
   {
-    title: ' Cristo Salvadorta   183',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Cristo Salvadorta   183',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Cristo Salvadorta tukuy yupaychana,', //(1)
       _2: " Munasqa hermano, uj llamp'u sonqowan/", //(2)
@@ -10556,8 +10556,8 @@
     },
   },
   {
-    title: ' 184   Diospa Palabranta Tarpusaj',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 184   Diospa Palabranta Tarpusaj',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' Diospa Palabranta tarpumusaj,', //(1)
       _2: ' Diospa Santo Evangelionta.', //(2)
@@ -10632,8 +10632,8 @@
     },
   },
   {
-    title: ' 185   Mana Cristo jiña',
-    note: ' (La Mayor)        E.T. 21', //(note)
+    title_es: ' 185   Mana Cristo jiña',
+    musicalNote: ' (La Mayor)        E.T. 21', //(note)
     paragraph: {
       _1: ' Mana, Cristo jiña amigo kanchu,                 Ni ujpis, ni ujpis.                               Ni pi Pay jiña    almasninchejta                Salvayta atinchu.', //(1)
       _2: ' Tukuy sufrisqasninchejmanta', //(2)
@@ -10698,8 +10698,8 @@
     },
   },
   {
-    title: ' Jesús Wajyashasunki     186',
-    note: ' (Sol Mayor)        AA.M.', //(note)
+    title_es: ' Jesús Wajyashasunki     186',
+    musicalNote: ' (Sol Mayor)        AA.M.', //(note)
     paragraph: {
       _1: ' /Jesús wajyashasunki jatun munakuyninwan./ /Juchaykiwan chimpaykuy, salvacionta tarinki/', //(1)
     },
@@ -10727,8 +10727,8 @@
     },
   },
   {
-    title: ' 187 Jinallachu Diosman Risaj',
-    note: ' (Re Mayor)        H. y C. 410', //(note)
+    title_es: ' 187 Jinallachu Diosman Risaj',
+    musicalNote: ' (Re Mayor)        H. y C. 410', //(note)
     paragraph: {
       _1: " Jinallachu Diosman risaj, makisniy ch'usajllachu,                Ni uj almata pusaspa, nitaj allín sirvispa?", //(1)
     },
@@ -10767,8 +10767,8 @@
     },
   },
   {
-    title: ' Chinkasqa Kashajtiy   188',
-    note: ' (Do Menor)        R. Veizaga', //(note)
+    title_es: ' Chinkasqa Kashajtiy   188',
+    musicalNote: ' (Do Menor)        R. Veizaga', //(note)
     paragraph: {
       _1: ' /Chinkasqa kashajtiy, Jesús wajyawarqa/ /Tarinawampajtaj cruzkama chayarqa/', //(1)
     },
@@ -10796,8 +10796,8 @@
     },
   },
   {
-    title: ' 189  Señor Jesús Wajyan',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 189  Señor Jesús Wajyan',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: " /Señor Jesús wajyan                                  Juchayoj runasta mask'aspa./                      /Chimpaykuy, amigóy, tukuy sonqoykiwan./", //(1)
       _2: ' /Diosllaman qayllaykuy,                             Palabrán kasuspa chimpaykuy./                       /Juchapi    chinkasqa llakisqa purinki./', //(2)
@@ -10828,8 +10828,8 @@
     },
   },
   {
-    title: ' Kallpachakuna Hermanos 190',
-    note: ' (Fa Menor)        S. C. V.', //(note)
+    title_es: ' Kallpachakuna Hermanos 190',
+    musicalNote: ' (Fa Menor)        S. C. V.', //(note)
     paragraph: {
       _1: ' /Kallpachakuna, hermanos, Cristo noqanchejwan. Tukuyninchej ujchasqas atipaj riña./', //(1)
     },
@@ -10874,8 +10874,8 @@
     },
   },
   {
-    title: ' 191  Jamuy Sonqoyman',
-    note: ' (Mi Mayor)', //(note)
+    title_es: ' 191  Jamuy Sonqoyman',
+    musicalNote: ' (Mi Mayor)', //(note)
     paragraph: {
       _1: ' Jamuy sonqoyman, Señor, kawsay noqapi. /Señorniy, Salvawajniy kay./', //(1)
     },
@@ -10902,8 +10902,8 @@
     },
   },
   {
-    title: ' Salvación Kasqanmanta 192',
-    note: ' (Re Menor)        Z. Quenta', //(note)
+    title_es: ' Salvación Kasqanmanta 192',
+    musicalNote: ' (Re Menor)        Z. Quenta', //(note)
     paragraph: {
       _1: ' /Salvación kasqanmantaqa,                           Manachu qan yacharqanki?                        Tentaciompitaj    kashanki,                     Almaykitaj llakikushan./', //(1)
       _2: ' /Mana runaqa yachanchu                         Ni cielopi angelespis.', //(2)
@@ -10955,8 +10955,8 @@
     },
   },
   {
-    title: ' 193  Wañorqa Jesús Cruzpi',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 193  Wañorqa Jesús Cruzpi',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Wañorqa Jesús cruzpi noqaraykumin,     Kawsayninta churarqa salvanawampaj.', //(1)
     },
@@ -11012,8 +11012,8 @@
     },
   },
   {
-    title: ' Diosníy Mañakamuyki    194',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Diosníy Mañakamuyki    194',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' Diosníy, mañakamuyki Qanman qonqorikuspa: &quot;Juchasniyta pampachay, kawsayta qoway&quot;.', //(1)
     },
@@ -11058,8 +11058,8 @@
     },
   },
   {
-    title: ' 195 Dios Tatanchej',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 195 Dios Tatanchej',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Dios Tatanchej Churinta kachamun./', //(1)
       _2: ' /Munakuywan kay mundota salvan/', //(2)
@@ -11093,8 +11093,8 @@
     },
   },
   {
-    title: ' Noqa Kaypi Wajcha  196',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' Noqa Kaypi Wajcha  196',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: " /Noqa kaypi wajcha purishajtiy,               Dios Tatáy, Qanlla k'anchaykuwanki./", //(1)
     },
@@ -11149,8 +11149,8 @@
     },
   },
   {
-    title: ' 197  Oh, Jehová Señorníy',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 197  Oh, Jehová Señorníy',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Oh Jehová Señorníy, jatunmin sutiyki./', //(1)
       _2: ' /Tukuy kawsayniypi Diosniyta alabasaj/', //(2)
@@ -11173,8 +11173,8 @@
     },
   },
   {
-    title: ' Cristo Wajyashan   198',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Cristo Wajyashan   198',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Cristo wajyashan runasta:', //(1)
       _2: ' &quot;Kunan jampuway&quot;, nispa./', //(2)
@@ -11213,8 +11213,8 @@
     },
   },
   {
-    title: ' 199 Santa Bibliapi',
-    note: ' (Sol Mayor)        H. y C. 320', //(note)
+    title_es: ' 199 Santa Bibliapi',
+    musicalNote: ' (Sol Mayor)        H. y C. 320', //(note)
     paragraph: {
       _1: ' Santa Bibliapi willawanchej Dios', //(1)
       _2: ' Mayta munakuwasqanchejta Pay.', //(2)
@@ -11288,8 +11288,8 @@
     },
   },
   {
-    title: ' Kunampacha Willamuna 200',
-    note: ' (La Mayor)        H. y C. 26', //(note)
+    title_es: ' Kunampacha Willamuna 200',
+    musicalNote: ' (La Mayor)        H. y C. 26', //(note)
     paragraph: {
       _1: ' Kunampacha willamuna tukuyman', //(1)
       _2: ' Jesuspa cruzninmanta,', //(2)
@@ -11363,8 +11363,8 @@
     },
   },
   {
-    title: ' 201   Dios Tatáy Munakoj',
-    note: ' (Sol Mayor)        T. H.  C.', //(note)
+    title_es: ' 201   Dios Tatáy Munakoj',
+    musicalNote: ' (Sol Mayor)        T. H.  C.', //(note)
     paragraph: {
       _1: ' /Dios Tatáy munakoj, qhuyakuyniyoj.', //(1)
       _2: ' Qan kay pachataqa munakorqanki/', //(2)
@@ -11400,8 +11400,8 @@
     },
   },
   {
-    title: " K'anchaypiña Kaspa     202",
-    note: ' (Do Menor)        E. Ch. V.', //(note)
+    title_es: " K'anchaypiña Kaspa     202",
+    musicalNote: ' (Do Menor)        E. Ch. V.', //(note)
     paragraph: {
       _1: " /K'anchaypiña kaspa, allinta qan puriy, Diosninchej rikumun./", //(1)
     },
@@ -11450,8 +11450,8 @@
     },
   },
   {
-    title: ' 203   Cristo Kaypi Kashan',
-    note: ' (Sol Mayor)        H. y C. 152', //(note)
+    title_es: ' 203   Cristo Kaypi Kashan',
+    musicalNote: ' (Sol Mayor)        H. y C. 152', //(note)
     paragraph: {
       _1: ' Cristo kaypi kashan, ancha kusikuy.', //(1)
       _2: " Ni manchikuy kanchu, noqawan kajtin. Niwasqanta junt'an k'acha Salvador:", //(2)
@@ -11511,8 +11511,8 @@
     },
   },
   {
-    title: ' 204   Riy Creyente',
-    note: ' (Re Mayor)       H.  y C.  128', //(note)
+    title_es: ' 204   Riy Creyente',
+    musicalNote: ' (Re Mayor)       H.  y C.  128', //(note)
     paragraph: {
       _1: ' Riy, creyente, willamunki Salvasojniykimanta. Rillay tukuyman willanki Diospa Evangelionta.', //(1)
     },
@@ -11589,8 +11589,8 @@
     },
   },
   {
-    title: ' 205   Salvasojniykita',
-    note: ' (Sol Mayor)          H. y C. 409', //(note)
+    title_es: ' 205   Salvasojniykita',
+    musicalNote: ' (Sol Mayor)          H. y C. 409', //(note)
     paragraph: {
       _1: ' Salvasojniykita tarinkiñachu?', //(1)
       _2: " Yawarninta Pay jich'arqa qanrayku. Chimpankiñachu Salvasojniykiman Yawarninwan mayllanasumpaj?", //(2)
@@ -11663,8 +11663,8 @@
     },
   },
   {
-    title: ' 206 Amaña Ari',
-    note: ' (Do Menor)', //(note)
+    title_es: ' 206 Amaña Ari',
+    musicalNote: ' (Do Menor)', //(note)
     paragraph: {
       _1: ' Amaña ari Llakikuychejchu', //(1)
       _2: ' Kay pachapi kawsaymanta,', //(2)
@@ -11737,8 +11737,8 @@
     },
   },
   {
-    title: ' Cristo Sapallantaña      207',
-    note: ' (Re Mayor)                CALA 57', //(note)
+    title_es: ' Cristo Sapallantaña      207',
+    musicalNote: ' (Re Mayor)                CALA 57', //(note)
     paragraph: {
       _1: ' /Cristo sapallantaña noqa qhatisaj,', //(1)
       _2: " Misk'i Palabrasninwan sonqochawanqa./", //(2)
@@ -11805,8 +11805,8 @@
     },
   },
   {
-    title: " 208    Llank'aychej Señorpaj",
-    note: ' (Re Mayor)      M. y C. 223', //(note)
+    title_es: " 208    Llank'aychej Señorpaj",
+    musicalNote: ' (Re Mayor)      M. y C. 223', //(note)
     paragraph: {
       _1: " Llank'aychej Señorpaj, kamachisnin kanchej. Jesús yachachej ninchejta qhatinachej. Bendicionesninwan kallpachawasunchej Kamachiwasqasninchejta ruwanapaj.", //(1)
     },
@@ -11864,8 +11864,8 @@
     },
   },
   {
-    title: ' Qampaj Takisaj Diosníy   209',
-    note: ' (Do Menor)        CALA 129', //(note)
+    title_es: ' Qampaj Takisaj Diosníy   209',
+    musicalNote: ' (Do Menor)        CALA 129', //(note)
     paragraph: {
       _1: ' Qampaj takisaj, Diosníy, mana runaspajchu', //(1)
       _2: ' Nitaj lantikunapajchu, Qanllapajña takisaj.', //(2)
@@ -11905,8 +11905,8 @@
     },
   },
   {
-    title: ' 210 Kaypi Kashan Señor Jesús',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 210 Kaypi Kashan Señor Jesús',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Kaypi kashan Señor Jesús,', //(1)
       _2: ' Tukuy kusikunchej Paywanña kaspa.', //(2)
@@ -11945,8 +11945,8 @@
     },
   },
   {
-    title: ' 211  Janaj Pachaman Risaj',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 211  Janaj Pachaman Risaj',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Janaj pachaman risaj wiñay kawsayman, Almastawan pusasaj Señor Jesusman.', //(1)
       _2: ' May chhikaspis kachunku noqaj contraypi, Yachani Señorwan atipanayta.', //(2)
@@ -12018,8 +12018,8 @@
     },
   },
   {
-    title: ' 212   Sonqowan confiani',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 212   Sonqowan confiani',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Sonqowan confiani Señorllapaj kawsayta. Cristomin almayta juchamanta salvarqa.', //(1)
       _2: " /Señorqa wajyashan k'achá Santa Palabrasninwan/", //(2)
@@ -12065,8 +12065,8 @@
     },
   },
   {
-    title: ' 213 Jesucristo Kay Pachaman',
-    note: ' (Re Mayor)        H. y C. 323', //(note)
+    title_es: ' 213 Jesucristo Kay Pachaman',
+    musicalNote: ' (Re Mayor)        H. y C. 323', //(note)
     paragraph: {
       _1: " Jesucristo kay pachaman mask'aspa jamorqa, Munakuywan wawastapis salvayta muñan.", //(1)
     },
@@ -12111,8 +12111,8 @@
     },
   },
   {
-    title: ' Janaj Pachamanta  214',
-    note: ' (La Mayor)        H. y C. 358', //(note)
+    title_es: ' Janaj Pachamanta  214',
+    musicalNote: ' (La Mayor)        H. y C. 358', //(note)
     paragraph: {
       _1: ' Janaj pachamanta uyarikushan;', //(1)
       _2: " &quot;K'anchayta apaychej.", //(2)
@@ -12211,8 +12211,8 @@
     },
   },
   {
-    title: ' Munakuwan Jesusniy   215',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Munakuwan Jesusniy   215',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Munakuwan Jesusniy, Palabrampi Pay ni wan. Wawas riyta atinku munakoj Salvador man.', //(1)
     },
@@ -12267,8 +12267,8 @@
     },
   },
   {
-    title: ' 216 Aswan Sumaj Mundomin',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 216 Aswan Sumaj Mundomin',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Aswan sumaj mundomin tiyan,', //(1)
       _2: " K'anchaynimpi santos kawsanku.", //(2)
@@ -12331,8 +12331,8 @@
     },
   },
   {
-    title: ' Yachaychej Wasis   217',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Yachaychej Wasis   217',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Yachaychej wasis kashasqanta', //(1)
       _2: ' Diospa lliphej qori llajtampi.', //(2)
@@ -12407,8 +12407,8 @@
     },
   },
   {
-    title: ' 218  Cristoj Jamunanqa',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 218  Cristoj Jamunanqa',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: " Cristoj jamunanqa junt'akushanñamin. Imanasunchejtaj?", //(1)
       _2: ' Jatun munakuywan Payta suyasunchej', //(2)
@@ -12498,8 +12498,8 @@
     },
   },
   {
-    title: ' 219  Hermanos Takinachej',
-    note: ' (Si Menor)', //(note)
+    title_es: ' 219  Hermanos Takinachej',
+    musicalNote: ' (Si Menor)', //(note)
     paragraph: {
       _1: " /Hermanos, takinachej Diosninchejman         Kay p'unchaypi sumaj kusiywan./", //(1)
     },
@@ -12547,8 +12547,8 @@
     },
   },
   {
-    title: ' 220  Diosta kasuspa',
-    note: ' (Si Menor)', //(note)
+    title_es: ' 220  Diosta kasuspa',
+    musicalNote: ' (Si Menor)', //(note)
     paragraph: {
       _1: ' /Diosta kasuspa purishani,', //(1)
       _2: ' Palabranmanta willaraspa/', //(2)
@@ -12586,8 +12586,8 @@
     },
   },
   {
-    title: ' 221   Dios Tatáy Yachachiway',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 221   Dios Tatáy Yachachiway',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Dios Tatáy, yachachiway Palabraykita,', //(1)
       _2: ' Willasaj runasman kamachisqaykita./', //(2)
@@ -12620,8 +12620,8 @@
     },
   },
   {
-    title: " 222  Yuraj P'achawan Kasaj",
-    note: ' (Sol Mayor)', //(note)
+    title_es: " 222  Yuraj P'achawan Kasaj",
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " /Yuraj p'achawan kasaj janaj pachapi,          Diospa wasimpi, janaj pachapi.                  Yuraj p'achawan kasaj janaj pachapi              Kusiypi kamusaj/", //(1)
       _2: ' /Pilluta Dios qowanqa janaj pachapi, Diospa wasimpi, janaj pachapi.                           Pilluta Dios qowanqa janaj pachapi,                     Kusiypi kamusaj/', //(2)
@@ -12651,8 +12651,8 @@
     },
   },
   {
-    title: ' May Munasqa Hermanóy 223',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' May Munasqa Hermanóy 223',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' May munasqa hermanóy, Jesusllata qhatina.', //(1)
       _2: ' Ama iskayrayaspa, tukuy sonqo qhatina.', //(2)
@@ -12698,8 +12698,8 @@
     },
   },
   {
-    title: ' 224  Dios Tatayku',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 224  Dios Tatayku',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Dios Tatayku, yachachiwayku Palabraykita.           Riyta munayku janaj pachaman wiñay kawsayman./', //(1)
     },
@@ -12745,8 +12745,8 @@
     },
   },
   {
-    title: ' Kay Pacha Kawsaypi     225',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Kay Pacha Kawsaypi     225',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Kay pacha kawsaypi kashaspaqa,', //(1)
       _2: ' Diosmanta niraj yachashaspa,', //(2)
@@ -12821,8 +12821,8 @@
     },
   },
   {
-    title: ' 226  Jesuspa Kutimuynenqa',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 226  Jesuspa Kutimuynenqa',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " /Jesuspa kutimuynenqa                            Sinch'i qayllapiña kashan./                                       /Jamonqa Pay sinch'i atiyninwan,", //(1)
       _2: ' Wawasninta pusarikapoj./', //(2)
@@ -12859,8 +12859,8 @@
     },
   },
   {
-    title: ' 227  Kay Pachaman',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 227  Kay Pachaman',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' /Kay pachaman Jesucristo', //(1)
       _2: ' Salvaj Pay jamorqa.', //(2)
@@ -12911,8 +12911,8 @@
     },
   },
   {
-    title: ' 228   Kay Pachapi Kawsaypi',
-    note: ' (La Mayor)', //(note)
+    title_es: ' 228   Kay Pachapi Kawsaypi',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' /Kay pacha kawsaypi tukuy runas', //(1)
       _2: " Mask'anku mana kajta./", //(2)
@@ -12951,8 +12951,8 @@
     },
   },
   {
-    title: ' ImaraykuchusDios      229',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' ImaraykuchusDios      229',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " Imaraykuchus Dios chay jinatapuni       Mundota munakorqa,                       K'ata Churinta qorqa.", //(1)
       _2: ' Pillapis creej Salvakunampaj.', //(2)
@@ -13009,8 +13009,8 @@
     },
   },
   {
-    title: ' Khuyarikuway Dios Tatáy 230',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Khuyarikuway Dios Tatáy 230',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Khuyarikuway, Dios Tatáy,', //(1)
       _2: ' Almaytapis kallpachaway.', //(2)
@@ -13053,8 +13053,8 @@
     },
   },
   {
-    title: ' 231 Jesús Jamonqa',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 231 Jesús Jamonqa',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Rey Jesús jamonqa kay pachaman           May jatun atiyninwanña./                     /Tukuy wawasnin jaqay cielopi', //(1)
       _2: ' Kusikamusun wiñaypajmin./', //(2)
@@ -13083,8 +13083,8 @@
     },
   },
   {
-    title: ' Kallpachakuychej Hermanos 232',
-    note: ' ( )', //(note)
+    title_es: ' Kallpachakuychej Hermanos 232',
+    musicalNote: ' ( )', //(note)
     paragraph: {
       _1: ' /Kallpachakuychej, hermanos, confiaychej Señorpi. Jesuspa jamunanqa qayllapiña kashan/', //(1)
     },
@@ -13125,8 +13125,8 @@
     },
   },
   {
-    title: ' Graciasta Qoyki  233',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Graciasta Qoyki  233',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Graciasta qoyki, Diosníy,', //(1)
       _2: ' Qan noqata salvawarqanki.', //(2)
@@ -13165,8 +13165,8 @@
     },
   },
   {
-    title: ' 234  Kay Waseqa',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 234  Kay Waseqa',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Kay waseqa Diosniypata, Señorniy kaypi kashan.', //(1)
       _2: ' Tukuy creej bautizakun, Evangelio willakun./', //(2)
@@ -13201,8 +13201,8 @@
     },
   },
   {
-    title: ' May Kusisqas Jaku   235',
-    note: ' (Re Menor)', //(note)
+    title_es: ' May Kusisqas Jaku   235',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' //May kusisqas jaku, hermanos, janaj pachaman.        Waj kawsaqestapis pusaspa Señor Jesusman.//', //(1)
     },
@@ -13244,8 +13244,8 @@
     },
   },
   {
-    title: ' 236  Hermanos Hermanas',
-    note: ' (Si Menor)', //(note)
+    title_es: ' 236  Hermanos Hermanas',
+    musicalNote: ' (Si Menor)', //(note)
     paragraph: {
       _1: ' /Hermanos, hermanas, maymampis risunchej Señor Jesúswan/', //(1)
       _2: ' /Señor waqaychasuchun, qanwampuni Pay kachun, Mayllamampis rejtiykeqa/', //(2)
@@ -13268,8 +13268,8 @@
     },
   },
   {
-    title: " Ancha K'acha Señorniy    237",
-    note: ' (Sol Mayor)        R. Clemente', //(note)
+    title_es: " Ancha K'acha Señorniy    237",
+    musicalNote: ' (Sol Mayor)        R. Clemente', //(note)
     paragraph: {
       _1: " /Ancha k'acha Señorniy, munakuwaj Señorniy, Khuyakuwaj Señorniy, tukuypa Diosnin./", //(1)
       _2: ' Sonqoy ukhupi, sonqoy ukhupi', //(2)
@@ -13301,8 +13301,8 @@
     },
   },
   {
-    title: ' 238 Señor Jesusniy',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 238 Señor Jesusniy',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Señor Jesusniy munakuyniyoj.', //(1)
       _2: ' Cruzpi wañuspa salvawarqa.', //(2)
@@ -13367,8 +13367,8 @@
     },
   },
   {
-    title: " Jaku Riña Llank'amoj    239",
-    note: ' (Si Menor)        M.yJ.', //(note)
+    title_es: " Jaku Riña Llank'amoj    239",
+    musicalNote: ' (Si Menor)        M.yJ.', //(note)
     paragraph: {
       _1: " /Jaku riña llank'amoj Señorpa chajrallampi.              Cosechaqa jatunmin, llank'ajkunari pisi/", //(1)
     },
@@ -13413,8 +13413,8 @@
     },
   },
   {
-    title: ' 240  Jesús Salvawajniyta',
-    note: ' (Si Menor)        H. J.', //(note)
+    title_es: ' 240  Jesús Salvawajniyta',
+    musicalNote: ' (Si Menor)        H. J.', //(note)
     paragraph: {
       _1: ' /Jesús Salvawajniyta rikuyta munashani;                      Payqa tiyasqa kashan janaj pacha gloriampi/', //(1)
     },
@@ -13460,8 +13460,8 @@
     },
   },
   {
-    title: " Uj P'unchay Chayamonqa  241",
-    note: ' (Mi Menor)', //(note)
+    title_es: " Uj P'unchay Chayamonqa  241",
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " /Uj p'unchay chayamonqa kay mundoj tukukuynin. Diosninchejri jamuytawan pusarikapuwasun./", //(1)
     },
@@ -13488,8 +13488,8 @@
     },
   },
   {
-    title: ' Bibliapi Niwanchej  242',
-    note: ' (Si Menor)', //(note)
+    title_es: ' Bibliapi Niwanchej  242',
+    musicalNote: ' (Si Menor)', //(note)
     paragraph: {
       _1: ' /Bibliapi niwanchej kanqa terremotos, Yarqhaypis, onqoypis, tukuy mundopi./', //(1)
     },
@@ -13543,8 +13543,8 @@
     },
   },
   {
-    title: ' 243  Kawsarimporqa Cristoqa',
-    note: ' (Do Mayor)        H.yC247', //(note)
+    title_es: ' 243  Kawsarimporqa Cristoqa',
+    musicalNote: ' (Do Mayor)        H.yC247', //(note)
     paragraph: {
       _1: ' Kawsarimporqa Cristoqa, Aleluya.', //(1)
       _2: ' Wañuyta Pay atiparqa, Aleluya.', //(2)
@@ -13593,8 +13593,8 @@
     },
   },
   {
-    title: ' Diosninchejpa Obrampajqa',
-    note: ' (Si Menor)', //(note)
+    title_es: ' Diosninchejpa Obrampajqa',
+    musicalNote: ' (Si Menor)', //(note)
     paragraph: {
       _1: ' /Diosninchejpa obrampajqa qonanchejpuni tiyan./', //(1)
       _2: ' /Ofrendasta apampuna tukuy sonqonchejmanta./', //(2)
@@ -13616,8 +13616,8 @@
     },
   },
   {
-    title: ' 245  Bolivianchejta Pusana',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 245  Bolivianchejta Pusana',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Bolivianchejta pusana Cristoman', //(1)
       _2: ' Dios Tatanchejpa ñanninman.', //(2)
@@ -13691,8 +13691,8 @@
     },
   },
   {
-    title: ' 246 Dios Tatáy Mañakuyki',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 246 Dios Tatáy Mañakuyki',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Dios Tatáy, mañakuyki Qanlla kallpachariway./ /Llakiy, waqay jamojtin, Qanlla atipachiway./', //(1)
     },
@@ -13716,8 +13716,8 @@
     },
   },
   {
-    title: " 247   Llank'aspa Kawsana",
-    note: ' (Re Menor)', //(note)
+    title_es: " 247   Llank'aspa Kawsana",
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " /Llank'aspa kawsana, Diosllataña sirvispa. Juchapi kawsaspa, wañuyllaman risunchej./", //(1)
     },
@@ -13763,8 +13763,8 @@
     },
   },
   {
-    title: ' 248  Khuyakuymanta Juiciomantawan',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 248  Khuyakuymanta Juiciomantawan',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Khuyakuymanta, juiciomantawan takisaj/   /Qanman, oh Jehová Dios, takisaj ./', //(1)
     },
@@ -13797,8 +13797,8 @@
     },
   },
   {
-    title: ' 249  Qayllakuna Jesusman',
-    note: ' (Do Menor)', //(note)
+    title_es: ' 249  Qayllakuna Jesusman',
+    musicalNote: ' (Do Menor)', //(note)
     paragraph: {
       _1: ' /Qayllakuna Jesusman, Paymin wajyashawanchej/', //(1)
       _2: ' /Chimpaykuna kusiywan mana manchachikuspa/', //(2)
@@ -13831,8 +13831,8 @@
     },
   },
   {
-    title: ' Salvadorninchej Jesusta   250',
-    note: ' (Re Mayor)        H. y C. 255', //(note)
+    title_es: ' Salvadorninchej Jesusta   250',
+    musicalNote: ' (Re Mayor)        H. y C. 255', //(note)
     paragraph: {
       _1: ' Salvadorninchej Jesusta tukuy yupaychana. Jamuychej, Payman takisun tukuy sonqomanta.', //(1)
     },
@@ -13879,8 +13879,8 @@
     },
   },
   {
-    title: ' 251 Hermanóy Llakiypichu Qan',
-    note: ' (Re Mayor)      H. y C. 514', //(note)
+    title_es: ' 251 Hermanóy Llakiypichu Qan',
+    musicalNote: ' (Re Mayor)      H. y C. 514', //(note)
     paragraph: {
       _1: ' Hermanóy, llakiypichu qan kashanki?', //(1)
       _2: ' Chayri iskayrayasqachu kashanki?', //(2)
@@ -13952,8 +13952,8 @@
     },
   },
   {
-    title: ' Diosniy Tatayqa  252',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Diosniy Tatayqa  252',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Diosniy Tatayqa khuyakuyniyoj', //(1)
       _2: ' Sajra kayniyta Pay llimphuchawan.', //(2)
@@ -13984,8 +13984,8 @@
     },
   },
   {
-    title: ' 253  Jesucristo Diospa Churin',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 253  Jesucristo Diospa Churin',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Jesucristo Diospa Churin,', //(1)
       _2: ' Qanmin Salvawajniy kanki.', //(2)
@@ -14059,8 +14059,8 @@
     },
   },
   {
-    title: ' Cristo Noqawan Kashan   254',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Cristo Noqawan Kashan   254',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Cristo noqawan kashan/', //(1)
       _2: ' Cristo noqawan, Cristo noqawan,', //(2)
@@ -14093,8 +14093,8 @@
     },
   },
   {
-    title: ' 255 Qhatikusaj',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 255 Qhatikusaj',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Qhatikusaj, Jesusta qhatisaj,', //(1)
       _2: ' Maymampis Paywanqa rillasajpuni.', //(2)
@@ -14121,8 +14121,8 @@
     },
   },
   {
-    title: ' Chimpamuyku Señorníy   256',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Chimpamuyku Señorníy   256',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' Chimpamuyku, Señorníy,', //(1)
       _2: ' Qanllata yupaychakoj.', //(2)
@@ -14149,8 +14149,8 @@
     },
   },
   {
-    title: ' Cristo Salvawarqa      257',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Cristo Salvawarqa      257',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Cristo salvawarqa cruzpi wañusqanwan,', //(1)
       _2: ' Mayta kusikuni Señor Jesusniy wan/', //(2)
@@ -14177,8 +14177,8 @@
     },
   },
   {
-    title: ' 258   Señor Nisunki Qanman',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 258   Señor Nisunki Qanman',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " /Señor nisunki qanman: Manachu qhatiwanki? Mundo kusikuyllata mask'akushanki./", //(1)
       _2: ' /Mundoj kusikuyninwan llakiyllata tarinki, Sonqoykipi kuseyqa mana kanqachu/', //(2)
@@ -14200,8 +14200,8 @@
     },
   },
   {
-    title: ' 259 Jamuy Ari Jesús',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 259 Jamuy Ari Jesús',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Jamuy ari Jesús kay sonqoy man/', //(1)
       _2: ' /Qampaj lugar wakichisqa kashan,', //(2)
@@ -14224,8 +14224,8 @@
     },
   },
   {
-    title: " 260  Cristo K'anehay Noqapi",
-    note: ' (Sol Mayor)', //(note)
+    title_es: " 260  Cristo K'anehay Noqapi",
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " Cristo k'anchay noqapi k'anchay noqapi.", //(1)
       _2: " K'anchay noqapi, Señor.", //(2)
@@ -14252,8 +14252,8 @@
     },
   },
   {
-    title: ' 261  Gracias Qanman Diosníy',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 261  Gracias Qanman Diosníy',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Gracias Qanman, Diosníy./', //(1)
       _2: ' /Salva wanki, perdonawanki,', //(2)
@@ -14276,9 +14276,9 @@
     },
   },
   {
-    title: ' 262 Cristo Nerqa          ',
+    title_es: ' 262 Cristo Nerqa          ',
     space: true,
-    note: ' (Sol Mayor)', //(note)
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Cristo nerqa: &quot;Jamuwaychej,/jamuwaychej&quot;/', //(1)
       _2: ' Cristo nerqa:  &ldquo; Jamuwaychej,//samarinkichej &rdquo;//', //(2)
@@ -14304,8 +14304,8 @@
     },
   },
   {
-    title: ' Diosníy May Jatunmin    263',
-    note: ' (Sol Menor)', //(note)
+    title_es: ' Diosníy May Jatunmin    263',
+    musicalNote: ' (Sol Menor)', //(note)
     paragraph: {
       _1: ' Diosníy, may jatunmin atiyniyki,', //(1)
       _2: ' Diosníy, Qannejllata kawsani.', //(2)
@@ -14332,8 +14332,8 @@
     },
   },
   {
-    title: ' 264   Cristowan Wasinchejpi',
-    note: ' (Si Mayor)', //(note)
+    title_es: ' 264   Cristowan Wasinchejpi',
+    musicalNote: ' (Si Mayor)', //(note)
     paragraph: {
       _1: ' Cristowan wasinchejpi uj sumaj kusiy,', //(1)
       _2: ' Uj sumaj kusiy, uj sumaj kusiy.', //(2)
@@ -14358,8 +14358,8 @@
     },
   },
   {
-    title: ' Kusisqa Kani  265',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Kusisqa Kani  265',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' /Kusisqa kani, kusisqa kani Señorniy wan, Kusikuyninta, munakuyninta Señor qowan. Kusisqa kani, kusisqa kani Señorniy wan, Kusikuyninta, munakuyninta Señor qowan./', //(1)
     },
@@ -14381,8 +14381,8 @@
     },
   },
   {
-    title: ' Munakoj Cristo 266',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Munakoj Cristo 266',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' /Munakoj Cristo, sonqoykita', //(1)
       _2: ' Pay wajyashan/', //(2)
@@ -14433,8 +14433,8 @@
     },
   },
   {
-    title: " 267  Sinch'i Qayllana",
-    note: ' (Fa Mayor)', //(note)
+    title_es: " 267  Sinch'i Qayllana",
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: " /Sinch'i qayllana kashan Señorpa jamunan. Suyanachej wakisqas. Aleluya Diosllaman./", //(1)
     },
@@ -14451,8 +14451,8 @@
     },
   },
   {
-    title: ' Cristo Kutimonqaña     268',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Cristo Kutimonqaña     268',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Cristo kutimonqaña pusakapunawampaj.', //(1)
       _2: ' Cristo kutimonqaña, Bibliapi nishan/', //(2)
@@ -14470,8 +14470,8 @@
     },
   },
   {
-    title: ' 269 Cristo Kawsan          ',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 269 Cristo Kawsan          ',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Cristo kawsan, Cristo kawsan,', //(1)
       _2: ' Pay noqapi kawsan.', //(2)
@@ -14485,8 +14485,8 @@
     },
   },
   {
-    title: " 270 Rijch'ariy",
-    note: ' (La Menor)', //(note)
+    title_es: " 270 Rijch'ariy",
+    musicalNote: ' (La Menor)', //(note)
     paragraph: {
       _1: " /Rijch'ariy, rijch'ariy misk'i puñuymanta,", //(1)
       _2: ' Cristo wajyasunki willanaykipaj./', //(2)
@@ -14518,8 +14518,8 @@
     },
   },
   {
-    title: ' 271  Cristollapaj Bolivianchej',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 271  Cristollapaj Bolivianchej',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' Cristollapaj BOLIVIANCHEJ kanqa,', //(1)
       _2: " Paypaj ujchasqas llank'ajtinchej.", //(2)
@@ -14542,9 +14542,9 @@
     },
   },
   {
-    title: ' 272 Vallesninta         ',
+    title_es: ' 272 Vallesninta         ',
     space: true,
-    note: ' (Re Menor)', //(note)
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Vallesninta, lomasninta takispa risaj.', //(1)
       _2: ' Señor Jesusniy waqaychashawan,', //(2)
@@ -14566,8 +14566,8 @@
     },
   },
   {
-    title: ' 273  Jamuy Diosman',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 273  Jamuy Diosman',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Jamuy Diosman, jamuy Diosman salvasunampaj./ /Kunampacha jamuy Diosman salvasunampaj./', //(1)
     },
@@ -14583,8 +14583,8 @@
     },
   },
   {
-    title: ' 274 Chinkasqa Almasta',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 274 Chinkasqa Almasta',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' Chinkasqa almasta pusamuy Qan, Señor.', //(1)
       _2: ' /Qanta manaraj rejsisqankuwan', //(2)
@@ -14606,8 +14606,8 @@
     },
   },
   {
-    title: ' 275  Tukuy Jóvenes',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 275  Tukuy Jóvenes',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' Tukuy jóvenes, Diosman takiychej,', //(1)
       _2: ' Kusikuywan takiychej./', //(2)
@@ -14628,8 +14628,8 @@
     },
   },
   {
-    title: ' 276  Jesucristo Kutimojtin',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 276  Jesucristo Kutimojtin',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Jesucristo kutimojtin,', //(1)
       _2: ' Mana qhepakuymanchu./', //(2)
@@ -14648,8 +14648,8 @@
     },
   },
   {
-    title: ' 277 Iskayrayasqas',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 277 Iskayrayasqas',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' /¿Iskayrayasqas? Nipuni.         Qonqarparisqas? Nipuni./                 /Llakiy jamuchun, kusiy kachun,', //(1)
       _2: ' Cristopipuni confiasun./                          /Cristopipuni, Cristopipuni confiasun./', //(2)
@@ -14663,16 +14663,16 @@
     },
   },
   {
-    title: ' 278 Diosninchejpa',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 278 Diosninchejpa',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Diosninchejpa Palabranta tarpumunachej, Vallesnejpi, orqosnejpi willamunachej./                 /Mana kutirispa, Jesusllata qhaway.                Rinachej chay    ñanninta munakuynimpi./', //(1)
       _2: ' /La semilla, la semilla puedes di sembrar.                        Por los valles y los cerros puedes tu semblar./              /Nunca mires    atrás, sólo mira a Jesús.                       Camina por su senda en amor y luz./', //(2)
     },
   },
   {
-    title: ' Cristoj Jamunán   279',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' Cristoj Jamunán   279',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' /Cristoj jamunán juntakushanña.', //(1)
       _2: ' Salvasqa almasta pusarenqa/', //(2)
@@ -14707,8 +14707,8 @@
     },
   },
   {
-    title: ' Diospata Kajkunaqa     280',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Diospata Kajkunaqa     280',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Diospata kaj kunaqa rinachej ñawpajman,             Diospata banderanta tukuy oqharispa/', //(1)
     },
@@ -14740,8 +14740,8 @@
     },
   },
   {
-    title: " 281   Jesuspa K'anchayninta",
-    note: ' (Re Mayor)', //(note)
+    title_es: " 281   Jesuspa K'anchayninta",
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " /Jesuspa k'anchayninta noqa k'anchachisaj./ K'anchanqa laqhayaj mundopi.", //(1)
     },
@@ -14765,8 +14765,8 @@
     },
   },
   {
-    title: ' 282 Bibliataqa Leeypuni',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 282 Bibliataqa Leeypuni',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Bibliataqa leeypuni, /leeypuni/', //(1)
       _2: ' Bibliataqa leeypuni wiñanaykipaj.', //(2)
@@ -14791,8 +14791,8 @@
     },
   },
   {
-    title: ' 283  Sumaj Kusiy Kachun',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 283  Sumaj Kusiy Kachun',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: " Sumaj kusiy kachun kunan p'unchaypeqa\nUj watatawan junt'ajtiyki.\nKawsaj Diosninchej waqaychasuchun\nKawsayniykipi willaykama.", //(1)
     },
@@ -14807,8 +14807,8 @@
     },
   },
   {
-    title: ' 284    Noqawanpuni Kashan',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 284    Noqawanpuni Kashan',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Noqawampuni kashan Dios Tatay,\nJesusniypis, Espíritu Santopis./\n/Tukuypi kashan kaypipis kashan,\nSonqoypi Payqa kawsashan/', //(1)
     },
@@ -14817,8 +14817,8 @@
     },
   },
   {
-    title: ' 285 Wasiy Tiyan',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 285 Wasiy Tiyan',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " //Wasiy tiyan intimanta aswanta k'anchaj.//\nJanaj pachapi.", //(1)
     },
@@ -14839,8 +14839,8 @@
     },
   },
   {
-    title: ' 286  Jatun kusiywan',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 286  Jatun kusiywan',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Jatun kusiywan creejkunaqa\nOfrendastaqa Diosman qopunchej.\nSeñorpa obrampaj qosqanchej kanqa,\nTukuy sonqo qopunachej./', //(1)
     },
@@ -14849,8 +14849,8 @@
     },
   },
   {
-    title: ' 287  Kachaway Señorniy',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 287  Kachaway Señorniy',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Kachaway, Señorniy, kachaway, Señorniy,\nKachaway, Señorniy, willarajta.\nKallpaykita qoway, kallpaykita qoway\nChinkasqa almasta pusamusaj.\nKawsay ñanniykiman, kawsay ñanniykiman\nKawsay    ñanniykiman juchayojta.\n/Kachaway, Señorniy, kachaway, Señorniy,\nKachaway, Señorniy, willarajta./', //(1)
       _2: ' Envíame, Señor, envíame, Señor,\nEnvíame, Señor, a predicar.', //(2)
@@ -14864,8 +14864,8 @@
     },
   },
   {
-    title: ' 288  Llajtasmanta Orqosmanta',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 288  Llajtasmanta Orqosmanta',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Llajtasmanta, orqomanta, chay mar qochasmantapis,\nDiospa ñawpaqenman tantakonqanku.\nDios Tataj Tronompa ñawpaqempi tantaykukusun.\nRuwasqanchejman jiña qopuwasun.', //(1)
     },
@@ -14884,8 +14884,8 @@
     },
   },
   {
-    title: ' Jesusniy Waqaychawan   289',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Jesusniy Waqaychawan   289',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Jesusniy waqaychawan, Payllawan purikusaj./\n/Dioswan khuska maymampis noqa risaj./', //(1)
     },
@@ -14900,8 +14900,8 @@
     },
   },
   {
-    title: " 290  Tukuyninchej Llank'ajtinchej",
-    note: ' (Sol Mayor)', //(note)
+    title_es: " 290  Tukuyninchej Llank'ajtinchej",
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " Tukuyninchej llank'ajtinchej, ujchasqas, ujchasqas,\nTukuyninchej llank'ajtinchej may kusiy kanman.\nLlank'asqay Uank'asqayki, llank'asqanchej Diosllapaj.\nTukuyninchej llank'ajtinchej may kusiy kanman.", //(1)
     },
@@ -14915,8 +14915,8 @@
     },
   },
   {
-    title: ' 291  Jesucristo Kawsan',
-    note: ' (La Mayor)', //(note)
+    title_es: ' 291  Jesucristo Kawsan',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' //Jesucristo kawsan noqapi.//\nGloria kachun Diosllaman.', //(1)
     },
@@ -14938,8 +14938,8 @@
     },
   },
   {
-    title: ' Graciasta Qonachej   292',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' Graciasta Qonachej   292',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: " /Graciasta qonachej Dios Tatanchejman\nChay munakuyninmantay\nSut'iyaykunapi phawajkuna\nDiosman takinku yupaychaykunata,\n/Qanrí, hermanóy, maná takinki\nAlabanzasta Cristo Salvadorman?/", //(1)
     },
@@ -14953,9 +14953,9 @@
     },
   },
   {
-    title: ' 293 Cristo Llimphuchawan    ',
+    title_es: ' 293 Cristo Llimphuchawan    ',
     space: true,
-    note: ' (Re Mayor)', //(note)
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Cristo llimphuchawan, kusisqaña kani.\nCristo llimphuchawan, niwasqampi creeni.\nJuanpa cartampi &quot;uno-sietepi&quot; Pay munakuwan\nLlimphuchawantaj  yawarninwan.', //(1)
     },
@@ -14965,8 +14965,8 @@
     },
   },
   {
-    title: " Kay P'unchaypi   294",
-    note: ' (Re Mayor)', //(note)
+    title_es: " Kay P'unchaypi   294",
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " /K;iy p'unchaypi noqanchejwan Dios kashan./\n/Sapa p'unchay, killas, watas\nNoqanchejwan Pay kashan.\nMakisnimpi waqaychashawanchej Pay/", //(1)
     },
@@ -14975,8 +14975,8 @@
     },
   },
   {
-    title: ' Munakuypi Kawsanachej 295',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Munakuypi Kawsanachej 295',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Munakuypi kawsanachej Diospa creej wawasnin./\n/Ujkuna ujkunawan munakuypi kawsanachej/', //(1)
     },
@@ -14997,8 +14997,8 @@
     },
   },
   {
-    title: ' Hermanóy Waturikuy    296',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Hermanóy Waturikuy    296',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Hermanóy, waturikuy imayná kawsayniyki.\nTukuy sonqoykiwanchu Diostaqa sirvishanki?/', //(1)
     },
@@ -15049,8 +15049,8 @@
     },
   },
   {
-    title: ' 297   Mayta Rishanki Rumi',
-    note: ' (Si Menor)', //(note)
+    title_es: ' 297   Mayta Rishanki Rumi',
+    musicalNote: ' (Si Menor)', //(note)
     paragraph: {
       _1: ' Mayta rishanki rumi sonqo runa,\nQonqarpariwaspa, qonqaj sonqo runa?', //(1)
     },
@@ -15085,8 +15085,8 @@
     },
   },
   {
-    title: " Jallp'allamanta Kani     298",
-    note: ' (Re Menor)', //(note)
+    title_es: " Jallp'allamanta Kani     298",
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " /Jallp'allamanta kani Señorniyman rijch'akoj./\n/Señor cruzpi wañuspa, yawarninwan rantiwan/", //(1)
     },
@@ -15113,8 +15113,8 @@
     },
   },
   {
-    title: ' 299  Diosninchejta Kusikuywan',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 299  Diosninchejta Kusikuywan',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' /Diosninchejta kusikuywan sirvina./\nDiosninchejta kusikuywan, lunes, martes.\nMiércoles, jueves, viernes, sábado,\nDomingo sirvina.', //(1)
     },
@@ -15133,8 +15133,8 @@
     },
   },
   {
-    title: ' 300 Kay Pacha Kawsayneyqa',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 300 Kay Pacha Kawsayneyqa',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " /Kay pacha kawsayneyqa, Señor,\nT'ikaman rijch'akojlla kashan.\nQhora jiña ch'akipojllataj.\nLlakisqalla kawsani/", //(1)
     },
@@ -15149,8 +15149,8 @@
     },
   },
   {
-    title: ' Cristo Kutimunampajqa  301',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Cristo Kutimunampajqa  301',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " Cristo kutimunampajqa inteqa laqhayaykonqa,\nKillapis laqhayaykonqa, Cristollaña k'ancharenqa.", //(1)
     },
@@ -15190,8 +15190,8 @@
     },
   },
   {
-    title: ' 302 Munasqa Hermanóy',
-    note: ' (Si Menor)      S. Claros V.', //(note)
+    title_es: ' 302 Munasqa Hermanóy',
+    musicalNote: ' (Si Menor)      S. Claros V.', //(note)
     paragraph: {
       _1: ' Munasqa hermanóy, kutimpuy Diosman,\nMay munakuywan Pay suyashasunki.\nJuchasta saqepuy, karunchakuytaj.\nJatarikuytawan, kutimpuy Diosman.', //(1)
     },
@@ -15212,8 +15212,8 @@
     },
   },
   {
-    title: " Q'oñi Jallp'aspi   303",
-    note: ' (Do Mayor)', //(note)
+    title_es: " Q'oñi Jallp'aspi   303",
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: " /Q'oñi jallp'aspi, chiri jallp'aspi Dios Tatawan/\n/P'unchay jamuni, tutas jamuni Dios Tatawan/", //(1)
     },
@@ -15240,8 +15240,8 @@
     },
   },
   {
-    title: ' 304  Rikuy Señorpa',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 304  Rikuy Señorpa',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Rikuy Señorpa ruwasqanta./\n/Kawsachiwanña, phaskarawanña,\nRikuy Señorpa ruwasqanta./', //(1)
     },
@@ -15276,8 +15276,8 @@
     },
   },
   {
-    title: ' Jehová Nerqa        305',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Jehová Nerqa        305',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Jehová nerqa uj kachanman, kay tullus kawsanqanku\nChay kachanri kuticherqa: Qan yachanki, Señorníy/\n//Kay tullus kawsanqanku// Qan yachanki, Señorníy.', //(1)
     },
@@ -15290,8 +15290,8 @@
     },
   },
   {
-    title: " Manchay K'achamin Diospa 306",
-    note: ' (Sol Mayor)', //(note)
+    title_es: " Manchay K'achamin Diospa 306",
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " //Manchay k'achamin Diospa munakuynin//\nT' ukuchi wampuni.", //(1)
     },
@@ -15318,8 +15318,8 @@
     },
   },
   {
-    title: ' 307   Salmo Veintitrés',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 307   Salmo Veintitrés',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: " /Salmo veintitrés qhelqasqa noqapaj.\nNi manchikunichu; Jehovamin Michejniy./\n/Laqha wayq'ospipis, wañuy patapipis.\nNi manchikunichu; Jehovamin Michejniy./", //(1)
     },
@@ -15329,8 +15329,8 @@
     },
   },
   {
-    title: ' Gracias Qanman  308',
-    note: ' (Do Menor)', //(note)
+    title_es: ' Gracias Qanman  308',
+    musicalNote: ' (Do Menor)', //(note)
     paragraph: {
       _1: ' /Gracias Qanman, gracias Dios Tatayku.\nNiwasqaykita ni qonqasajchu./\nOrasaj, Señorníy, Qanllaman.\nTakisaj, Señorníy, Qanllaman.\n/Diosníy, noqawampuni Qan kanki,\nDiosníy, yachachiwajniy Qan    kanki/', //(1)
       _2: ' /Gracias Padre, gracias mi buen Jesús.', //(2)
@@ -15341,8 +15341,8 @@
     },
   },
   {
-    title: ' Atipayqa Tiyan Kawsarimojpi  309',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Atipayqa Tiyan Kawsarimojpi  309',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " Atipayqa tiyan Jesús kawsarimojpi,\nYawar jich'asqanwan juchanchejta pichan.\nAtipananchejta niwarqanchejfia Pay.\nRinachej ñawpajman confíaspa Jesusllapi.", //(1)
     },
@@ -15357,8 +15357,8 @@
     },
   },
   {
-    title: ' 310  Chhikata Munakun',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 310  Chhikata Munakun',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Chhikata munakun Dios kay mundota,\nChurinta kachamun kaypi wañojta./\n', //(1)
       _2: ' /Pillapis creejqa salvo kanampaj,\nAma wañunampaj wiñay wiñaypaj/', //(2)
@@ -15369,8 +15369,8 @@
     },
   },
   {
-    title: ' 311  Jaqay cielopi',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 311  Jaqay cielopi',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Jaqay cielopi, qori Uajtapi, janaj pachapi,\nMana kanqachu llakiykuna, waqaykunapis.\nSalvasqaslla kajkunatajri Paywan ripusunchej;\nYupaychamusun Señorta.', //(1)
     },
@@ -15380,8 +15380,8 @@
     },
   },
   {
-    title: ' Kusikuni Sonqoy  312',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Kusikuni Sonqoy  312',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Kusikuni sonqoy ukhupi,\nSalvawanña, nispa takiniy', //(1)
     },
@@ -15409,8 +15409,8 @@
     },
   },
   {
-    title: ' Takisaj Señorllaman     313',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Takisaj Señorllaman     313',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Takisaj Señorllaman kutimunankama,\nTakillasajpuni Señormanqa/', //(1)
     },
@@ -15439,8 +15439,8 @@
     },
   },
   {
-    title: ' 314  Noqanchej wampuni',
-    note: ' (Re Mayor)        H. y C. 298', //(note)
+    title_es: ' 314  Noqanchej wampuni',
+    musicalNote: ' (Re Mayor)        H. y C. 298', //(note)
     paragraph: {
       _1: ' Noqanchejwampuni Dios kachun\nCieloman ripunakama.\nDiospa ladompi kaspaña,\nWiñay wiñaypaj kusikusun.', //(1)
     },
@@ -15495,8 +15495,8 @@
     },
   },
   {
-    title: ' 315  Niraj Diosta Rejsishaspa',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 315  Niraj Diosta Rejsishaspa',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Niraj Diosta rejsishaspa,', //(1)
       _2: " llakiyllapi purerqani./\n/Juchasniywan q'epirisqa", //(2)
@@ -15521,8 +15521,8 @@
     },
   },
   {
-    title: ' 316  Yupaychanachej Diosninchejtaqa',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 316  Yupaychanachej Diosninchejtaqa',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " /Yupaychanachej Diosninchejtaqa,\nTukuy sonqowan takina kachun y\n/Señor Jesusqa kutimonqaña,\nChay p'unchaytajri qayllapiñamin/", //(1)
     },
@@ -15543,8 +15543,8 @@
     },
   },
   {
-    title: ' 317           Señor Jesusqa',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 317           Señor Jesusqa',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " /Señor Jesusqa kutimonqa mana yuyasqa p'unchay.\nUsqhayllata wakichikuna./", //(1)
     },
@@ -15583,9 +15583,9 @@
     },
   },
   {
-    title: ' 318 Santo Santo Santo       ',
+    title_es: ' 318 Santo Santo Santo       ',
     space: true,
-    note: ' (Re Mayor )', //(note)
+    musicalNote: ' (Re Mayor )', //(note)
     paragraph: {
       _1: ' Santo, Santo, Santo, may jina atiyniyoj,\nTukuy wawasniyki yupaychasonqanku.\nSanto, Santo, Santo, Qan lia ta adorasqayku,\nKinsa kuti Santo, bendecisqa kanki.', //(1)
     },
@@ -15612,8 +15612,8 @@
     },
   },
   {
-    title: ' 319  Cielo Ventanasta',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 319  Cielo Ventanasta',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " //Cielo ventanasta kicharimuy, Señor//\nJich'amuy bendicionta.", //(1)
       _2: " \n//Bendiciy ofrendasta diezmosta, Señor//\nJich'amuy bendicionta.", //(2)
@@ -15636,8 +15636,8 @@
     },
   },
   {
-    title: " Jallp'a Kuyukuypis  320",
-    note: ' (Fa Mayor)', //(note)
+    title_es: " Jallp'a Kuyukuypis  320",
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: " Jallp'a kuyukuypis kachun,\nT'ukuna llakiypis kachun.\n/Ama manchikuychu, hermano,\nKallpachakuy, sinch'i sayay/", //(1)
     },
@@ -15658,8 +15658,8 @@
     },
   },
   {
-    title: ' 321   Señor Noqa Qopuyki',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 321   Señor Noqa Qopuyki',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Señor, noqa qopuyki Qanman\nTukuynin kawsayniyta,\nMunanitaj Qan sapallaykita\nSirvisuspa wañuyta.', //(1)
     },
@@ -15722,8 +15722,8 @@
     },
   },
   {
-    title: ' Juchaj Atipasqan kaspa   322',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Juchaj Atipasqan kaspa   322',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Juchaj atipasqan kaspa, Diosman chimparqani.\nLaqhayaypi musphashajtiy, Jesús tariwarqa.', //(1)
     },
@@ -15790,8 +15790,8 @@
     },
   },
   {
-    title: ' 323   Qaynapis Mana Oraspa',
-    note: ' (La Mayor)', //(note)
+    title_es: ' 323   Qaynapis Mana Oraspa',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' Qaynapis mana oraspa, pisiyapun kallpayqa.\nMana kallpayoj kashani maqanakunaypajpis.', //(1)
     },
@@ -15836,8 +15836,8 @@
     },
   },
   {
-    title: ' Jamuy Ari Jesucristo     324',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Jamuy Ari Jesucristo     324',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: " Jamuy ari, Jesucristo, jap'ikuway Diosníy,\nQampaj wawayki chimpamuyki.\nTukuy sonqo tukuy, alma qayllamuyki, Señorniy,\nQampata kani, Diosníy.", //(1)
     },
@@ -15880,8 +15880,8 @@
     },
   },
   {
-    title: ' 325 Heredero Kani Cristowan',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 325 Heredero Kani Cristowan',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Heredero kani Cristowan.', //(1)
       _2: ' Herederos kanchej cielopi./', //(2)
@@ -15928,8 +15928,8 @@
     },
   },
   {
-    title: ' Jesusnillaymin Librawarqa 326',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Jesusnillaymin Librawarqa 326',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Jesusnillaymin librawarqa juchaymantaqa.\n/Señorta qhatisaj tukuy kawsayniypi wiñaynintimpajy\n/Kusikusajtaj janaj pachapeqa,\nDiospa ñawpaqempi./', //(1)
     },
@@ -15960,8 +15960,8 @@
     },
   },
   {
-    title: ' 327  Kusikuyniyojmin Kanku',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 327  Kusikuyniyojmin Kanku',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Kusikuyniyojmin kanku wajeha almayojkunaqa,\nJanaj pacha paykunajta, Señor Jesús chayta nerqa.\n/Kusikuyniyojmin kanku llimphu sonqoyojkunaqa.\nDiosninchejta rikonqanku may jatun kusiytaj kanqa./', //(1)
     },
@@ -15974,8 +15974,8 @@
     },
   },
   {
-    title: ' Ñawpajman Rinachej    328',
-    note: ' (Mi Mayor)', //(note)
+    title_es: ' Ñawpajman Rinachej    328',
+    musicalNote: ' (Mi Mayor)', //(note)
     paragraph: {
       _1: " Ñawpajman rinachej Diospa wawasnin,\nAma manchikuspa, Dios noqanchejwan.\nAtipachej Cristo ñawpajta rishan,\nK'acha banderanta sut'ipi apaspa.", //(1)
     },
@@ -16014,8 +16014,8 @@
     },
   },
   {
-    title: ' 329    Pusaway Salvadorníy',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 329    Pusaway Salvadorníy',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " /Pusaway, Salvadorníy, cheqan k'anchaj ñanllata\nQanwan khuska purejtiy, mana manchikuy kanchu./", //(1)
     },
@@ -16057,8 +16057,8 @@
     },
   },
   {
-    title: ' Oraspallapuni Atipasim   330',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Oraspallapuni Atipasim   330',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' /Oraspallapuni atipasun./\nAtipanapajqa kallpachakuna tiyan\nOraspallapuni atipasun.\n/Jesusqa noqawampuni kashan,\nJesusqa may sumaj amigoy.\nAtipasajpuni, atipankipuni,\nAtipasunchejpuni sutimpeqa./', //(1)
     },
@@ -16067,8 +16067,8 @@
     },
   },
   {
-    title: ' 331    Perdonqa Kashampuni',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 331    Perdonqa Kashampuni',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Perdonqa kashampuni Cristoj yawarninnejta.\nPerdonqa kashampuni cruzpi wañusqanwan/', //(1)
     },
@@ -16107,8 +16107,8 @@
     },
   },
   {
-    title: ' 332   Ofrendasta Apamunchej',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 332   Ofrendasta Apamunchej',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Ofrendasta apamunchej munakuywan, kusiywan,\nKay himnoswan yupaychaspa Señor Jesusninchejman.', //(1)
     },
@@ -16123,8 +16123,8 @@
     },
   },
   {
-    title: ' Cristo Kutimonqa Yuraj   333',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Cristo Kutimonqa Yuraj   333',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' /Cristo kutimonqa yuraj phuyuspi,\nJatun atiyninwan pusawasunchej./', //(1)
     },
@@ -16163,8 +16163,8 @@
     },
   },
   {
-    title: ' 334  Gracias Diosman Kachun',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 334  Gracias Diosman Kachun',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' Gracias Diosman kachun, Pay pusawampuni\nCristopi a ti pay man,', //(1)
     },
@@ -16203,8 +16203,8 @@
     },
   },
   {
-    title: ' Tukuy Imata Ruwaj Dios 335',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Tukuy Imata Ruwaj Dios 335',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " Tukuy imata ruwaj Dios ruwasqaykita rikuspa,\nNi parlayniy kanchu.\nJanaj pacha, kay pachapis\nNoqata t'ukuchiwanku,\nMunakoj Dios Tatáy.", //(1)
       _2: ' Janaj pacha Qampatamin, Qampa ruwasqayki.\nKay pachapis Qampatamin, Qampa ruwasqayki.', //(2)
@@ -16272,8 +16272,8 @@
     },
   },
   {
-    title: ' 336    Munakuypi Kawsana',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 336    Munakuypi Kawsana',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Munakuypi kawsana tukuynin hermanos,\nUj ayllullaña kanchej Dios Tatanchejwanqa./\n/Señor Jesucristoqa niwarqanchejña,\nMosoj kamachimpeqa mimanakunata./', //(1)
     },
@@ -16282,8 +16282,8 @@
     },
   },
   {
-    title: ' Kay Pacha Tukukonqaña 337',
-    note: ' (La Mayor)        Anónimo', //(note)
+    title_es: ' Kay Pacha Tukukonqaña 337',
+    musicalNote: ' (La Mayor)        Anónimo', //(note)
     paragraph: {
       _1: " /Kay pachaqa tukukonqaña,\nRunastajri ñak'arenqanku/", //(1)
     },
@@ -16322,8 +16322,8 @@
     },
   },
   {
-    title: '  338  May Munasqa Hermanitos',
-    note: ' (Re Menor)', //(note)
+    title_es: '  338  May Munasqa Hermanitos',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /May munasqa hermanitos,\nDiosllawan kutipunachej./\n/Ichapis Señor munajtin,\nKusikuywan kutimusun./', //(1)
     },
@@ -16344,8 +16344,8 @@
     },
   },
   {
-    title: ' Jehová Dios Señorniyku   339',
-    note: ' (Re Menor)        (Salmos 8)', //(note)
+    title_es: ' Jehová Dios Señorniyku   339',
+    musicalNote: ' (Re Menor)        (Salmos 8)', //(note)
     paragraph: {
       _1: ' Jehová Dios Señorniyku,\nMay jatunmin sutiyki,\nTukuy kay pachapi. Aleluya', //(1)
     },
@@ -16385,8 +16385,8 @@
     },
   },
   {
-    title: ' 340 Runaj Kawsaynenqa Qhora Jiña',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 340 Runaj Kawsaynenqa Qhora Jiña',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " Runaj kawsaynenqa qhora jinalla,\nK'acha kayninkupis t'ika jinalla.", //(1)
     },
@@ -16425,8 +16425,8 @@
     },
   },
   {
-    title: ' 341 Santo Santo Señorniy',
-    note: ' (Re Mayor)        M. Colque', //(note)
+    title_es: ' 341 Santo Santo Señorniy',
+    musicalNote: ' (Re Mayor)        M. Colque', //(note)
     paragraph: {
       _1: " Santo, santo, Señorniy, Sonqochajta Qan qowanki\nLlamp'u sonqo kaytapis, Espíritu Santo.", //(1)
     },
@@ -16459,8 +16459,8 @@
     },
   },
   {
-    title: ' Qanllaman Chimpamunaypaj 342',
-    note: ' (Do Mayor)        T. H. C.', //(note)
+    title_es: ' Qanllaman Chimpamunaypaj 342',
+    musicalNote: ' (Do Mayor)        T. H. C.', //(note)
     paragraph: {
       _1: ' /Qanllaman chimpaykamunaypaj yanapaway, Señorniy.\nQanta sirvikuyta munayki, atiyniykita qoway./', //(1)
     },
@@ -16499,8 +16499,8 @@
     },
   },
   {
-    title: ' 343  Yupaychanachej Señorta',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 343  Yupaychanachej Señorta',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Yupaychanachej Señorta Uakiypi kusikuypi.\nGraciasta qona Señorman qhapaj, wajcha kaspapis/', //(1)
     },
@@ -16540,8 +16540,8 @@
     },
   },
   {
-    title: ' Jesusqa Bautizakorqa    344',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Jesusqa Bautizakorqa    344',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " Jesusqa bautizakorqa Jordán mayu yakupi,\nYawarninta Pay jich'arqa tukuy juchasapaspaj.\nWañuyta Pay atiparqa chay kinsa p'unchayninman.\nJanajpachaman riporqa, ujtawan kutimonqa.", //(1)
     },
@@ -16558,8 +16558,8 @@
     },
   },
   {
-    title: ' 345  Santa Biblia Diospa\nPalabramin',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 345  Santa Biblia Diospa\nPalabramin',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Santa bibliapi Diosninchejqa willashan\nTukuynin runas juchayoj kasqankuta.\nDiospa glorianta ni taripanqankuchu\nTukuyninkojta juchasnin kasqanrayku.', //(1)
     },
@@ -16598,8 +16598,8 @@
     },
   },
   {
-    title: ' Llakisqachu Purishanki   346',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Llakisqachu Purishanki   346',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' Llakisqachu purishanki? Uyariy Diospa nisqanta.\nLlimphuchajniyki wajyashan,\nYachanki Diospa nisqanta.', //(1)
     },
@@ -16626,8 +16626,8 @@
     },
   },
   {
-    title: ' 347  Jesús Uyariway',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 347  Jesús Uyariway',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Jesús, uyariway kay wajcha wawaykita\nNoqa mañakuyki, khuyariwaytaj, Diosniy/', //(1)
     },
@@ -16654,8 +16654,8 @@
     },
   },
   {
-    title: ' Wajcha Kayqa May   348',
-    note: ' (La Mayor)', //(note)
+    title_es: ' Wajcha Kayqa May   348',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: " Wajcha kayqa may llakiymin\nOnqosqa kayrí aswan llakiy.\nAlmata chinkachiyrí may llakiyraj,\nMañana jayk'aj kutirej.", //(1)
     },
@@ -16670,8 +16670,8 @@
     },
   },
   {
-    title: ' Qayllaykamuy Cristoman 349',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Qayllaykamuy Cristoman 349',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " /Qayllaykamuy Cristoman/\n/Tuta p'unchay pusasonqa.\nQayllaykamuy Cristoman /", //(1)
     },
@@ -16686,8 +16686,8 @@
     },
   },
   {
-    title: ' 350   Santa Biblianejta',
-    note: ' (Fa Mayor)        T.H.C.', //(note)
+    title_es: ' 350   Santa Biblianejta',
+    musicalNote: ' (Fa Mayor)        T.H.C.', //(note)
     paragraph: {
       _1: ' Santa Biblianejta willawanchej Dios Tata\nMunakuwasqanchejta.\nYawarninwantaj juchasta Jesús mayllarqa.\n&quot;Wawasniy kaychej&quot;, nerqa.', //(1)
     },
@@ -16726,8 +16726,8 @@
     },
   },
   {
-    title: ' Ñawpaqeykiman Diosniy  351',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Ñawpaqeykiman Diosniy  351',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " /Ñawpaqeykiman, Diosniy, chimpaykamuyki./\nSayk'usqataj juchaywan k'umuykamuyki./", //(1)
     },
@@ -16754,8 +16754,8 @@
     },
   },
   {
-    title: ' 352  Munasqa Hermanóy',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 352  Munasqa Hermanóy',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Munasqa hermanóy, ama llakikuychu,\nSeñor Jesucristo ñapis jamonqaña.', //(1)
     },
@@ -16779,8 +16779,8 @@
     },
   },
   {
-    title: ' Waqaychaway Jesucristo 353',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Waqaychaway Jesucristo 353',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' Waqaychaway, Jesucristo pusakuway makiykipi,\n/Yawarniykiwan mayllaway juchayta./', //(1)
     },
@@ -16801,8 +16801,8 @@
     },
   },
   {
-    title: " 354 Kay Jallp'api Kaspa",
-    note: ' (Re Mayor)', //(note)
+    title_es: " 354 Kay Jallp'api Kaspa",
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " /Kay jallp'api kaspa, llakiyllapi purini./\nAy, /Dioslla kusichiwan Payman qayllajtiy/", //(1)
     },
@@ -16829,8 +16829,8 @@
     },
   },
   {
-    title: ' 355   Noqarayku Saqerqanki',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 355   Noqarayku Saqerqanki',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Noqarayku saqerqanki tronoykita,\nBelenpi nacej jamorqanki.\nWasipi mañana Qampaj campo kajtin,\nUywa corralpi nacerqanki.', //(1)
     },
@@ -16881,8 +16881,8 @@
     },
   },
   {
-    title: ' 356 Cristo Munakun Tukuy Juchasapasta',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 356 Cristo Munakun Tukuy Juchasapasta',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Cristo munakun tukuy juchasapasta,\nMunaynin jatun tukuyninchejpaj.', //(1)
     },
@@ -16909,16 +16909,16 @@
     },
   },
   {
-    title: ' Santo Espíritu        357',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Santo Espíritu        357',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " Santo Espíritu, sonqoyman junt'ay,\nCristollapaj noqa k'anchasaj.\nSanto Espíritu, sonqoyman junt'ay,\nKachawaytaj almasta mask'aj, \n//Yupaychasaj// Cristo Reyniyta.\n//Yupaychasaj// Reyniyta.", //(1)
       _2: ' Santo Espíritu, llena mi vida,\nPues por Cristo yo quiero brillar.\nSanto Espíritu, llena mi vida,\nÚsame a las almas a salvar. \n//Alabanzas//, doy a Cristo el Rey\n//Alabanzas// doy al Rey.', //(2)
     },
   },
   {
-    title: ' Mañakuway Uyarisqayki 358',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Mañakuway Uyarisqayki 358',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' &quot;Mañakuway, uyarisqayki, mañakuway,\nYachachisqayki.', //(1)
       _2: ' Mana atinki chay imasta&quot;. Chayta nishan Dios.\nAmataj iskayrayaspa mañakuna bendicionninta.\nAtipasun mañakuspa. Gloria Diosman.', //(2)
@@ -16928,8 +16928,8 @@
     },
   },
   {
-    title: ' 359  Maypipis Santo Espíritu Kajtin',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 359  Maypipis Santo Espíritu Kajtin',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' Maypipis Santo Espíritu kajtin, /kan atiynin./\nMaypipis Santo Espíritu kajtin,\nChaypi kampuni atiynin, //atiynin.//\nMaypipis Santo Espíritu kajtin,\nChaypi kampuni atiynin.', //(1)
     },
@@ -16942,8 +16942,8 @@
     },
   },
   {
-    title: ' 360  Cristoj Ladonman Rispa',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 360  Cristoj Ladonman Rispa',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' Cristoj ladonman rispa,\nRikunakusun ancha kusiywan.\nCristoj ladompi kaspa, wiñaypaj\nKusikusunchej.', //(1)
       _2: ' Ñawpariwankiman qan chayqa,\nSuyariwanki jamunaykama.\nCristoj ladonman rispa, wiñaypaj\nKusikamusun.', //(2)
@@ -16958,8 +16958,8 @@
     },
   },
   {
-    title: ' Kusisqapuni Kaychej     361',
-    note: ' (Mi Mayor)        I Tes. 5:16-18', //(note)
+    title_es: ' Kusisqapuni Kaychej     361',
+    musicalNote: ' (Mi Mayor)        I Tes. 5:16-18', //(note)
     paragraph: {
       _1: ' /&quot;Kusisqaspuni kaychej, oraychejpuni&quot;/\nGraciastapis qoychej Diosninchej Tatanchejman.\n/Chaymin Paypa munaynenqa Cristo Jesuspi/', //(1)
     },
@@ -16971,8 +16971,8 @@
     },
   },
   {
-    title: ' Sonqoypi Kusisqa Kashani 362',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Sonqoypi Kusisqa Kashani 362',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Sonqoypi kusisqa kashani, kusisqa kashani,\nKusisqa kashani sonqoypi.', //(1)
       _2: ' Kawsaj yaku mayus jinamin, chay mayus jinamin,\nChay mayus jinamin noqapi.', //(2)
@@ -16982,8 +16982,8 @@
     },
   },
   {
-    title: " 363  Juicio P'unchay",
-    note: ' (Do Mayor)        M. C.', //(note)
+    title_es: " 363  Juicio P'unchay",
+    musicalNote: ' (Do Mayor)        M. C.', //(note)
     paragraph: {
       _1: " Juicio p'unchay jamushan.", //(1)
       _2: ' Tukuy salvos kajkunata taripajmin jamushan.', //(2)
@@ -17034,8 +17034,8 @@
     },
   },
   {
-    title: ' Sumaj Munakoj Señor    364',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Sumaj Munakoj Señor    364',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Sumaj munakoj Señor, khuyakuway, Dios Tatáy.', //(1)
       _2: ' Yachachiway noqaman evangelioykimanta.', //(2)
@@ -17086,8 +17086,8 @@
     },
   },
   {
-    title: ' Cristo Qan Sumaj      365',
-    note: ' (La Menor)', //(note)
+    title_es: ' Cristo Qan Sumaj      365',
+    musicalNote: ' (La Menor)', //(note)
     paragraph: {
       _1: ' Cristo, Qan sumaj Diosniy, khuyakuyniyoj kanki.', //(1)
       _2: " Intimantaj rijch'akun, sonqoyman k'anchamuwan.", //(2)
@@ -17154,8 +17154,8 @@
     },
   },
   {
-    title: ' 366 Qampaj Diosníy',
-    note: ' (Do Menor)', //(note)
+    title_es: ' 366 Qampaj Diosníy',
+    musicalNote: ' (Do Menor)', //(note)
     paragraph: {
       _1: ' Qampaj, Diosníy, fielmin kasaj', //(1)
       _2: ' Cheqa kaypi, munakuypi.', //(2)
@@ -17218,8 +17218,8 @@
     },
   },
   {
-    title: ' 367  Juchasapa Kasqaymanta',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 367  Juchasapa Kasqaymanta',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " /Juchasapa kasqaymanta llakisqa kani./\n/Tukuynejta salvacionta mask'ani./", //(1)
     },
@@ -17258,8 +17258,8 @@
     },
   },
   {
-    title: ' 368 Sonqoypi Kusikushani',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 368 Sonqoypi Kusikushani',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' //Sonqoypi kusikushani//\nSeñorniy wan.', //(1)
     },
@@ -17286,8 +17286,8 @@
     },
   },
   {
-    title: ' 369  Tarpuy Paqarimpi',
-    note: ' (Do Mayor)       Sal. 126:  5,  6', //(note)
+    title_es: ' 369  Tarpuy Paqarimpi',
+    musicalNote: ' (Do Mayor)       Sal. 126:  5,  6', //(note)
     paragraph: {
       _1: " Tarpuy paqarimpi Diospa Palabranta\nChawpi p'unchaypipis, ch'isiyaypipis.\nChajra oqhariypaj tiempo chamojtintaj,\nPoqosqaña kajtin, oqharisunchej.", //(1)
     },
@@ -17324,8 +17324,8 @@
     },
   },
   {
-    title: ' 370 Kay Pachapeqa',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 370 Kay Pachapeqa',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " Kay pachapeqa kallawampuni\nMay chhika pruebas, ñak'ariypis.\nMashkha kutista kallpay pisiyan,\nNi ima ruwayta atinichu.", //(1)
     },
@@ -17364,8 +17364,8 @@
     },
   },
   {
-    title: ' 371 Jesucristo Jamonqaña',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 371 Jesucristo Jamonqaña',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " Jesucristo jamonqaña, Santa Biblia chayta nishan.\nWawasninman Pay jamonqa, nisqantaqa Pay junt'anqa.\n ¡QhawaychejJamonqaña!  Puñojkunaman    jamonqa.\nMana ni uj puchuyojman jamonqa, Pay jamonqa.", //(1)
       _2: " Cristo cruzpi wañushaspa, salvacionta qowarqanchej.\nK'anchaynimpi Pay jamonqa, phuyuskama Pay jamonqa.\n ¡QhawaychejJamonqaña!  Atiynimpi Pay    jamonqa;\nAtipajpa chay pillunwan jamonqa, Pay jamonqa.", //(2)
@@ -17376,8 +17376,8 @@
     },
   },
   {
-    title: " Ch'aska K'anchamoj 372",
-    note: ' (Re Menor)        S. C. V.', //(note)
+    title_es: " Ch'aska K'anchamoj 372",
+    musicalNote: ' (Re Menor)        S. C. V.', //(note)
     paragraph: {
       _1: " Ch'aska k'anchamojqa willan Jesusmanta,\nNacekusqantaña Belempi.", //(1)
     },
@@ -17416,8 +17416,8 @@
     },
   },
   {
-    title: ' 373 Juchayoj Runa Riy',
-    note: ' ( )', //(note)
+    title_es: ' 373 Juchayoj Runa Riy',
+    musicalNote: ' ( )', //(note)
     paragraph: {
       _1: ' /Juchayoj runa, riy Cristoman,\nKutirillayña Salvadorman/\n/Chimpajtiykeqa, Pay salvasonqa,\nWiñay kawsaytataj qosonqa/', //(1
     },
@@ -17438,8 +17438,8 @@
     },
   },
   {
-    title: ' 374  Wakichisqañamin',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 374  Wakichisqañamin',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " Wakichisqañamin salvacionqa\nCristo wañusqanrayku cruzpi.\nYawar jich'asqanwan wakicherqa\nWiñaypaj, mana ñak'arinapaj.", //(1)
     },
@@ -17490,8 +17490,8 @@
     },
   },
   {
-    title: ' Diosninchejwan Kaspaqa  375',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Diosninchejwan Kaspaqa  375',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " Diosninchejwan kaspaqa, ni jayk ' aj wañusunchu \n Mana juchallikoj nitaj wañupojñachu kasim.", //(1)
     },
@@ -17554,8 +17554,8 @@
     },
   },
   {
-    title: ' 376  Huertaspi Rikunchej',
-    note: ' (Mi Menor)        T.Rafael', //(note)
+    title_es: ' 376  Huertaspi Rikunchej',
+    musicalNote: ' (Mi Menor)        T.Rafael', //(note)
     paragraph: {
       _1: " Huertaspi rikunchej durazno sach'asta,\nTrigosta, sarasta, naranja sach'asta.\nChaykuna kashanku Diospa bendicionnin,\nDiospa wawasnenqa agradecenachej.", //(1)
     },
@@ -17594,8 +17594,8 @@
     },
   },
   {
-    title: " Juchapi Sayk'usqa 377",
-    note: ' (La Mayor)', //(note)
+    title_es: " Juchapi Sayk'usqa 377",
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: " Juchapi sayk'usqa tarikuspa,\nCristoman willay, Cristoman willay.\nMana kallpayoj tarikuspataj,\nWillay puní Cristoman.", //(1)
     },
@@ -17640,8 +17640,8 @@
     },
   },
   {
-    title: ' 378  Maypipis Kashaspa',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 378  Maypipis Kashaspa',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: " Maypipis kashaspa, willaramunachej\nLlakisqas runasman, wajchakunamampis.\nSanto Espírituta kachamuwanchejña,\nK'acha Dios Tatanchej.", //(1)
     },
@@ -17692,8 +17692,8 @@
     },
   },
   {
-    title: ' 379 Cristo Salvadorniypa',
-    note: ' (Fa Menor)', //(note)
+    title_es: ' 379 Cristo Salvadorniypa',
+    musicalNote: ' (Fa Menor)', //(note)
     paragraph: {
       _1: ' Cristo Salvadorniypa ñannillanta qhatisaj\nMay munakuywan.', //(1)
       _2: " Pay Ha waqaychakuwan, munakuyninta qowan;\nSonqoy junt'asqa.", //(2)
@@ -17726,8 +17726,8 @@
     },
   },
   {
-    title: ' 380 Ñapis Chayasajña',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 380 Ñapis Chayasajña',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Napis chayasajña janaj pachamanqa,\nChaypi suyashawan munakoj Señorniy./', //(1)
     },
@@ -17779,8 +17779,8 @@
     },
   },
   {
-    title: ' Waqáy Ni Salvanchu     381',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Waqáy Ni Salvanchu     381',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Waqáy ni salvanchu, may jinatapis waqachun.\nJuchamanta perdonta ni tariy atenqachu.\nWaqáy ni salvanchu.', //(1)
       _2: " /Cristoj yawar jich'asqan sonqo thañiyta qowan.\nKay pachaman jamorqa Jesús Salvawajniy/", //(2)
@@ -17809,8 +17809,8 @@
     },
   },
   {
-    title: ' 382  Maypitaj Ñawpa Hermanos kanku',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' 382  Maypitaj Ñawpa Hermanos kanku',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: ' /Maypitaj ñawpa hermanos kanku\nDiosninchejta yupaychajkuna?/\n/Chayri ñachu qonqakapunkuña\n&quot;Qhatisqayki&quot; nerqanku, chayta./', //(1)
     },
@@ -17831,8 +17831,8 @@
     },
   },
   {
-    title: ' Moisespaj Tiempompeqa 383',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Moisespaj Tiempompeqa 383',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Moisespaj tiempompeqa tukuy apamorqanku/\n/Diospaj santo templonman ofrendasta, diezmosta./', //(1)
     },
@@ -17865,8 +17865,8 @@
     },
   },
   {
-    title: ' 384 Jesusníy Kay Millay',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 384 Jesusníy Kay Millay',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " Jesusníy, kay millay, millay\nCh'ichi sonqo juchasapapaj\nQhapaj ch'uwa yawarniykita\nJich'asqawan nishawanki.\nJamuy, jamuy noqaman.", //(1)
     },
@@ -17917,8 +17917,8 @@
     },
   },
   {
-    title: ' 385        Llakiyniykipi',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 385        Llakiyniykipi',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' /Llakiyniykipi takiy Diosllaman./\n/Kusikuspa takejtiyki, llakiy riponqa./', //(1)
     },
@@ -17958,8 +17958,8 @@
     },
   },
   {
-    title: ' Rerqa Tarpojqa Campoman 386',
-    note: ' (Sol Mayor)        Mat. 13:1-9, 18-23', //(note)
+    title_es: ' Rerqa Tarpojqa Campoman 386',
+    musicalNote: ' (Sol Mayor)        Mat. 13:1-9, 18-23', //(note)
     paragraph: {
       _1: ' /Rerqa tarpojqa campoman/\n/Tarpumunampaj, tarpumunampaj\nDiospa Palabran mujuta/', //(1)
     },
@@ -17996,8 +17996,8 @@
     },
   },
   {
-    title: " 387 Niraj Sut'iyayta",
-    note: ' (Re Mayor)', //(note)
+    title_es: " 387 Niraj Sut'iyayta",
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " /Niraj sut'iyayta mask'aj jamuyki.\nSapa p'unchaypi Qanta suyayki./", //(1)
     },
@@ -18024,8 +18024,8 @@
     },
   },
   {
-    title: ' Cielomantapacha Jamun Jesús  388\n',
-    note: ' (Sol Mayor)        Le. 2: 4-20', //(note)
+    title_es: ' Cielomantapacha Jamun Jesús  388\n',
+    musicalNote: ' (Sol Mayor)        Le. 2: 4-20', //(note)
     paragraph: {
       _1: ' Cielomantapacha jamun Jesús\nKusikuychej, kusikuychej.\nUj pesebrepi nacekun Jesús\nSalvanawanchejpaj.', //(1)
     },
@@ -18093,8 +18093,8 @@
     },
   },
   {
-    title: " Jisq'on Chunka Jisq'onniyoj 389",
-    note: ' (Sol Mayor)        Le. 15.17', //(note)
+    title_es: " Jisq'on Chunka Jisq'onniyoj 389",
+    musicalNote: ' (Sol Mayor)        Le. 15.17', //(note)
     paragraph: {
       _1: " Jisq'on chunka jisq'onniyoj ovejas karqanku.\nUjnintaj chinkarparerqa ch'in lomakunapi.\nCorralmanta llojsiytawan,\n/Llakiyta chinkasqa purimorqa./", //(1)
     },
@@ -18127,8 +18127,8 @@
     },
   },
   {
-    title: ' 390  Janaj Pachata Rishani',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 390  Janaj Pachata Rishani',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " Janaj pachata rishani, noqa Jesuspi confían i.\nWafiuyninwan salvawan Pay, noqarayku wañun cruzpi.\nQanta Jesús, rikusqayki, rikusqayki Michiwajníy.\nSut'i k'anchayman yaykojtiy, rikusqayki    Salvawajníy.", //(1)
       _2: ' Janajpachata rishani, noqa Jesuspi confiani,\nWañuyninwan salvawan Pay, noqarayku wañun cruzpi.\nLlimphu puka yawarniyki millay juchasta mayllawan.\nSumaj kusisqa jaqaypi, rikusqayki, Salvawajníy.', //(2)
@@ -18143,8 +18143,8 @@
     },
   },
   {
-    title: " Jatun P'unchay  391",
-    note: ' (Mi Menor)', //(note)
+    title_es: " Jatun P'unchay  391",
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " Jatun p'unchay qayllamushan,\nSeñorpata p'unchaynin.\n/Imata qan kutichinki,\nJesucristo tapusojtin?/\n", //(1)
       _2: " Juchapi purejkunata\nJesús nenqa: &quot;Karunchaychej;\n/Mana rejsiykichejchu,\nJuchasta ruwajkunata '/", //(2)
@@ -18169,8 +18169,8 @@
     },
   },
   {
-    title: ' Jesucristojta Yawarnin    392',
-    note: ' (La Mayor)', //(note)
+    title_es: ' Jesucristojta Yawarnin    392',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' Jesucristojta yawarnin juchasta pichanqa,\nJesucristojta yawarnin juchastaqa pichanqa.\nSapa ujpata llimphuchan, juchasta Uimphuchan;\nSapa ujpata llimphuchan Payman chimpaykojta.', //(1)
     },
@@ -18220,8 +18220,8 @@
     },
   },
   {
-    title: ' 393 Cristota Qhawajqa',
-    note: ' (Sol Mayor)        H. y C. 66', //(note)
+    title_es: ' 393 Cristota Qhawajqa',
+    musicalNote: ' (Sol Mayor)        H. y C. 66', //(note)
     paragraph: {
       _1: ' Creespa qhawajqa pichus cruzpi wafiojta\nWiñaypaj tarenqa kawsayta.\nJuchasapa runa, Jesusta usqháy qhaway.\nAlmaykí kawsayta tarenqa.', //(1)
     },
@@ -18266,8 +18266,8 @@
     },
   },
   {
-    title: ' Diosninchej Apachimonqa 394',
-    note: ' (La Mayor)        H.y C. 190', //(note)
+    title_es: ' Diosninchej Apachimonqa 394',
+    musicalNote: ' (La Mayor)        H.y C. 190', //(note)
     paragraph: {
       _1: ' Diosninchej apachimonqa\nJatun bendicionninta.\nChayta mañakoj jamuyku.\nApachimuwayku, Dios.', //(1)
     },
@@ -18318,8 +18318,8 @@
     },
   },
   {
-    title: ' Diospa Makinmanta     395',
-    note: ' (Sol Mayor)          Rom.828', //(note)
+    title_es: ' Diospa Makinmanta     395',
+    musicalNote: ' (Sol Mayor)          Rom.828', //(note)
     paragraph: {
       _1: " Diospa makinmanta pi t'aqawanman?\nDiosníy pakaykuwan, Paypi confiani.\nDiosníy Uimphuchawan juchasniymanta,\nCristo mañapuwan. Pi ch'atawanqa?", //(1)
     },
@@ -18359,8 +18359,8 @@
     },
   },
   {
-    title: ' 396   Juchasneyqa Mayllasqa',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 396   Juchasneyqa Mayllasqa',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Juchasneyqa mayllasqa Jesucristoj yawarninwan,\nSonqoypis llimphuchasqa Jesucristoj yawarninwan.', //(1)
     },
@@ -18411,8 +18411,8 @@
     },
   },
   {
-    title: ' Santo Runaspajqa 397',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Santo Runaspajqa 397',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Santo runaspajqa Diospa llajtampeqa,\nMana ujtawampis llakiy kanqachu.\nCielo llajtapeqa Diosninchejwan khuska,\nTukuy angeleswan kusikamusun.', //(1)
     },
@@ -18439,8 +18439,8 @@
     },
   },
   {
-    title: ' 398  Jatun Atiyniyoj Dios',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 398  Jatun Atiyniyoj Dios',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: " Jatun atiyniyoj Diosnillaypi confiasaj,\nKusiywantaj Señor Jesusniytapis yupaychasaj.\nLliuj k'anchayta Payqa kacharin, ni manchikusajchu;\nPaylla waqaychawan.", //(1)
     },
@@ -18477,8 +18477,8 @@
     },
   },
   {
-    title: ' Jehovamin Michejniy    399',
-    note: ' (Sol Mayor)        Sal. 23', //(note)
+    title_es: ' Jehovamin Michejniy    399',
+    musicalNote: ' (Sol Mayor)        Sal. 23', //(note)
     paragraph: {
       _1: " Jehovamin Michejniy, munakuywan michiwan.\nQ'omer pastosllapi Pay michishawan.\nSamachiwan llanthuspi, jark'awan sajramanta.\nUjyachiwan ch'uwa yakusllamanta.", //(1)
     },
@@ -18521,8 +18521,8 @@
     },
   },
   {
-    title: ' 400 Cristo Sumaj Kausaqe',
-    note: ' (Fa Mayor)        H. y C. 201', //(note)
+    title_es: ' 400 Cristo Sumaj Kausaqe',
+    musicalNote: ' (Fa Mayor)        H. y C. 201', //(note)
     paragraph: {
       _1: " Cristo sumaj kawsaqenchej, cruzpi Pay ñak'arerqa.\nSapa p'unchay mañakuna Paymanta oraciompi.\nLlakisqachu qan kashanki? Nak'ariy jamusojtin,\nSapa p'unchay oraciompi Diosninchejman willakuy.", //(1)
     },
@@ -18539,8 +18539,8 @@
     },
   },
   {
-    title: ' Jesuspa Jatun Sutenqa    401',
-    note: ' (Sol Mayor)        H. y C. 157', //(note)
+    title_es: ' Jesuspa Jatun Sutenqa    401',
+    musicalNote: ' (Sol Mayor)        H. y C. 157', //(note)
     paragraph: {
       _1: ' Jesuspa jatun sutenqa kusikuyta qowanchej,\nLlakisqa sonqosniyojman kusiy sonqota qonqa.', //(1)
     },
@@ -18579,8 +18579,8 @@
     },
   },
   {
-    title: ' 402 Jesucristoman Jamullayña',
-    note: ' (La Mayor)        H.yC.2', //(note)
+    title_es: ' 402 Jesucristoman Jamullayña',
+    musicalNote: ' (La Mayor)        H.yC.2', //(note)
     paragraph: {
       _1: ' Jesucristoman jamullayña\nNoqachejwanmin Payqa kashan.\nWajyashasunki munakuywan,\n&quot;Jampuy wawáy&quot;, nispa.', //(1)
     },
@@ -18622,8 +18622,8 @@
     },
   },
   {
-    title: ' Jesús Salvawajníy 403',
-    note: ' (Re Mayor)        H.yC.193', //(note)
+    title_es: ' Jesús Salvawajníy 403',
+    musicalNote: ' (Re Mayor)        H.yC.193', //(note)
     paragraph: {
       _1: " Jesús Salvawajníy Reyniyman,\nPayman sinch'ita sayani.\nAtipajman pilluta qonqa,\nNoqapis risaj jap'imoj.", //(1)
     },
@@ -18658,8 +18658,8 @@
     },
   },
   {
-    title: ' Jesucristo Wajyasunki    404',
-    note: ' (La Mayor)        H. y C. 351', //(note)
+    title_es: ' Jesucristo Wajyasunki    404',
+    musicalNote: ' (La Mayor)        H. y C. 351', //(note)
     paragraph: {
       _1: " Jesucristo wajyasunki, sonqoykita kichariy.\nTuta, p'unchay nishasunki, &quot;Jamullayña Noqaman&quot;.", //(1)
     },
@@ -18692,8 +18692,8 @@
     },
   },
   {
-    title: ' 405 Yupaychasuyku',
-    note: ' (Sol Mayor)    H. y C. 73', //(note)
+    title_es: ' 405 Yupaychasuyku',
+    musicalNote: ' (Sol Mayor)    H. y C. 73', //(note)
     paragraph: {
       _1: ' Yupaychasuyku Qan Dios Tataykuta,\nJesucristota kachamusqaykimanta.', //(1)
     },
@@ -18757,8 +18757,8 @@
     },
   },
   {
-    title: " K'acha Takiykuna 406",
-    note: ' (La Mayor)        H. y C. 116', //(note)
+    title_es: " K'acha Takiykuna 406",
+    musicalNote: ' (La Mayor)        H. y C. 116', //(note)
     paragraph: {
       _1: " K'acha takiykuna Diosllapaj kachun,\nTukuynejpi uyarikushan.\nJanaj pachamanta Cristo Salvador\nWañuymanta salvaj jamorqa.", //(1)
     },
@@ -18801,8 +18801,8 @@
     },
   },
   {
-    title: ' 407   Cristo Salvadorniytaqa',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 407   Cristo Salvadorniytaqa',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " Cristo Salvawajniytaqa, Payllata munakusaj;\nChay tronompi tiyashajta rikumuyta munani.\nYachachejniy Jesusneyqa cruzpi ñak'arerqa Pay.\nKawsamusaj Payllawanña k'anchaypi, kusikuypi.", //(1)
     },
@@ -18837,8 +18837,8 @@
     },
   },
   {
-    title: ' Willaj Jamuyki 408',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Willaj Jamuyki 408',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' /Willaj jamuyki/ Qanman, Salvador,', //(1)
       _2: ' /Munakusqayta/ Qan Salvadorta.', //(2)
@@ -18862,8 +18862,8 @@
     },
   },
   {
-    title: ' 409  Palabrayki Tarpusqata',
-    note: ' (Re Mayor)        H. y C. 186', //(note)
+    title_es: ' 409  Palabrayki Tarpusqata',
+    musicalNote: ' (Re Mayor)        H. y C. 186', //(note)
     paragraph: {
       _1: ' Palabrayki tarpusqata wiñachiy ari, Señor;\nQanlla atinki wiñachiy ta atiyniykiwan, Señor.\n/Qanlla atinki poqochiytaqa, Señor./', //(1)
     },
@@ -18878,8 +18878,8 @@
     },
   },
   {
-    title: ' Ñapis Llakiykuna 410',
-    note: ' (Mi Menor)', //(note)
+    title_es: ' Ñapis Llakiykuna 410',
+    musicalNote: ' (Mi Menor)', //(note)
     paragraph: {
       _1: " /Ñapis llakiykuna tukukaponqalla.\nÑak'ariykuna kay pachapeqa\nTukukaponqaña noqapaj./", //(1)
     },
@@ -18908,8 +18908,8 @@
     },
   },
   {
-    title: ' 411  Diospa Iglesianmanta',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' 411  Diospa Iglesianmanta',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Diospa Iglesianmanta qan kanki\nChay Calvarioj qhepampi kaspa;\nSonqoyki noqajta jinallataj,\nMakiykita jaywaway, hermanóy.\n/Munasqa hermano, jaywanakuna\nJaywanakuna makisninchejta./', //(1)
     },
@@ -18918,8 +18918,8 @@
     },
   },
   {
-    title: ' 412        Calvariokama',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 412        Calvariokama',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Calvariokama noqarayku rerqa,\nSeñor Jesús noqarayku.\nCalvariokama noqarayku rerqa,\nSalvasqaña kani.', //(1)
     },
@@ -18946,8 +18946,8 @@
     },
   },
   {
-    title: ' Qayna Kunan        413',
-    note: ' (La Mayor)', //(note)
+    title_es: ' Qayna Kunan        413',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' Qayna, kunan, wiñaypajpis Cristo kikimpuni.\nLlakiykuna kallampuni, Pay yanapawan.\nPay yanapawan, Paypi confiani.\nLlakiykuna jamojtenqa, Pay yanapawan.', //(1)
     },
@@ -18956,8 +18956,8 @@
     },
   },
   {
-    title: ' Noqa Creeni Jesuspi     414',
-    note: ' (Mi Mayor)', //(note)
+    title_es: ' Noqa Creeni Jesuspi     414',
+    musicalNote: ' (Mi Mayor)', //(note)
     paragraph: {
       _1: ' Noqa creeni Jesuspi, salvolla kani.', //(1)
       _2: ' Cruzpi wañuyninraykutaj Diosman rishani.', //(2)
@@ -19014,8 +19014,8 @@
     },
   },
   {
-    title: ' 415 Jesusta Rikúy Munayman',
-    note: ' (La Mayor)        H.yC. 168', //(note)
+    title_es: ' 415 Jesusta Rikúy Munayman',
+    musicalNote: ' (La Mayor)        H.yC. 168', //(note)
     paragraph: {
       _1: " Jesusta rikúy munayman. Imaynataj kanmanri?\nUj p'unchaytaj kusikuypi; almayqa qhawarenqa.", //(1)
     },
@@ -19067,8 +19067,8 @@
     },
   },
   {
-    title: ' Evangelio Barcoqa 416',
-    note: ' (Fa Mayor)        H. y C. 324', //(note)
+    title_es: ' Evangelio Barcoqa 416',
+    musicalNote: ' (Fa Mayor)        H. y C. 324', //(note)
     paragraph: {
       _1: ' Evangelio barcoqa rishan, rishan;\nEvangelio barcoqa rishan Canáan Uajtaman.\nPipis riy munajpaj, riy munajpaj;\nPipis riy munajpaj, walej jamusqan kanqa.', //(1)
     },
@@ -19140,8 +19140,8 @@
     },
   },
   {
-    title: ' Tukuy Uyarejqa  417',
-    note: ' (Re Mayor)              H. y C. 122', //(note)
+    title_es: ' Tukuy Uyarejqa  417',
+    musicalNote: ' (Re Mayor)              H. y C. 122', //(note)
     paragraph: {
       _1: ' Tukuy uyarejqa willaramuchun,\nSalvación kasqanta creesqanrayku.\nChinkasqa mundoman willamuy, nispa:\n&quot;Riy Salvador Jesusman', //(1)
     },
@@ -19180,8 +19180,8 @@
     },
   },
   {
-    title: ' 418 Danielqa Kinsata Oraj',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 418 Danielqa Kinsata Oraj',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: " Danielqa kinsata oraj sapa p'unchay.\nDiospa kacha purin profeta Elíaspis.\nDanielta jark'an Dios Tataj angelnin.\nElias orajtin, parata Dios qorqa.", //(1)
     },
@@ -19196,8 +19196,8 @@
     },
   },
   {
-    title: ' Kusisqalla Kawsakusaj   419',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' Kusisqalla Kawsakusaj   419',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Kusisqalla kawsakusaj\nKay pachapi kawsayniypi,\nLlakiykunaqa qhepakonqanku.\nCielopeqa kusiy kanqa.', //(1)
     },
@@ -19212,8 +19212,8 @@
     },
   },
   {
-    title: ' 420 Señorpa Palabranta Willaychej',
-    note: ' (Re Mayor)        H. y C. 185', //(note)
+    title_es: ' 420 Señorpa Palabranta Willaychej',
+    musicalNote: ' (Re Mayor)        H. y C. 185', //(note)
     paragraph: {
       _1: ' Señorpa Palabranta willaychej, willaychej.\nKusiywan, oracionwan willaychej.\nAsikojkunamampis niy munakuyninmanta,\nJesús Salvadormanta willaychej.', //(1)
     },
@@ -19240,8 +19240,8 @@
     },
   },
   {
-    title: ' Santa Biblia Noqapaj    421',
-    note: ' (Sol Mayor)        H.yC.407', //(note)
+    title_es: ' Santa Biblia Noqapaj    421',
+    musicalNote: ' (Sol Mayor)        H.yC.407', //(note)
     paragraph: {
       _1: " Santa Biblia noqapaj Diospa Libron qan kanki.\nQanmin wajcha almaypaj ñanninta k'anchaj kanki.\nPantay ñanta rishajtiy, Diosman pusawarqanki.", //(1)
     },
@@ -19266,8 +19266,8 @@
     },
   },
   {
-    title: ' Ni Qolqewan Nitaj      422',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Ni Qolqewan Nitaj      422',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Ni qolqewan nitaj qoriwan rantikorqa almayqa/\n/Jesuspa yawarnillanwanmin, ancha jatun preciowan./', //(1)
     },
@@ -19282,8 +19282,8 @@
     },
   },
   {
-    title: ' 423 May Kusiy Kanqa Cristopi Tukuyninchej',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 423 May Kusiy Kanqa Cristopi Tukuyninchej',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /May kusiy kanqa Cristopi tukuyninchej', //(1)
       _2: ' Uj ayllu jiña yupaychananchej./', //(2)
@@ -19304,8 +19304,8 @@
     },
   },
   {
-    title: ' Kan Perdón Cristoj 424',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Kan Perdón Cristoj 424',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Kan perdón Cristoj yawarninrayku,\nKan perdón cruzpi wañusqanrayku.\nTukuy man willaychej:\n&quot;Kan perdón tukuypajmin,\nJesucristoman jamojpajqa&quot;.', //(1)
     },
@@ -19318,8 +19318,8 @@
     },
   },
   {
-    title: ' Mayman Rishanki 425',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' Mayman Rishanki 425',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' Mayman rishanki qan, runa masi?\nLaqhallapeqa chinkayman rinki.', //(1)
     },
@@ -19358,8 +19358,8 @@
     },
   },
   {
-    title: ' 426 Michiwaykupuni Jesusniyku',
-    note: ' (Re Mayor)     H. y C. 205', //(note)
+    title_es: ' 426 Michiwaykupuni Jesusniyku',
+    musicalNote: ' (Re Mayor)     H. y C. 205', //(note)
     paragraph: {
       _1: ' Michiwaykupuni, Jesusniyku,\nOvejasniyki kayku,\nMikhuytapis qonki almaykuman,\nTukuy nisqasniykiwan.', //(1)
     },
@@ -19386,8 +19386,8 @@
     },
   },
   {
-    title: ' 427  Atisaj Jesuswan Atisaj',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 427  Atisaj Jesuswan Atisaj',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' /Atisaj, Jesuswan atisaj', //(1)
       _2: ' Atipayta qowanqa Jesusniy.', //(2)
@@ -19424,8 +19424,8 @@
     },
   },
   {
-    title: ' Takiy Jatun Kusiywan    428',
-    note: ' (Fa Mayor)              H. y C. 146', //(note)
+    title_es: ' Takiy Jatun Kusiywan    428',
+    musicalNote: ' (Fa Mayor)              H. y C. 146', //(note)
     paragraph: {
       _1: " Takiy jatun kusiywan, tukuy sonqowantaj,\nDiosman takisqaykeqa llakiyta qhechun.\nLaqha tutapi takiy, sut'i p'unchaypipis.\nSalvasqasña kajkuna yupaychachunku.", //(1)
     },
@@ -19446,8 +19446,8 @@
     },
   },
   {
-    title: ' 429 Rinachej Camposnejman',
-    note: ' (Sol Mayor)        Mt 9:37', //(note)
+    title_es: ' 429 Rinachej Camposnejman',
+    musicalNote: ' (Sol Mayor)        Mt 9:37', //(note)
     paragraph: {
       _1: " Rinachej camposnejman chajrasta oqharimoj.\nUsqhayllata rinallaña.\nSapa p'unchay willana Jesucristollamanta,\nPayllamanta parlamuna.", //(1)
     },
@@ -19499,8 +19499,8 @@
     },
   },
   {
-    title: ' Señor Jesusniy Pay 430',
-    note: ' (Mi Menor)        Ap. 19:11-16', //(note)
+    title_es: ' Señor Jesusniy Pay 430',
+    musicalNote: ' (Mi Menor)        Ap. 19:11-16', //(note)
     paragraph: {
       _1: ' /Señor Jesusniy, Pay Capitanniy.\nPayqa jamonqa atipanampaj/\n', //(1)
       _2: " /Yuraj caballopi llok'asqa jamonqa\nJanaj pachamanta chay soldadosninwan./", //(2)
@@ -19527,8 +19527,8 @@
     },
   },
   {
-    title: ' 431 Diospa Palabrampi Yachachiykuna',
-    note: ' (La Mayor)        H. y C. 433', //(note)
+    title_es: ' 431 Diospa Palabrampi Yachachiykuna',
+    musicalNote: ' (La Mayor)        H. y C. 433', //(note)
     paragraph: {
       _1: " Diospa Palabrampi yachachiykuna\nKallpachawan Cristopaj kawsayniypi.\nKay pachapi ñak'ariykuna kajtin,\nCristoj nisqasnimpi confiasaj.", //(1)
     },
@@ -19581,8 +19581,8 @@
     },
   },
   {
-    title: ' May kasqayta yuyakoj kani 432',
-    note: ' (Mi Mayor)', //(note)
+    title_es: ' May kasqayta yuyakoj kani 432',
+    musicalNote: ' (Mi Mayor)', //(note)
     paragraph: {
       _1: ' May kasqayta yuyakoj kani\nNiraj rejsishaspa Jesusta.\nMana yachaspa wañusqanta\nCalvariopi.', //(1)
     },
@@ -19641,8 +19641,8 @@
     },
   },
   {
-    title: ' Cristoj Soldadon Jina    433',
-    note: ' (Sol Mayor)        H. y C.', //(note)
+    title_es: ' Cristoj Soldadon Jina    433',
+    musicalNote: ' (Sol Mayor)        H. y C.', //(note)
     paragraph: {
       _1: " Cristoj soldadon jiña sinch'i sayanachej.\nJesucristoj sutimpi banderanta apaña.\nAtipasunchejpuni Cristo Capitanwan,\nSupaypa atiynenqa ni imachu Cristopaj.", //(1)
     },
@@ -19669,8 +19669,8 @@
     },
   },
   {
-    title: ' 434  Cristo Yawarninwan',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 434  Cristo Yawarninwan',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Cristo yawarninwan rantiwan.\nCieloman kusiywan risaj.\nKhuyaynimpi kacharichiwan,\nWawanña kani, yachani.', //(1)
     },
@@ -19745,8 +19745,8 @@
     },
   },
   {
-    title: ' 435  Mayllawan Jesusniy',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 435  Mayllawan Jesusniy',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: " /Mayllawan Jesusyniy juchayta.\nCh'ichi sonqoyta Pay mayllawarqaV\nJesusniy llimphuchan cruzpi yawarninwan.\nMayllawan Jesusniy juchayta,\nYawarninwan Jesús mayllawarqa.", //(1)
     },
@@ -19769,8 +19769,8 @@
     },
   },
   {
-    title: ' 436 Maqanakuman Jesús',
-    note: ' (Do Mayor)        Ef. 6: 10-20', //(note)
+    title_es: ' 436 Maqanakuman Jesús',
+    musicalNote: ' (Do Mayor)        Ef. 6: 10-20', //(note)
     paragraph: {
       _1: ' Maqanakuman Jesús wajyashan,\nCapitanninchej noqanchejwan.\n/ Jaku riña, tinkumuna\nSupaypata soldadosninwan./', //(1)
     },
@@ -19785,8 +19785,8 @@
     },
   },
   {
-    title: ' Noqa Niyki Qanta   437',
-    note: ' (Re Menor)        Josué. 1:9', //(note)
+    title_es: ' Noqa Niyki Qanta   437',
+    musicalNote: ' (Re Menor)        Josué. 1:9', //(note)
     paragraph: {
       _1: " /Noqa niyki qauta, &quot;Kallpachakuy,\nWapuchakuypuni, Noqa qanwan kani./\n/Amapuni sayk'uychu, nitaj manchikuychu.\nJehová Diosniyki qanwampuni kashani'/", //(1)
     },
@@ -19795,8 +19795,8 @@
     },
   },
   {
-    title: ' 438   Nawpajllaman Rinachej',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 438   Nawpajllaman Rinachej',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' Nawpajllaman rinachej, hermanos,\nDiosqa munakuymin.\nMunakuywan ruwajqa\nKarunchanqa manchikuyta.\n//Diosqa munakuymin// Munakuymin.', //(1)
     },
@@ -19809,16 +19809,16 @@
     },
   },
   {
-    title: ' 439 Kutimuspa Jesusqa',
-    note: ' (Do Mayor)        Mt. 25: 14,21', //(note)
+    title_es: ' 439 Kutimuspa Jesusqa',
+    musicalNote: ' (Do Mayor)        Mt. 25: 14,21', //(note)
     paragraph: {
       _1: ' Kutimuspa Jesusqa tapusojtin ruwasqaykimanta,\nIma ninki Payta tapusojtin talentomanta?\nYapallaypuni arí, talentoykiman arí.\nQan, hermanóy, yapay talentoykiman.\nYapallaypuni, arí, yapallaypuni,    arí,\nCristo qosorqa, chayman yapay.', //(1)
       _2: ' Cuando venga el Señor y te pregunte por tu talento,\nQué dirás al Señor del talento que Cristo te dio.\nMultiplícalo sí, sí, multiplícalo sí, sí,\nMultiplica hermano tu    talento.\nMultiplícalo sí, sí, multiplícalo sí, sí,\nEl talento que Cristo te dio.', //(2)
     },
   },
   {
-    title: " Señor Diosniy Mask'aj    440",
-    note: ' (Re Menor)', //(note)
+    title_es: " Señor Diosniy Mask'aj    440",
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: " /Señor Diosniy, mask'aj jamuyki/\n/Juchaymanta perdonariway./\n/Munakuyki, kusiyta qoway./", //(1)
     },
@@ -19835,8 +19835,8 @@
     },
   },
   {
-    title: " Domingo P'unchaypeqa   441",
-    note: ' (Do Mayor)', //(note)
+    title_es: " Domingo P'unchaypeqa   441",
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: " Domingo p'unchaypeqa kusisqa kashani,\nLunes, martespi, miércolespiwan kusiyllataj.\nJuevespi purishani Cristoj k'anchaynimpi.\nVlernespi, sábadopiwan Payllapi confiani.", //(1)
     },
@@ -19845,8 +19845,8 @@
     },
   },
   {
-    title: ' 442   Tukuy Ima Nisqasneyqa',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 442   Tukuy Ima Nisqasneyqa',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Tukuy ima nisqasneyqa,\nSonqoy ukhupi yuyasqasniypis\nMunayniykiman jiña kachun, Señorniy J', //(1)
     },
@@ -19864,8 +19864,8 @@
     },
   },
   {
-    title: ' 443        Jesús Reyniy',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 443        Jesús Reyniy',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " Jesús Reyniy, Payllapaj takishani.\nJesús Reyniy, Pay jiña ni uj kanchu.\nTukuy p'unchaypi yupaychani Payllataña.\nAleluya, Pay Reyniy.", //(1)
     },
@@ -19874,8 +19874,8 @@
     },
   },
   {
-    title: ' Amapuni Juchamanqa    444',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Amapuni Juchamanqa    444',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Amapuni juchamanqa urmaykunachejchu.\nAmaña (aleluya), amaña, arí.\nAmapuni juchamanqa urmaykunachejchu;\nQori pilluta cielopi qowasunchej.', //(1)
     },
@@ -19884,8 +19884,8 @@
     },
   },
   {
-    title: ' Uyariychej Allinta      445',
-    note: ' (La Mayor)', //(note)
+    title_es: ' Uyariychej Allinta      445',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' Uyariychej allinta, tukuynin wawas,\nQallarísun Bibliamanta yachayta.\nYachasun Diosmanta, khuyayninmanta.\nDiospa, Palabranmanta yachakusun.', //(1)
     },
@@ -19900,8 +19900,8 @@
     },
   },
   {
-    title: ' 446 Qhuyaj sonqo Mama',
-    note: ' (Mi Menor)        S.TG.', //(note)
+    title_es: ' 446 Qhuyaj sonqo Mama',
+    musicalNote: ' (Mi Menor)        S.TG.', //(note)
     paragraph: {
       _1: ' Qhuyaj sonqo /mamayku kanki\nDios qopusuchun kusikuyta/', //(1)
     },
@@ -19928,8 +19928,8 @@
     },
   },
   {
-    title: " 447 Muñan Jesús K'anchanayta",
-    note: ' (Sol Mayor)        H. y  C.  330', //(note)
+    title_es: " 447 Muñan Jesús K'anchanayta",
+    musicalNote: ' (Sol Mayor)        H. y  C.  330', //(note)
     paragraph: {
       _1: " Muñan Jesús k'anchanayta kay pacha kawsaypi,\nMunayninta ruwanayta wasiypi, maypipis.", //(1)
     },
@@ -19962,8 +19962,8 @@
     },
   },
   {
-    title: ' Munakuwaj Jesusníy 448',
-    note: '( )', //(note)
+    title_es: ' Munakuwaj Jesusníy 448',
+    musicalNote: '( )', //(note)
     paragraph: {
       _1: " Munakuwaj Jesusníy, noqarayku wañorqa.\nJuchasniyta qhechorqa yawarninta jich'aspa.", //(1)
     },
@@ -20003,8 +20003,8 @@
     },
   },
   {
-    title: ' 449 Mosoj Testamento',
-    note: ' (Re Mayor)        H. y C. 67', //(note)
+    title_es: ' 449 Mosoj Testamento',
+    musicalNote: ' (Re Mayor)        H. y C. 67', //(note)
     paragraph: {
       _1: ' Iskay chunka qanchisniyoj\nLibrosmanta yachasun.\nMateo, Marcos, Lucas, Juan,\nHechos wan, Romanos wan.', //(1)
     },
@@ -20061,8 +20061,8 @@
     },
   },
   {
-    title: ' 450  Cielopi punku kichasqa',
-    note: ' (Do Mayor)        H. y C. 10', //(note)
+    title_es: ' 450  Cielopi punku kichasqa',
+    musicalNote: ' (Do Mayor)        H. y C. 10', //(note)
     paragraph: {
       _1: " Cielopi punku kichasqa,\nK'anchaynin Uiphipishan.\nFeneyki qan chay yaykunki,\nNi pi jark'asonqachu.", //(1)
     },
@@ -20101,8 +20101,8 @@
     },
   },
   {
-    title: ' Sumaj willayta tukuy runasman 451',
-    note: ' (Re Mayor)        H. y C. 83', //(note)
+    title_es: ' Sumaj willayta tukuy runasman 451',
+    musicalNote: ' (Re Mayor)        H. y C. 83', //(note)
     paragraph: {
       _1: " Sumaj willayta tukuy runasman\nWillasqaykichej, uyariychej:\nSeñor Jesusniy perdonawanña\nT'inkaytapis jaywapuwanqa\nJanaj pachapi wasis tiyan.\nJesusllapi creejpajqa\nWiñay kawsaypis    wakichisqaña\nTukuy munajkunapaj.", //(1)
       _2: " Mundo kusiyta saqepuniña,\nWañuyman pusan chay kusiyta.\nQhasi mana kaj chay kusiykuna\nAs wan llakiyta apamuwan.\nJesucristo Salvawajniyman\nRipusaj cielomanqa,\nSapa p'unchaypi Cristo pusawan\nCheqa    munakuynimpi.", //(2)
@@ -20131,8 +20131,8 @@
     },
   },
   {
-    title: ' 452 Takisaj Jesusmanta',
-    note: ' (Do Mayor)        H. y C. 450', //(note)
+    title_es: ' 452 Takisaj Jesusmanta',
+    musicalNote: ' (Do Mayor)        H. y C. 450', //(note)
     paragraph: {
       _1: " Takipusaj Jesusllapaj cruzpi wañusqanmanta\nChay Calvario Orqopitaj yawar jich'asqanmanta", //(1)
     },
@@ -20174,8 +20174,8 @@
     },
   },
   {
-    title: ' Qanpata kani Señor  453',
-    note: ' (Sol Mayor)        H. y C. 226', //(note)
+    title_es: ' Qanpata kani Señor  453',
+    musicalNote: ' (Sol Mayor)        H. y C. 226', //(note)
     paragraph: {
       _1: ' Qanpata kani Señor Jesusniy,\nMunakuspa salvawanki.\nQanta sirvispa qhatikusqayki,\nQayllaykipi kawsasaj.', //(1)
     },
@@ -20245,8 +20245,8 @@
     },
   },
   {
-    title: ' Punkusqa kichasqasña kanku 454',
-    note: ' (Fa Mayor)        H. y C. 57', //(note)
+    title_es: ' Punkusqa kichasqasña kanku 454',
+    musicalNote: ' (Fa Mayor)        H. y C. 57', //(note)
     paragraph: {
       _1: " Punkusqa kichasqasña kanku Jesuspi creejpaj.\nWakenqa kusisqas kanqanku; qanpaj kanqa noqapajpis.\nQori calles, ch'uwa yakus samakuyllaña munakuypis,\nWakinpaj cielo wasis kanqa. Qanpaj kanqa noqapajpis.", //(1)
     },
@@ -20272,8 +20272,8 @@
     },
   },
   {
-    title: ' 455        Señor Diosniy',
-    note: ' (Do Mayor)        H. B. 20', //(note)
+    title_es: ' 455        Señor Diosniy',
+    musicalNote: ' (Do Mayor)        H. B. 20', //(note)
     paragraph: {
       _1: " Señor Diosniy, cielosta qhawarispa,\nCh'askakunasta k'anchaj rikuspa;\nUyarispa sinch'i parlasqaykita;\nIntej Uiphiyninta rikuspataj:", //(1)
     },
@@ -20332,8 +20332,8 @@
     },
   },
   {
-    title: " 456 Ch'inmanta Usqayta",
-    note: ' (Re Mayor)', //(note)
+    title_es: " 456 Ch'inmanta Usqayta",
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " Ch'inmanta, usqayta ayqeykuy Jesusman,\nCh'inmanta, chimpallayña suyashasunki Jesús.", //(1)
       _2: ' Qayllaykuy usqayta qayllaykuy Jesusman,\nPayllamin salvasonqa suyashasunki Jesús.', //(2)
@@ -20345,8 +20345,8 @@
     },
   },
   {
-    title: ' 457  Cristo kawsayta qon',
-    note: ' (Do Mayor)', //(note)
+    title_es: ' 457  Cristo kawsayta qon',
+    musicalNote: ' (Do Mayor)', //(note)
     paragraph: {
       _1: ' Cristo kawsayta qon creejman kawsayta,\nCristo kawsayta qon creejman.', //(1)
     },
@@ -20367,8 +20367,8 @@
     },
   },
   {
-    title: ' Cristomanta Yacháy Munani 458',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Cristomanta Yacháy Munani 458',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Cristomanta yacháy munani,\nRikuytapis atiyninta,\nMunanitaj Paywan kawsayta\nMunakuyninta rikuspa.', //(1)
     },
@@ -20383,8 +20383,8 @@
     },
   },
   {
-    title: ' Jesús Munakuyki        459',
-    note: ' (Fa Mayor)', //(note)
+    title_es: ' Jesús Munakuyki        459',
+    musicalNote: ' (Fa Mayor)', //(note)
     paragraph: {
       _1: ' Jesús munakuyki, Jesús munakuyki,', //(1)
       _2: ' Jesús munakuyki Qanta.', //(2)
@@ -20404,8 +20404,8 @@
     },
   },
   {
-    title: ' 460 Juchaykiwan jamuy Jesusman',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 460 Juchaykiwan jamuy Jesusman',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' Juchaykiwan jamuy Jesusman,\nWiñaypajtaj kusisqa kanki.\nChimpaytachus Payman munawaj\nKunan pacha tariwaj Payta.', //(1)
     },
@@ -20462,8 +20462,8 @@
     },
   },
   {
-    title: ' Jesucristo Atiyniyoj 461',
-    note: ' (Fa Mayor)        H. y C. 288', //(note)
+    title_es: ' Jesucristo Atiyniyoj 461',
+    musicalNote: ' (Fa Mayor)        H. y C. 288', //(note)
     paragraph: {
       _1: ' Jesucristo atiyniyoj, kay mundota atipaj.\nWañuymanta kutirimoj; tukuy yupaychanachej.', //(1)
     },
@@ -20514,8 +20514,8 @@
     },
   },
   {
-    title: ' 462   Tukuy kayniyta qopuspa',
-    note: ' (Re Mayor)', //(note)
+    title_es: ' 462   Tukuy kayniyta qopuspa',
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: ' Tukuy kayniyta Jaywaspa chimpaykamuyki Señorniy\nTukuy sonqoy Qanllataña, sirvisuyta munani.', //(1)
     },
@@ -20585,8 +20585,8 @@
     },
   },
   {
-    title: ' Imaynachus kasqay jina   463',
-    note: ' (Fa Mayor)        H.yC.117', //(note)
+    title_es: ' Imaynachus kasqay jina   463',
+    musicalNote: ' (Fa Mayor)        H.yC.117', //(note)
     paragraph: {
       _1: ' Imaynachus kasqay jiña, chimpamuyki Qanman Señor.\nQanllamin wajyashawanki; Señorniy, chimpaykamuyki.', //(1)
     },
@@ -20613,8 +20613,8 @@
     },
   },
   {
-    title: ' 464         Gloria Kachun',
-    note: ' (La Mayor)', //(note)
+    title_es: ' 464         Gloria Kachun',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' Gloria kachun Qan Diosniy man,\nMunaku wasqay kimanta.\nGloria kachun wiñaypajmin;\nMunakoj Salvador.', //(1)
     },
@@ -20638,8 +20638,8 @@
     },
   },
   {
-    title: ' Jesucristoj kutimunan chay 465',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Jesucristoj kutimunan chay 465',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " Jesucristoj kutimunan chay p'unchayta suyani,\nLlimphuchasaj kawsayniyta Payllapajtaj llank'asaj.\nKay pachapi qhepakonqa llakiykunas sayk'uypis,\n/Kutimuspa Cristo, pusawajtin chay glorianman/", //(1)
     },
@@ -20658,8 +20658,8 @@
     },
   },
   {
-    title: ' 466  Kawsaqesniykita',
-    note: ' (Fa Mayor)        A.M.', //(note)
+    title_es: ' 466  Kawsaqesniykita',
+    musicalNote: ' (Fa Mayor)        A.M.', //(note)
     paragraph: {
       _1: ' /Kawsaqesniykitachus qhuyanki chayqa,\nWillaray Jesús salvasusqanta/', //(1)
     },
@@ -20681,8 +20681,8 @@
     },
   },
   {
-    title: ' Atiyniyoj Diosneyqa  467',
-    note: ' (La Mayor)', //(note)
+    title_es: ' Atiyniyoj Diosneyqa  467',
+    musicalNote: ' (La Mayor)', //(note)
     paragraph: {
       _1: ' /Atiyniyoj Diosneyqa./', //(1)
       _2: ' Pay salvawan, waqaychawan.', //(2)
@@ -20705,8 +20705,8 @@
     },
   },
   {
-    title: " 468 Jaqay p'unchayta",
-    note: ' (Re Mayor)', //(note)
+    title_es: " 468 Jaqay p'unchayta",
+    musicalNote: ' (Re Mayor)', //(note)
     paragraph: {
       _1: " Jaqay p'unchayta ni qonqaymanchu,\nKusiy p'unchay noqapaj;\nJucha kawsaypi purikushajtiy,\nJesús salvaj jamorqa.\nQhuyakuynimpi Cristolla qowan,\nSonqo thañiy, kusiyta.\nQhechun Uakiyta, ¡gloria kachun    Payman\nKusisqa kani Paywan.", //(1)
     },
@@ -20757,8 +20757,8 @@
     },
   },
   {
-    title: ' 469  Qhuyakoj Salvawajniy',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' 469  Qhuyakoj Salvawajniy',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: " Qhuyakoj Salvawajniy Qanman chimpaykamuyki\nNak'ariy jamuwajtin pakaykuway Señorniy.\nOjllaykuway Señorniy mana manchikusajchu,\nPusawaypuni Señor cieloman rinaykama.", //(1)
     },
@@ -20777,8 +20777,8 @@
     },
   },
   {
-    title: ' Señorniy wajyashawanki  470',
-    note: ' (Sol Mayor)', //(note)
+    title_es: ' Señorniy wajyashawanki  470',
+    musicalNote: ' (Sol Mayor)', //(note)
     paragraph: {
       _1: ' //Señorniy wajyashawanki://\nCruzniywan Qanta qhatinaypaj.', //(1)
     },
@@ -20823,8 +20823,8 @@
     },
   },
   {
-    title: ' 471   Ama manchachikuychu',
-    note: ' (Sol Mayor)        Jos .1:6', //(note)
+    title_es: ' 471   Ama manchachikuychu',
+    musicalNote: ' (Sol Mayor)        Jos .1:6', //(note)
     paragraph: {
       _1: ' /&quot;Ama manchachikuychu&quot; niwan Señor\n&quot;Atiyniyoj Diosniyki kani&quot;./', //(1)
     },
@@ -20851,8 +20851,8 @@
     },
   },
   {
-    title: ' 472         Jamuy Dios',
-    note: ' (Re Menor)', //(note)
+    title_es: ' 472         Jamuy Dios',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' /Jamuy Dios kay sonqosniykuman./\n/Kallpata qoway, munakuytapis;\nQhatisqaykitaj, tukuy sonqowan./', //(1)
     },
@@ -20867,8 +20867,8 @@
     },
   },
   {
-    title: ' Qayllaykuna Jesusman 473',
-    note: ' (Re Menor)', //(note)
+    title_es: ' Qayllaykuna Jesusman 473',
+    musicalNote: ' (Re Menor)', //(note)
     paragraph: {
       _1: ' Qayllaykuna Jesusman, Paymin wajyashawanchej.\n/Chimpaykuna kusiywan, mana manchachikuspa./', //(1)
     },
@@ -20895,8 +20895,8 @@
     },
   },
   {
-    title: ' 474   Cristo Sumaj Michejniy',
-    note: ' (Re Menor)        A.M.', //(note)
+    title_es: ' 474   Cristo Sumaj Michejniy',
+    musicalNote: ' (Re Menor)        A.M.', //(note)
     paragraph: {
       _1: ' /Jesucristo sumaj Michejniy\nCheqan ñampi purichiwan/', //(1)
     },
@@ -20929,8 +20929,8 @@
     },
   },
   {
-    title: ' 475  Cristoj Jamuynin',
-    note: ' (Re Menor)        S. Claros V.', //(note)
+    title_es: ' 475  Cristoj Jamuynin',
+    musicalNote: ' (Re Menor)        S. Claros V.', //(note)
     paragraph: {
       _1: ' Tukuy hermanos yachaychej,\nQayllapiñamin kasqanta\nCristoj jamuynenqa.\nPusawasunchej salvosta\nJanaj pacha llajtanmanqa,\nChaypi kusikusun.', //(1)
     },
@@ -20983,8 +20983,8 @@
     },
   },
   {
-    title: ' 476  Juchapi kawsakoj',
-    note: ' (Do Mayor)        M.  Z.  CH.', //(note)
+    title_es: ' 476  Juchapi kawsakoj',
+    musicalNote: ' (Do Mayor)        M.  Z.  CH.', //(note)
     paragraph: {
       _1: ' Juchapi kawsakoj, Jesús wajyasunki.\nJuchasniykimanta salvasuyta atin.\nConfiaspa Jesuspi, Pay ta qhatisunchej.\nJanaj pachamantaj Pay wan ripusunchej.', //(1)
     },
@@ -21023,8 +21023,8 @@
     },
   },
   {
-    title: ' 477   Waynakunaj kawsaynin',
-    note: ' (Re Menor)        J. Q.Ch.', //(note)
+    title_es: ' 477   Waynakunaj kawsaynin',
+    musicalNote: ' (Re Menor)        J. Q.Ch.', //(note)
     paragraph: {
       _1: " Kay pachapi pantaykunas tiyan\nChaypi kashan mana allin kay lia,\nMunapayayila kay pachapeqa\nWayna runastataj jap'ishan.\nWajyaynintaj qhasi mana kajlla \nMana tukukuyniyoj llakiylla,\nT'ika jinataj    ch'aquikapojlla,\nTuta jinataj laqhayayniyoj;\nFierro jiña kallpata rikuchin;\nWayna runas chaypi kawsanku.", //(1)
     },
@@ -21054,8 +21054,8 @@
     },
   },
   {
-    title: ' 478  Diosman Willanachej',
-    note: ' (Re Menor)        S.C.V.', //(note)
+    title_es: ' 478  Diosman Willanachej',
+    musicalNote: ' (Re Menor)        S.C.V.', //(note)
     paragraph: {
       _1: ' Ima pantaypis jamojtin,\nIma Uakiypis kajtin,\n/Mañakuyninchejpi\nDiosman willanachej,\nPaytaj atipachiwasunchej./', //(1)
     },
@@ -21075,8 +21075,8 @@
     },
   },
   {
-    title: ' 479 Cristollapi Suyay',
-    note: ' (Sol Mayor)        S.C.V.', //(note)
+    title_es: ' 479 Cristollapi Suyay',
+    musicalNote: ' (Sol Mayor)        S.C.V.', //(note)
     paragraph: {
       _1: " Pillapis Cristowan purejqa,\nMana jayk'aj manchachikunchu;\nLlakiypis, pruebaspis jamuchun,\nCristoqa paywampuni kashan.", //(1)
     },
@@ -21124,8 +21124,8 @@
     },
   },
   {
-    title: " 480 Diospaj Llank'asaj",
-    note: ' (Fa Mayor)        J. O. Ch.', //(note)
+    title_es: " 480 Diospaj Llank'asaj",
+    musicalNote: ' (Fa Mayor)        J. O. Ch.', //(note)
     paragraph: {
       _1: " Diospa wajyasqanta suyakushani.\nLlank'ayta munaspa Paypa chajrampi.\nYuyaspa walejta purishasqayta,\nSumaj wajyasqanta mana uyarispa.", //(1)
     },
@@ -21164,8 +21164,8 @@
     },
   },
   {
-    title: ' Imarayku Diosniy 481',
-    note: ' (Re Mayor)           G.  Z.  Ch.', //(note)
+    title_es: ' Imarayku Diosniy 481',
+    musicalNote: ' (Re Mayor)           G.  Z.  Ch.', //(note)
     paragraph: {
       _1: " Imarayku Diosniy saqerpariwankiri?\nMana uyarinqui mañasusqayta?\nLlakiypi kashani ni pi qhawariwanchu.\nMunakuyniykipi jap'ikullaway.", //(1)
     },
@@ -21214,8 +21214,8 @@
     },
   },
   {
-    title: ' 482 Kay pachapeqa kawsayniypi',
-    note: ' (Si Menor)   R. Ch. C.', //(note)
+    title_es: ' 482 Kay pachapeqa kawsayniypi',
+    musicalNote: ' (Si Menor)   R. Ch. C.', //(note)
     paragraph: {
       _1: ' /Kay pacha wajcha kawsayniypi\nMana qhapajchu kani./\n/Tukuy imaypis Diosniypata,\nManar i sq al la mi n  /', //(1)
     },
