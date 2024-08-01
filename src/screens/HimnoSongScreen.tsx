@@ -7,6 +7,7 @@ import {
   Image,
   Pressable,
   StyleSheet,
+  Text,
   View,
 } from 'react-native';
 // import LinearGradient from 'react-native-linear-gradient';
@@ -14,7 +15,7 @@ import ItemHimnoLetter from '../components/himno/ItemHimnoLetter';
 import Storage from '../libs/storage';
 import Colors from '../res/colors';
 import {responsive} from '../res/responsive';
-import { opacityColor } from '../helpers/helper';
+import {opacityColor} from '../helpers/helper';
 
 const widthScreen = Dimensions.get('window').width;
 
@@ -23,7 +24,7 @@ const initialValues = {
   fontSizeIncremental: 1,
 };
 
-const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
+const HimnoSongScreen = (props: {route: any; navigation: any}) => {
   const {route, navigation} = props;
   const [isFavorite, setIsFavorite] = useState(false);
   const [himno, setHimno] = useState(route.params.himno);
@@ -44,7 +45,9 @@ const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
 
     const stored = await Storage.instance.store(key, himnoStr);
 
-    if (stored) {setIsFavorite(true);}
+    if (stored) {
+      setIsFavorite(true);
+    }
   };
 
   const removeFavorite = async () => {
@@ -87,7 +90,7 @@ const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
 
     let filter;
     if (chorus !== undefined) {
-      filter = chorus.filter((choirItem: { chorus_position_ignore: any; }) =>
+      filter = chorus.filter((choirItem: {chorus_position_ignore: any}) =>
         compareArrayIgnore(choirItem.chorus_position_ignore, i + 1),
       );
       choir = filter.length && joinChoirs(filter);
@@ -105,7 +108,11 @@ const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
   function joinChoirs(filter: any[]) {
     return filter.length >= 2
       ? filter.reduce(
-          (accumulatorChoir: any, currentChoir: { choir: any; }, currentIndex: number) =>
+          (
+            accumulatorChoir: any,
+            currentChoir: {choir: any},
+            currentIndex: number,
+          ) =>
             accumulatorChoir +
             currentChoir.choir +
             (filter.length !== currentIndex + 1 ? '\n\n' : ''),
@@ -115,10 +122,13 @@ const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
   }
 
   const getIconStar = () => {
-    if (isFavorite) {return require('../assets/images/star.png');}
+    if (isFavorite) {
+      return require('../assets/images/star.png');
+    }
 
-    if (!isFavorite)
-      {return require('../assets/images/unstar-white.png');}
+    if (!isFavorite) {
+      return require('../assets/images/unstar-white.png');
+    }
   };
 
   const onPressFontSize = (valueFontSize: number) => {
@@ -134,20 +144,7 @@ const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
         backgroundColor: Colors.bkgDark,
       },
       headerTintColor: Colors.txtWhite,
-      headerRight: () => (
-        <View style={styles.headerRightContainer}>
-          <Button
-            color={Colors.bkgTransparentPrimary}
-            onPress={() => onPressFontSize(-initialValues.fontSizeIncremental)}
-            title="-T"
-          />
-          <Button
-            color={Colors.bkgTransparentPrimary}
-            onPress={() => onPressFontSize(initialValues.fontSizeIncremental)}
-            title="+T"
-          />
-        </View>
-      ),
+      // headerRight: () => (      ),
     });
 
     setHimno(himno);
@@ -165,23 +162,34 @@ const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.spaceTop}>
-        {/* <LinearGradient
-          style={styles.spaceLinearGradient}
-          start={{x: 0, y: 0}}
-          end={{x: 0, y: 1.0}}
-          colors={[Colors.bkgWhite, Colors.bkgTransparentWhite]}
-        /> */}
-      </View>
+      <View style={styles.spaceTop}></View>
       <FlatList
         style={styles.content}
         data={verses}
         showsVerticalScrollIndicator={false}
         keyExtractor={(item, index) => index.toString()}
         renderItem={({item, index}) => (
-          <ItemHimnoLetter item={item} isFinalVerse={verses.length - 1 === index} customFontSize={customFontSize} />
+          <ItemHimnoLetter
+            item={item}
+            isFinalVerse={verses.length - 1 === index}
+            customFontSize={customFontSize}
+          />
         )}
       />
+
+      <View style={styles.headerRightContainer}>
+        <Pressable
+          style={[styles.btn]}
+          onPress={() => onPressFontSize(-initialValues.fontSizeIncremental)}>
+          <Text style={[styles.btnText]}>-t</Text>
+        </Pressable>
+        <Pressable
+          style={[styles.btn]}
+          onPress={() => onPressFontSize(initialValues.fontSizeIncremental)}>
+          <Text style={styles.btnText}>+t</Text>
+
+        </Pressable>
+      </View>
 
       <Pressable
         onPress={() => toggleFavorite()}
@@ -203,7 +211,25 @@ const styles = StyleSheet.create({
     position: 'relative',
   },
   headerRightContainer: {
+    position: 'absolute',
+    bottom: 8,
+    left: 8,
     flexDirection: 'row',
+  },
+  btn: {
+    backgroundColor: Colors.bkgPrimary,
+    padding: 6,
+    width: 45,
+    height: 45,
+    borderRadius: 50,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginRight: 4,
+  },
+  btnText: {
+    color: Colors.white,
+    fontSize: 20,
   },
   spaceTop: {
     position: 'absolute',
