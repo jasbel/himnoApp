@@ -11,7 +11,7 @@ interface Props {
 
 const ItemHimnoLetter = ({item, isFinalVerse, customFontSize}: Props) => {
   const getIconChoir = () => {
-    return require('himnoapp/src/assets/images/verse.png');
+    return require('../../assets/images/verse.png');
   };
 
   return (

@@ -1,11 +1,11 @@
 import React from 'react';
-import {createStackNavigator} from '@react-navigation/stack';
 import HimnoScreen from '../screens/HimnoScreen';
 import HimnoSongScreen from '../screens/HimnoSongScreen';
 import Colors from '../res/colors';
 import HimnoHomeScreen from '../screens/HimnoHomeScreen';
+import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-const Stack = createStackNavigator();
+const Stack = createNativeStackNavigator();
 
 const HimnoStack = () => {
   return (
@@ -14,7 +14,7 @@ const HimnoStack = () => {
         headerTitleAlign: 'center',
         headerStyle: {
           backgroundColor: Colors.bkgBlack,
-          shadowColor: Colors.bkgDark,
+          // shadowColor: Colors.bkgDark,
         },
         headerTintColor: Colors.txtLight,
       }}>

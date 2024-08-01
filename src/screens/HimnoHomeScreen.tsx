@@ -3,12 +3,13 @@ import React, {useEffect} from 'react';
 import {Image, Pressable, StyleSheet, Text, View} from 'react-native';
 import Colors from '../res/colors';
 import {percent} from '../res/responsive';
+// import Logo from 'src/assets/images/logoHome.png';
 
 const HimnoHomeScreen = (props: { navigation: any; }) => {
   const {navigation} = props;
 
   const getLogo = () => {
-    return require('himnoapp/src/assets/images/logoHome.png');
+    return require('../assets/images/logoHome.png');
   };
 
   const handlePress = () => {

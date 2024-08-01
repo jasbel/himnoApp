@@ -115,10 +115,10 @@ const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
   }
 
   const getIconStar = () => {
-    if (isFavorite) {return require('himnoapp/src/assets/images/star.png');}
+    if (isFavorite) {return require('../assets/images/star.png');}
 
     if (!isFavorite)
-      {return require('himnoapp/src/assets/images/unstar-white.png');}
+      {return require('../assets/images/unstar-white.png');}
   };
 
   const onPressFontSize = (valueFontSize: number) => {

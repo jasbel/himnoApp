@@ -10,7 +10,7 @@ interface Props {
 
 const ImageItem = ({isFavorite, id}: Props) => {
   const getIcon = () => {
-    return require('himnoapp/src/assets/images/play.png');
+    return require('../../../assets/images/play.png');
   };
   return (
     <View style={[styles.figure, isFavorite && styles.figureIsFavorite]}>
