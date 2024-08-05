@@ -3,8 +3,14 @@ import {Image, StyleSheet, Text, View} from 'react-native';
 import Colors from '../../res/colors';
 import {widthScreen} from '../../res/responsive';
 
+interface IItem {
+  key: string;
+  paragraph: string;
+  choir: string;
+}
+
 interface Props {
-  item: any;
+  item: IItem;
   isFinalVerse?: boolean;
   customFontSize?: number;
 }

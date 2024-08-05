@@ -4,6 +4,7 @@ import HimnoSongScreen from '../screens/HimnoSongScreen';
 import Colors from '../res/colors';
 import HimnoHomeScreen from '../screens/HimnoHomeScreen';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
+import HimnoScreenNew from '../screens/HimnoScreenNew';
 
 const Stack = createNativeStackNavigator();
 
@@ -20,7 +21,9 @@ const HimnoStack = () => {
       }}>
       <Stack.Screen name="HimnoHome" component={HimnoHomeScreen} />
       <Stack.Screen name="HimnoScreen" component={HimnoScreen} />
+      <Stack.Screen name="HimnoScreenNew" component={HimnoScreenNew} />
       <Stack.Screen name="HimnoSong" component={HimnoSongScreen} />
+      <Stack.Screen name="HimnoSongNew" component={HimnoSongScreen} />
     </Stack.Navigator>
   );
 };
