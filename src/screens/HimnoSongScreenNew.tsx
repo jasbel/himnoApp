@@ -10,11 +10,13 @@ import {
   Text,
   View,
 } from 'react-native';
+// import LinearGradient from 'react-native-linear-gradient';
 import ItemHimnoLetter from '../components/himno/ItemHimnoLetter';
 import Storage from '../libs/storage';
 import Colors from '../res/colors';
 import {responsive} from '../res/responsive';
 import {opacityColor} from '../helpers/helper';
+import { INavigate, IRoute } from '../../src/types/types';
 
 const widthScreen = Dimensions.get('window').width;
 
@@ -23,7 +25,9 @@ const initialValues = {
   fontSizeIncremental: 1,
 };
 
-const HimnoSongScreen = (props: {route: any; navigation: any}) => {
+interface Props {route: IRoute; navigation: INavigate}
+
+const HimnoSongScreenNew = (props: Props) => {
   const {route, navigation} = props;
   const [isFavorite, setIsFavorite] = useState(false);
   const [himno, setHimno] = useState(route.params.himno);
@@ -121,10 +125,13 @@ const HimnoSongScreen = (props: {route: any; navigation: any}) => {
   }
 
   const getIconStar = () => {
-    if (isFavorite) {return require('../../src/assets/images/star.png');}
+    if (isFavorite) {
+      return require('../assets/images/star.png');
+    }
 
-    if (!isFavorite)
-      {return require('../../src/assets/images/unstar-white.png');}
+    if (!isFavorite) {
+      return require('../assets/images/unstar-white.png');
+    }
   };
 
   const onPressFontSize = (valueFontSize: number) => {
@@ -158,8 +165,7 @@ const HimnoSongScreen = (props: {route: any; navigation: any}) => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.spaceTop}>
-      </View>
+      <View style={styles.spaceTop}></View>
       <FlatList
         style={styles.content}
         data={verses}
@@ -286,4 +292,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default HimnoSongScreen;
+export default HimnoSongScreenNew;

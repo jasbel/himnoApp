@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react';
 import {Platform, StyleSheet, TextInput, View} from 'react-native';
+import { opacityColor } from '../../helpers/helper';
 import Colors from '../../res/colors';
 
 interface Props {
@@ -41,6 +42,8 @@ const styles = StyleSheet.create({
     paddingTop: 12,
     paddingBottom: 8,
     position: 'relative',
+    borderBottomColor: opacityColor(Colors.bkgWhite, 0.5),
+    borderBottomWidth: 4,
   },
   spaceLinearGradient: {
     height: 0,
