@@ -1,86 +1,79 @@
-| Dependencias | Description |
-| -- | -- |
-| "@react-native-async-storage/async-storage" | almacenamiento o persistenncia de daaor |
-| "@react-navigation/bottom-tabs" | botones en la parte inferior |
-| "@react-navigation/native" | saltar entre pantallas  |
-| "@react-navigation/stack" | tener base de las pantallas |
-| "react-native-linear-gradient" | Para Componente con gradientes |
-| "@react-native-community/masked-view" |  |
-| "react-native-gesture-handler" |  |
-| "react-native-reanimated" |  |
-| "react-native-safe-area-context" |  |
-| "react-native-screens" |  |
+This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
 
-### Cambiar la version para generar nuevamente
-```
-  // android/app/build.gradle
+# Getting Started
 
-  defaultConfig {
-    ...
-    versionCode 10
-    versionName "2.7.2"
-  }
-  // nueva version
-  defaultConfig {
-    ...
-    versionCode 11
-    versionName "2.7.3"
-  }
+>**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+
+## Step 1: Start the Metro Server
+
+First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+
+To start Metro, run the following command from the _root_ of your React Native project:
+
+```bash
+# using npm
+npm start
+
+# OR using Yarn
+yarn start
 ```
 
-### Reduccion de Apk v1
-https://www.folio3.com/mobile/blog/how-to-reduce-apk-size-in-react-native/
-s
+## Step 2: Start your Application
 
-#### Generar AAB
-```
-  cd android
-  ./gradlew bundleRelease
-```
-#### ProGuard - reducir codigo innecesario
-```
-  // android/app/build.gradle
-  def enableProguardInReleaseBuilds = false
-```
-#### shrinkResources - reducir codigo innecesario
-```
-  // android/app/build.gradle
-  buildTypes {
-       release {
-        //Add the following//
-    	shrinkResources true
-        minifyEnabled true
-       }
-   }
+Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+
+### For Android
+
+```bash
+# using npm
+npm run android
+
+# OR using Yarn
+yarn android
 ```
 
-#### Separar arquitecturas
- arm -
- x86 -
+### For iOS
 
- ```
-  // android/app/build.gradle
-  def enableSeparateBuildPerCPUArchitecture = true
- ```
+```bash
+# using npm
+npm run ios
 
-<!-- git init
-git add .
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/jasbel/himnoApp.git
-git push -u origin main -->
+# OR using Yarn
+yarn ios
+```
 
+If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
 
-<!-- p:Miromero777
-u:Asbel Apaza
-c:Atlas Connect -->
+This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
 
-### link testers
-https://play.google.com/store/apps/details?id=com.himnoapp
+## Step 3: Modifying your App
 
-### Notificacion
+Now that you have successfully run the app, let's modify it.
 
-### Reset Cache
-cd android & gradlew clean
-rm -rf node_modules && npm install
-npm start -- --reset-cache
+1. Open `App.tsx` in your text editor of choice and edit some lines.
+2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+
+   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+
+## Congratulations! :tada:
+
+You've successfully run and modified your React Native App. :partying_face:
+
+### Now what?
+
+- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
+- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
+
+# Troubleshooting
+
+If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
+
+# Learn More
+
+To learn more about React Native, take a look at the following resources:
+
+- [React Native Website](https://reactnative.dev) - learn more about React Native.
+- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
+- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
+- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
+- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.

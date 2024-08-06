@@ -9,7 +9,6 @@ import {
   StyleSheet,
   View,
 } from 'react-native';
-import LinearGradient from 'react-native-linear-gradient';
 import ItemHimnoLetter from '../components/himno/ItemHimnoLetter';
 import Storage from '../libs/storage';
 import Colors from '../res/colors';
@@ -114,10 +113,10 @@ const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
   }
 
   const getIconStar = () => {
-    if (isFavorite) {return require('himnoapp/src/assets/images/star.png');}
+    if (isFavorite) {return require('../../src/assets/images/star.png');}
 
     if (!isFavorite)
-      {return require('himnoapp/src/assets/images/unstar-white.png');}
+      {return require('../../src/assets/images/unstar-white.png');}
   };
 
   const onPressFontSize = (valueFontSize: number) => {
@@ -165,12 +164,6 @@ const HimnoSongScreen = (props: { route: any; navigation: any; }) => {
   return (
     <View style={styles.container}>
       <View style={styles.spaceTop}>
-        <LinearGradient
-          style={styles.spaceLinearGradient}
-          start={{x: 0, y: 0}}
-          end={{x: 0, y: 1.0}}
-          colors={[Colors.bkgWhite, Colors.bkgTransparentWhite]}
-        />
       </View>
       <FlatList
         style={styles.content}

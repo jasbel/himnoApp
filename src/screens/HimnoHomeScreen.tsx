@@ -8,7 +8,7 @@ const HimnoHomeScreen = (props: { navigation: any; }) => {
   const {navigation} = props;
 
   const getLogo = () => {
-    return require('himnoapp/src/assets/images/logoHome.png');
+    return require('../../src/assets/images/logoHome.png');
   };
 
   const handlePress = () => {

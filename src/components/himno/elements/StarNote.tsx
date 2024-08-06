@@ -10,9 +10,9 @@ interface Props {
 
 const StarNote = ({isFavorite, musicalNote}: Props) => {
   const getIconStar = () => {
-    if (isFavorite) return require('himnoapp/src/assets/images/star.png');
+    if (isFavorite) return require('../../../../src/assets/images/star.png');
 
-    if (!isFavorite) return require('himnoapp/src/assets/images/unstar.png');
+    if (!isFavorite) return require('../../../../src/assets/images/unstar.png');
   };
 
   return (
