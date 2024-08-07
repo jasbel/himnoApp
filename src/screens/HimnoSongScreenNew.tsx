@@ -10,13 +10,12 @@ import {
   Text,
   View,
 } from 'react-native';
-// import LinearGradient from 'react-native-linear-gradient';
 import ItemHimnoLetter from '../components/himno/ItemHimnoLetter';
 import Storage from '../libs/storage';
 import Colors from '../res/colors';
 import {responsive} from '../res/responsive';
 import {opacityColor} from '../helpers/helper';
-import { INavigate, IRoute } from '../../src/types/types';
+import { useNavigation, useRoute } from '@react-navigation/native';
 
 const widthScreen = Dimensions.get('window').width;
 
@@ -25,12 +24,12 @@ const initialValues = {
   fontSizeIncremental: 1,
 };
 
-interface Props {route: IRoute; navigation: INavigate}
-
-const HimnoSongScreenNew = (props: Props) => {
-  const {route, navigation} = props;
+const HimnoSongScreenNew = () => {
+  const route = useRoute();
+  const navigation = useNavigation();
   const [isFavorite, setIsFavorite] = useState(false);
-  const [himno, setHimno] = useState(route.params.himno);
+  /* @ts-ignore */
+  const [himno, setHimno] = useState(route.params?.himno);
   const {paragraphs, chorus} = himno;
   const [customFontSize, setCustomFontSize] = useState(initialValues.fontSize);
 
@@ -139,7 +138,7 @@ const HimnoSongScreenNew = (props: Props) => {
   };
 
   const getInit = () => {
-    // eslint-disable-next-line no-shadow
+    /* @ts-ignore */
     const {himno} = route.params;
     navigation.setOptions({
       title: himno.title_es,

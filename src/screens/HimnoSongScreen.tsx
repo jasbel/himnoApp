@@ -15,6 +15,7 @@ import Storage from '../libs/storage';
 import Colors from '../res/colors';
 import {responsive} from '../res/responsive';
 import {opacityColor} from '../helpers/helper';
+import { useNavigation, useRoute } from '@react-navigation/native';
 
 const widthScreen = Dimensions.get('window').width;
 
@@ -23,10 +24,13 @@ const initialValues = {
   fontSizeIncremental: 1,
 };
 
-const HimnoSongScreen = (props: {route: any; navigation: any}) => {
-  const {route, navigation} = props;
+const HimnoSongScreen = () => {
+  // const {route} = props;
+  const route = useRoute();
+  const navigation = useNavigation();
   const [isFavorite, setIsFavorite] = useState(false);
-  const [himno, setHimno] = useState(route.params.himno);
+  /* @ts-ignore */
+  const [himno, setHimno] = useState(route.params?.himno);
   const {paragraphs, chorus} = himno;
   const [customFontSize, setCustomFontSize] = useState(initialValues.fontSize);
 
@@ -132,7 +136,7 @@ const HimnoSongScreen = (props: {route: any; navigation: any}) => {
   };
 
   const getInit = () => {
-    // eslint-disable-next-line no-shadow
+    /* @ts-ignore */
     const {himno} = route.params;
     navigation.setOptions({
       title: himno.title_es,
