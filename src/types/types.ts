@@ -9,7 +9,7 @@ export interface IParagraph2 {
   chorusPos: [position: number, repeat?: number][];
 }
 
-interface Chorus {
+export interface Chorus {
   choir: string,
   chorus_position_ignore: number[],
 }

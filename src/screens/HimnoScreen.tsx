@@ -12,13 +12,13 @@ import { Songs } from '../types/types';
 import { responsive } from '../res/responsive';
 import { useNavigation } from '@react-navigation/native';
 
-const HimnoScreen = (/* props: { navigation: any; } */) => {
+const HimnoScreen = () => {
   const navigation = useNavigation();
   const [dataSearch, setDataSearch] = useState(songs);
   // const [data] = useState(songs);
   const data = songs;
-  const [noFavoritesData, setNoFavoriteData] = useState([] as any);
-  const [favorites, setFavorites] = useState([] as any);
+  const [noFavoritesData, setNoFavoriteData] = useState([]);
+  const [favorites, setFavorites] = useState([]);
   const [modeSearch, setModeSearch] = useState(false);
 
   const getHimnos = async () => {

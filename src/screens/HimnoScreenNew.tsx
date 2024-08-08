@@ -7,15 +7,14 @@ import {titleApp} from '../res/constant';
 import FavoriteScreen from '../components/favorite/FavoriteScreen';
 import Storage from '../libs/storage';
 import {removeAccents} from '../res/removeAccents';
-import { INavigate, Song2 } from '../types/types';
+import { INavigate, Song2, Songs } from '../types/types';
 import { responsive } from '../res/responsive';
 import { songsNew } from '../../src/res/lettersNew';
 import FavoriteScreenNew from '../../src/components/favorite/FavoriteScreenNew';
+import { useNavigation } from '@react-navigation/native';
 
-interface Props { navigation: INavigate; }
-
-const HimnoScreenNew = (props: Props) => {
-  const {navigation} = props;
+const HimnoScreenNew = (/* props: Props */) => {
+  const navigation = useNavigation();
   const [dataSearch, setDataSearch] = useState(songsNew);
   const data = songsNew;
   const [noFavoritesData, setNoFavoriteData] = useState<Song2[]>([]);
@@ -44,7 +43,8 @@ const HimnoScreenNew = (props: Props) => {
   };
 
   const handlePress = (himno: Song2) => {
-    props.navigation.navigate('HimnoSongNew', {himno});
+    /* @ts-ignore */
+    navigation.navigate('HimnoSongNew', {himno});
     setModeSearch(false);
   };
 
@@ -114,7 +114,7 @@ const HimnoScreenNew = (props: Props) => {
       />
 
       {!noFavoritesData.length && (
-        <FavoriteScreen navigation={navigation} favorites={favorites} />
+        <FavoriteScreenNew navigation={navigation} favorites={favorites} />
       )}
     </View>
   );

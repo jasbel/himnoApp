@@ -16,6 +16,7 @@ import Colors from '../res/colors';
 import {responsive} from '../res/responsive';
 import {opacityColor} from '../helpers/helper';
 import { useNavigation, useRoute } from '@react-navigation/native';
+import { Chorus, Songs } from '../types/types';
 
 const widthScreen = Dimensions.get('window').width;
 
@@ -30,7 +31,7 @@ const HimnoSongScreen = () => {
   const navigation = useNavigation();
   const [isFavorite, setIsFavorite] = useState(false);
   /* @ts-ignore */
-  const [himno, setHimno] = useState(route.params?.himno);
+  const [himno, setHimno] = useState<Songs>(route.params?.himno);
   const {paragraphs, chorus} = himno;
   const [customFontSize, setCustomFontSize] = useState(initialValues.fontSize);
 
@@ -88,12 +89,12 @@ const HimnoSongScreen = () => {
   };
 
   /* TODO: mejorar la respuesta de indefinido , array vacio, o string vacio en choir y chorus */
-  const verses = paragraphs.map((item: any, i: number) => {
+  const verses = paragraphs.map((item, i: number) => {
     let choir = '';
 
     let filter;
     if (chorus !== undefined) {
-      filter = chorus.filter((choirItem: {chorus_position_ignore: any}) =>
+      filter = chorus.filter((choirItem) =>
         compareArrayIgnore(choirItem.chorus_position_ignore, i + 1),
       );
       choir = filter.length && joinChoirs(filter);
@@ -104,16 +105,16 @@ const HimnoSongScreen = () => {
     return {...item, choir};
   });
 
-  function compareArrayIgnore(arr: any[], val: any) {
-    return arr.find((arrValue: any) => arrValue === val) ? false : true;
+  function compareArrayIgnore(arr: number[], val: number) {
+    return arr.find((arrValue) => arrValue === val) ? false : true;
   }
 
-  function joinChoirs(filter: any[]) {
+  function joinChoirs(filter: Chorus[]) {
     return filter.length >= 2
       ? filter.reduce(
           (
-            accumulatorChoir: any,
-            currentChoir: {choir: any},
+            accumulatorChoir,
+            currentChoir,
             currentIndex: number,
           ) =>
             accumulatorChoir +
@@ -132,7 +133,7 @@ const HimnoSongScreen = () => {
   };
 
   const onPressFontSize = (valueFontSize: number) => {
-    setCustomFontSize((cFontSize: any) => cFontSize + valueFontSize);
+    setCustomFontSize((cFontSize) => cFontSize + valueFontSize);
   };
 
   const getInit = () => {
@@ -171,7 +172,7 @@ const HimnoSongScreen = () => {
         keyExtractor={(item, index) => index.toString()}
         renderItem={({item, index}) => (
           <ItemHimnoLetter
-            item={item}
+            item={{paragraph: item.paragraph, choirs: [item.choir]}}
             isFinalVerse={verses.length - 1 === index}
             customFontSize={customFontSize}
           />

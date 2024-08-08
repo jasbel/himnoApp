@@ -3,15 +3,15 @@ import {FlatList, StyleSheet, View} from 'react-native';
 import Colors from '../../res/colors';
 import FavoriteEmptyState from './FavoriteEmptyState';
 import HimnoItemNew from '../himno/HimnoItemNew';
-import { Song2 } from '../../../src/types/types';
+import { INavigate, Song2 } from '../../../src/types/types';
 
 interface Props {
-  navigation: any;
+  navigation: INavigate;
   favorites: Song2[];
 }
 
 const FavoriteScreenNew = ({navigation, favorites}: Props) => {
-  const handlePress = (himno: any) => {
+  const handlePress = (himno: Song2) => {
     navigation.navigate('HimnoSongNew', {himno});
   };
 

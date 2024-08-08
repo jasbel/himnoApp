@@ -16,6 +16,7 @@ import Colors from '../res/colors';
 import {responsive} from '../res/responsive';
 import {opacityColor} from '../helpers/helper';
 import { useNavigation, useRoute } from '@react-navigation/native';
+import { Song2 } from '../types/types';
 
 const widthScreen = Dimensions.get('window').width;
 
@@ -29,7 +30,7 @@ const HimnoSongScreenNew = () => {
   const navigation = useNavigation();
   const [isFavorite, setIsFavorite] = useState(false);
   /* @ts-ignore */
-  const [himno, setHimno] = useState(route.params?.himno);
+  const [himno, setHimno] = useState<Song2>(route.params?.himno);
   const {paragraphs, chorus} = himno;
   const [customFontSize, setCustomFontSize] = useState(initialValues.fontSize);
 
@@ -87,12 +88,12 @@ const HimnoSongScreenNew = () => {
   };
 
   /* TODO: mejorar la respuesta de indefinido , array vacio, o string vacio en choir y chorus */
-  const verses = paragraphs.map((item: any, i: number) => {
+  const verses = paragraphs.map((item, i: number) => {
     let choir = '';
 
     let filter;
     if (chorus !== undefined) {
-      filter = chorus.filter((choirItem: {chorus_position_ignore: any}) =>
+      filter = chorus.filter((choirItem: {chorus_position_ignore}) =>
         compareArrayIgnore(choirItem.chorus_position_ignore, i + 1),
       );
       choir = filter.length && joinChoirs(filter);
@@ -103,16 +104,16 @@ const HimnoSongScreenNew = () => {
     return {...item, choir};
   });
 
-  function compareArrayIgnore(arr: any[], val: any) {
-    return arr.find((arrValue: any) => arrValue === val) ? false : true;
+  function compareArrayIgnore(arr, val) {
+    return arr.find((arrValue) => arrValue === val) ? false : true;
   }
 
-  function joinChoirs(filter: any[]) {
+  function joinChoirs(filter) {
     return filter.length >= 2
       ? filter.reduce(
           (
-            accumulatorChoir: any,
-            currentChoir: {choir: any},
+            accumulatorChoir,
+            currentChoir,
             currentIndex: number,
           ) =>
             accumulatorChoir +
@@ -134,7 +135,7 @@ const HimnoSongScreenNew = () => {
   };
 
   const onPressFontSize = (valueFontSize: number) => {
-    setCustomFontSize((cFontSize: any) => cFontSize + valueFontSize);
+    setCustomFontSize((cFontSize) => cFontSize + valueFontSize);
   };
 
   const getInit = () => {
