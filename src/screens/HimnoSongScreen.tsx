@@ -162,7 +162,14 @@ const HimnoSongScreen = (props: {route: any; navigation: any}) => {
 
   return (
     <View style={styles.container}>
-      <View style={styles.spaceTop}></View>
+      <View style={styles.spaceTop}>
+        {/* <LinearGradient
+          style={styles.spaceLinearGradient}
+          start={{x: 0, y: 0}}
+          end={{x: 0, y: 1.0}}
+          colors={[Colors.bkgWhite, Colors.bkgTransparentWhite]}
+        /> */}
+      </View>
       <FlatList
         style={styles.content}
         data={verses}
