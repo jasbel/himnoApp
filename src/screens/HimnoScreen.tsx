@@ -10,14 +10,15 @@ import Storage from '../libs/storage';
 import {removeAccents} from '../res/removeAccents';
 import { Songs } from '../types/types';
 import { responsive } from '../res/responsive';
+import { useNavigation } from '@react-navigation/native';
 
-const HimnoScreen = (props: { navigation: any; }) => {
-  const {navigation} = props;
+const HimnoScreen = () => {
+  const navigation = useNavigation();
   const [dataSearch, setDataSearch] = useState(songs);
   // const [data] = useState(songs);
   const data = songs;
-  const [noFavoritesData, setNoFavoriteData] = useState([] as any);
-  const [favorites, setFavorites] = useState([] as any);
+  const [noFavoritesData, setNoFavoriteData] = useState([]);
+  const [favorites, setFavorites] = useState([]);
   const [modeSearch, setModeSearch] = useState(false);
 
   const getHimnos = async () => {
@@ -42,7 +43,8 @@ const HimnoScreen = (props: { navigation: any; }) => {
   };
 
   const handlePress = (himno: Songs) => {
-    props.navigation.navigate('HimnoSong', {himno});
+    /* @ts-ignore */
+    navigation.navigate('HimnoSong', {himno});
     setModeSearch(false);
   };
 

@@ -1,6 +1,5 @@
 import React, {useEffect, useState} from 'react';
 import {Platform, StyleSheet, TextInput, View} from 'react-native';
-// import LinearGradient from 'react-native-linear-gradient';
 import { opacityColor } from '../../helpers/helper';
 import Colors from '../../res/colors';
 

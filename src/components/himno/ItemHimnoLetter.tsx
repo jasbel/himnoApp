@@ -4,9 +4,8 @@ import Colors from '../../res/colors';
 import {widthScreen} from '../../res/responsive';
 
 interface IItem {
-  key: string;
   paragraph: string;
-  choir: string;
+  choirs: string[];
 }
 
 interface Props {
@@ -21,7 +20,7 @@ const ItemHimnoLetter = ({item, isFinalVerse, customFontSize}: Props) => {
   };
 
   return (
-    <View key={item.key}>
+    <View>
       <Text
         style={[
           styles.paragraph,
@@ -32,23 +31,27 @@ const ItemHimnoLetter = ({item, isFinalVerse, customFontSize}: Props) => {
         ]}>
         {`${item.paragraph}`} {'\n'}
       </Text>
-      {item.choir !== '' && (
+      {item.choirs.map((choir) => (
         <>
-          <View style={styles.containerIconChoir}>
-            <Image style={styles.iconChoir} source={getIconChoir()} />
-          </View>
-          <Text
-            style={[
-              styles.choir,
-              {
-                fontSize: customFontSize,
-                lineHeight: customFontSize,
-              },
-            ]}>
-            {item.choir} {'\n'}
-          </Text>
+          {choir !== '' && (
+            <>
+              <View style={styles.containerIconChoir}>
+                <Image style={styles.iconChoir} source={getIconChoir()} />
+              </View>
+              <Text
+                style={[
+                  styles.choir,
+                  {
+                    fontSize: customFontSize,
+                    lineHeight: customFontSize,
+                  },
+                ]}>
+                {choir} {'\n'}
+              </Text>
+            </>
+          )}
         </>
-      )}
+      ))}
       {isFinalVerse && <View style={styles.spaceBottom} />}
     </View>
   );
