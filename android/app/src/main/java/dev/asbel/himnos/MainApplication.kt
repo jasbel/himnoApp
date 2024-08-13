@@ -1,4 +1,4 @@
-package com.himnoapp
+package dev.asbel.himnos
 
 import android.app.Application
 import com.facebook.react.PackageList
